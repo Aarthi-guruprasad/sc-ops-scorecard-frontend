@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "SC&Ops Scorecard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e4004956-30af-4bb1-9d1c-e865714a5a1c"
+  }
+}

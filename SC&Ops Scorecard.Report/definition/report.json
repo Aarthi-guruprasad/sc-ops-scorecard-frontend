@@ -1,0 +1,145 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/2.1.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU10",
+      "reportVersionAtImport": "5.63",
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "DataMaLightCompareWaterfall",
+    "SimpleWaterfall",
+    "waterfall_chart_visiochart_8c1a6a012eec472d899f79bf867db013",
+    "waterfall2B5BF088815E42539E2C8CDAD646DB43"
+  ],
+  "resourcePackages": [
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "badge_15729912101833318.png",
+          "path": "badge_15729912101833318.png",
+          "type": "Image"
+        },
+        {
+          "name": "Capture4663579281570188.PNG",
+          "path": "Capture4663579281570188.PNG",
+          "type": "Image"
+        },
+        {
+          "name": "Frame_3123316710749130366.png",
+          "path": "Frame_3123316710749130366.png",
+          "type": "Image"
+        },
+        {
+          "name": "im3bqxzw27098597850549855.png",
+          "path": "im3bqxzw27098597850549855.png",
+          "type": "Image"
+        },
+        {
+          "name": "links-icon-98925947851236719752.png",
+          "path": "links-icon-98925947851236719752.png",
+          "type": "Image"
+        },
+        {
+          "name": "operating-system-upgrade_1@2x8969805319532881.png",
+          "path": "operating-system-upgrade_1@2x8969805319532881.png",
+          "type": "Image"
+        },
+        {
+          "name": "Perrigo_Logo_blue12273274329436001.png",
+          "path": "Perrigo_Logo_blue12273274329436001.png",
+          "type": "Image"
+        },
+        {
+          "name": "Supply_Chain_Analytics_LOGO_HE7804988099831971.png",
+          "path": "Supply_Chain_Analytics_LOGO_HE7804988099831971.png",
+          "type": "Image"
+        },
+        {
+          "name": "tayzipxq7488660970719957.png",
+          "path": "tayzipxq7488660970719957.png",
+          "type": "Image"
+        },
+        {
+          "name": "Test_Free-5120074379063150138425.png",
+          "path": "Test_Free-5120074379063150138425.png",
+          "type": "Image"
+        },
+        {
+          "name": "TrendView4137644055775418.PNG",
+          "path": "TrendView4137644055775418.PNG",
+          "type": "Image"
+        },
+        {
+          "name": "Vector5816785584797196.png",
+          "path": "Vector5816785584797196.png",
+          "type": "Image"
+        },
+        {
+          "name": "Vector6784521446164373.png",
+          "path": "Vector6784521446164373.png",
+          "type": "Image"
+        },
+        {
+          "name": "Vector_people_safety933100270243316.png",
+          "path": "Vector_people_safety933100270243316.png",
+          "type": "Image"
+        },
+        {
+          "name": "Vector_Sales_Growth5797419005950775.png",
+          "path": "Vector_Sales_Growth5797419005950775.png",
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY24SU10",
+          "path": "BaseThemes/CY24SU10.json",
+          "type": "BaseTheme"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}
