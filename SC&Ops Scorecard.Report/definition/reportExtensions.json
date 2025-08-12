@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/reportExtension/1.0.0/schema.json",
+  "name": "extension",
+  "entities": [
+    {
+      "name": "CG_PeriodSelection",
+      "measures": [
+        {
+          "name": "Title_Waterfall",
+          "dataType": "Text",
+          "expression": "\"Actual \"&selectedvalue(Operating_Parameter[Parameter Name])&\n                IF(SELECTEDVALUE(Operating_Parameter[Parameter Name]) = \"Customer Fines\",\" vs Last Year \",\" vs Plan \")\n                &selectedvalue(CG_PeriodSelection[Period])&\" \"&selectedvalue(Dim_DateSlicer[P_YearPeriod])",
+          "formatString": "General Number"
+        }
+      ]
+    }
+  ]
+}

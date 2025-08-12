@@ -1,0 +1,72 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmarksMetadata/1.0.0/schema.json",
+  "items": [
+    {
+      "name": "29882d33ac738a109e60",
+      "displayName": "Sales_Bookmarks",
+      "children": [
+        "fce173a49953636a09cc",
+        "a6c3a0ec4d3036553018",
+        "4d0abd4d563b0bb2b5c9",
+        "55ac29d03da740315352",
+        "31f3c8b6445d6550a04e",
+        "17ef17598bb8511481c0",
+        "56c8f6e2304a11be7048"
+      ]
+    },
+    {
+      "name": "7361f4e7a9ccd1716439",
+      "displayName": "WC_Bookmarks",
+      "children": [
+        "6687e1d0842d323abb79",
+        "cee33e00bd67c4152c12",
+        "320dffcf28314327ed3d",
+        "093d854570ab2045a9c0",
+        "94fbe72b4d01005a55ee",
+        "3b4109e2ad24caaaec48",
+        "100e8041442b40ead974"
+      ]
+    },
+    {
+      "name": "27e97ca15b303ddc2a14",
+      "displayName": "OI_Bookmarks",
+      "children": [
+        "9c9d33808b23b030703b",
+        "91133bfe0b8cb9e4c92a",
+        "5a028d4f0824755bb320",
+        "58a8a87020b2c7198402",
+        "44d2f99f0a978c9e8cd6",
+        "49da1af44067333a8785",
+        "3b99cf2138987ab5370d",
+        "928488fb1a1d14e979a6",
+        "7f9998ab454a510aa729",
+        "55b1676551dba0e010da",
+        "62c5156bbb8090dd2e0e",
+        "e2b48f67aae902b3accc"
+      ]
+    },
+    {
+      "name": "57d62818dc7933a9417c",
+      "displayName": "Operations_Bookmarks",
+      "children": [
+        "762b99106dc8996d30c5",
+        "ee0cb5224cd9d3ac2887",
+        "ea755c1ac68b0a69e311",
+        "e72aeac251e33942b6b6",
+        "f4b8192a4ea250215c21",
+        "4af52f408080d5e992b9"
+      ]
+    },
+    {
+      "name": "ab50f130786b019060c3",
+      "displayName": "Operations_CSCI",
+      "children": [
+        "d22dbc8f652c2291ec81",
+        "0b615fec66deaa688d44",
+        "d19471a5546571e12716",
+        "0196de2200b9b7ca7478",
+        "9634bbf280978958b773"
+      ]
+    }
+  ]
+}
