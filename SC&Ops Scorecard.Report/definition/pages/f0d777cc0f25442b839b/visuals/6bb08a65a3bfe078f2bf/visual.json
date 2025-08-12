@@ -1,0 +1,71 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "6bb08a65a3bfe078f2bf",
+  "position": {
+    "x": 14.31549879185364,
+    "y": 39.765274421815718,
+    "z": 11000,
+    "height": 206.77942699344146,
+    "width": 259.26958923023818,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "CSCA",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "14pt",
+                      "color": "#001489"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Forecast Accuracy is on Lag 2 and Lag 4",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#001489"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Schedule Attainment, ",
+                    "textStyle": {
+                      "fontSize": "16px",
+                      "color": "#001489"
+                    }
+                  },
+                  {
+                    "value": "SSSO: Obscelence linked to Conv is for CSCA only",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#001489"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "e2363a69c823ac777a0d"
+}
