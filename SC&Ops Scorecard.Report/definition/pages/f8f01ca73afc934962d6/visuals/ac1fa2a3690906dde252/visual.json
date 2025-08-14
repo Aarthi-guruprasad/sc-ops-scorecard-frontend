@@ -379,6 +379,20 @@
             ],
             "metadata": "Measure.Gross PPV Actual"
           }
+        },
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "18D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Gross PPV Actual"
+          }
         }
       ],
       "label": [

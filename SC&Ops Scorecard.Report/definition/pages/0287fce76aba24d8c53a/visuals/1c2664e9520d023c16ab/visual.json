@@ -7,7 +7,7 @@
     "z": 12000,
     "height": 440,
     "width": 560,
-    "tabOrder": 9000
+    "tabOrder": 11000
   },
   "visual": {
     "visualType": "barChart",
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Dim_Locations"
+                      "Entity": "Bridge_Site_Area"
                     }
                   },
-                  "Property": "Site Name"
+                  "Property": "Site"
                 }
               },
-              "queryRef": "Dim_Locations.Site Name",
-              "nativeQueryRef": "Site Name",
+              "queryRef": "Bridge_Site_Area.Site",
+              "nativeQueryRef": "Site",
               "active": true
             }
           ]

@@ -3,11 +3,11 @@
   "name": "4ff48eabd41e8682ff5e",
   "position": {
     "x": 243.29886110747478,
-    "y": 12,
-    "z": 20000,
+    "y": 10,
+    "z": 19000,
     "height": 49.765676135619842,
     "width": 1577.7562508181697,
-    "tabOrder": 17000
+    "tabOrder": 15000
   },
   "visual": {
     "visualType": "pageNavigator",

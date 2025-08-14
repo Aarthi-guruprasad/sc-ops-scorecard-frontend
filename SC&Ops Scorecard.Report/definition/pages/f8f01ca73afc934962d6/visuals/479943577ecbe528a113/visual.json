@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Critical or Major Observations as a result of a Regulatory Agency (Quarterly)'"
+                  "Value": "'Critical or Major Observations as a result of an External Entity including Regulatory Agencies (Quarterly)'"
                 }
               }
             }

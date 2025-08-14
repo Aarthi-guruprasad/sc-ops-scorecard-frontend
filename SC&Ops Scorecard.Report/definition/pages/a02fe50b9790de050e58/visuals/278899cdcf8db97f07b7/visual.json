@@ -4,7 +4,7 @@
   "position": {
     "x": 10,
     "y": 600,
-    "z": 5000,
+    "z": 7000,
     "height": 80,
     "width": 200,
     "tabOrder": 5000
@@ -101,7 +101,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'CSCI'"
+                                "Value": "'CSCA'"
                               }
                             }
                           ]

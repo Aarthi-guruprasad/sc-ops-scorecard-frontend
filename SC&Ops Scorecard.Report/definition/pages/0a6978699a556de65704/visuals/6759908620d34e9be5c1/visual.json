@@ -28,6 +28,13 @@
                   "Value": "'fce173a49953636a09cc'"
                 }
               }
+            },
+            "bookmarkGroup": {
+              "expr": {
+                "Literal": {
+                  "Value": "'29882d33ac738a109e60'"
+                }
+              }
             }
           }
         }
@@ -167,6 +174,19 @@
           },
           "selector": {
             "id": "default"
+          }
+        }
+      ],
+      "layout": [
+        {
+          "properties": {
+            "cellPadding": {
+              "expr": {
+                "Literal": {
+                  "Value": "3L"
+                }
+              }
+            }
           }
         }
       ]

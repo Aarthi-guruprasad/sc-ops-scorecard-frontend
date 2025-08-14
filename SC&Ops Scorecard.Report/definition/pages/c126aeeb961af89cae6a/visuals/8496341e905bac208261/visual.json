@@ -6,8 +6,7 @@
     "y": 5,
     "z": 1000,
     "height": 392,
-    "width": 1230,
-    "tabOrder": 4
+    "width": 1230
   },
   "visual": {
     "visualType": "lineStackedColumnComboChart",
@@ -43,12 +42,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "SSSO: Salvage & Obsolescence"
+                  "Property": "Total Logistics on Net Sales Actual"
                 }
               },
-              "queryRef": "Measure.SSSO: Salvage & Obsolescence",
-              "nativeQueryRef": "SSSO: Salvage & Obs",
-              "displayName": "SSSO: Salvage & Obs"
+              "queryRef": "Measure.Total Logistics on Net Sales Actual",
+              "nativeQueryRef": "% Logistics vs Net Sales",
+              "displayName": "% Logistics vs Net Sales"
             }
           ],
           "fieldParameters": [
@@ -673,7 +672,8 @@
             "Property": "SSSO: Salvage & Obsolescence"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       },
       {
         "name": "e53765c0b2afd004ee83",

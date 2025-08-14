@@ -3,11 +3,10 @@
   "name": "290477763a810d9df9a1",
   "position": {
     "x": 0,
-    "y": 40,
+    "y": 45.555555555555557,
     "z": 0,
-    "height": 60,
-    "width": 1590,
-    "tabOrder": 1
+    "height": 364.44444444444446,
+    "width": 194.11764705882354
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -40,7 +39,7 @@
             "columnCount": {
               "expr": {
                 "Literal": {
-                  "Value": "8L"
+                  "Value": "1L"
                 }
               }
             },
@@ -54,7 +53,7 @@
             "rowCount": {
               "expr": {
                 "Literal": {
-                  "Value": "2L"
+                  "Value": "10L"
                 }
               }
             },
@@ -218,7 +217,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'''Measure''[Gross Inventory]'"
+                                "Value": "'''CSCI Measures''[DPO]'"
                               }
                             }
                           ]

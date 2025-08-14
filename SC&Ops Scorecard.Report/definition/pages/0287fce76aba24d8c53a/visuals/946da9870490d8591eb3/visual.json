@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "946da9870490d8591eb3",
   "position": {
-    "x": 0,
-    "y": 40,
-    "z": 0,
-    "height": 60,
-    "width": 200,
-    "tabOrder": 15
+    "x": 18,
+    "y": 720,
+    "z": 24000,
+    "height": 264,
+    "width": 192.00000000000003,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -68,7 +68,7 @@
             "orientation": {
               "expr": {
                 "Literal": {
-                  "Value": "2D"
+                  "Value": "1D"
                 }
               }
             },
@@ -165,7 +165,7 @@
             "overFlowDirection": {
               "expr": {
                 "Literal": {
-                  "Value": "1D"
+                  "Value": "0D"
                 }
               }
             }
@@ -388,7 +388,6 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "69ac39614488c3116bd0",
   "filterConfig": {
     "filters": [
       {
@@ -436,6 +435,34 @@
                           "Value": "'''Measure''[OEE%]'"
                         }
                       }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'''Measure''[On Time Closure of Deviations%]'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'''Measure''[CAPA Completion Rate]'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'''Measure''[Critical or Major Observations]'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'''Measure''[RFT%]'"
+                        }
+                      }
                     ]
                   ]
                 }
@@ -466,6 +493,50 @@
                             }
                           ]
                         }
+                      ],
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'''Measure''[On Time Closure of Deviations%]'"
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'''Measure''[CAPA Completion Rate]'"
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'''Measure''[Critical or Major Observations]'"
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'''Measure''[RFT%]'"
+                              }
+                            }
+                          ]
+                        }
                       ]
                     ],
                     "columns": [
@@ -486,6 +557,18 @@
                   "valueMap": [
                     {
                       "0": "OEE%"
+                    },
+                    {
+                      "0": "On Time Closure of Deviations%"
+                    },
+                    {
+                      "0": "CAPA Completion Rate%"
+                    },
+                    {
+                      "0": "Critical or Major Observations"
+                    },
+                    {
+                      "0": "RFT%"
                     }
                   ]
                 }
@@ -495,5 +578,6 @@
         }
       }
     ]
-  }
+  },
+  "isHidden": true
 }

@@ -618,7 +618,22 @@
             "Property": "P_YearPeriod"
           }
         },
-        "type": "Advanced"
+        "type": "Categorical",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
       },
       {
         "name": "37feb825ca1c84f661df",

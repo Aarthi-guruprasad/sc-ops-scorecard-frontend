@@ -131,6 +131,61 @@
             }
           ]
         }
+      },
+      {
+        "name": "8b748db0378d0ca04b10",
+        "ordinal": 2,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Area"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "b",
+              "Entity": "Bridge_Site_Area",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "b"
+                          }
+                        },
+                        "Property": "Area"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'CSCI'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
       }
     ],
     "filterSortOrder": "Custom"
@@ -189,12 +244,7 @@
     },
     {
       "source": "1b5fb59531f1c70353f1",
-      "target": "b0dcd576c4b606eed77e",
-      "type": "NoFilter"
-    },
-    {
-      "source": "1b5fb59531f1c70353f1",
-      "target": "be6b06ec4409eb3bbd24",
+      "target": "d62b2a75e06760555ad0",
       "type": "NoFilter"
     }
   ]

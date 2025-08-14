@@ -4,7 +4,7 @@
   "position": {
     "x": 243.01001035554023,
     "y": 624.53572661373835,
-    "z": 13000,
+    "z": 14000,
     "height": 400,
     "width": 570,
     "tabOrder": 9000
@@ -181,7 +181,7 @@
                           "Entity": "MetricSelector"
                         }
                       },
-                      "Property": "BarColor"
+                      "Property": "BarColor_WC"
                     }
                   }
                 }
@@ -448,5 +448,6 @@
       }
     ],
     "filterSortOrder": "Custom"
-  }
+  },
+  "isHidden": true
 }

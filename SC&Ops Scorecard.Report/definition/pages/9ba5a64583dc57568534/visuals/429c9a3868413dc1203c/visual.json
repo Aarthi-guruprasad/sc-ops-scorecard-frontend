@@ -4,10 +4,10 @@
   "position": {
     "x": 240,
     "y": 194,
-    "z": 12000,
+    "z": 13000,
     "height": 416,
     "width": 332,
-    "tabOrder": 11000
+    "tabOrder": 12000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -7147,6 +7147,22 @@
             }
           ]
         },
+        "howCreated": "User"
+      },
+      {
+        "name": "7fe8f3f8460513b2973b",
+        "ordinal": 2,
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure"
+              }
+            },
+            "Property": "Schedule Attn"
+          }
+        },
+        "type": "Advanced",
         "howCreated": "User"
       }
     ],

@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Dim_Locations"
+                      "Entity": "Bridge_Site_Area"
                     }
                   },
-                  "Property": "Site Name"
+                  "Property": "Site"
                 }
               },
-              "queryRef": "Dim_Locations.Site Name",
-              "nativeQueryRef": "Site Name",
+              "queryRef": "Bridge_Site_Area.Site",
+              "nativeQueryRef": "Site",
               "active": true
             }
           ]
@@ -388,61 +388,18 @@
         "howCreated": "User"
       },
       {
-        "name": "ef9c2c208a900a7d41d7",
+        "name": "6febfba2e6c8c5414d3c",
         "field": {
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "Dim_Locations"
+                "Entity": "Bridge_Site_Area"
               }
             },
-            "Property": "Site Name"
+            "Property": "Site"
           }
         },
         "type": "Categorical",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "d",
-              "Entity": "Dim_Locations",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "Not": {
-                  "Expression": {
-                    "In": {
-                      "Expressions": [
-                        {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Source": "d"
-                              }
-                            },
-                            "Property": "Site Name"
-                          }
-                        }
-                      ],
-                      "Values": [
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'Sandbox'"
-                            }
-                          }
-                        ]
-                      ]
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        },
         "objects": {
           "general": [
             {

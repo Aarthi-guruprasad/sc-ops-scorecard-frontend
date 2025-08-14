@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "66a1f7135c93a6b41000",
   "position": {
-    "x": 0,
-    "y": 32,
-    "z": 0,
-    "height": 64,
-    "width": 1580,
+    "x": 48.000000000000007,
+    "y": 672,
+    "z": 28000,
+    "height": 312,
+    "width": 144,
     "tabOrder": 2000
   },
   "visual": {
@@ -68,14 +68,14 @@
             "orientation": {
               "expr": {
                 "Literal": {
-                  "Value": "2D"
+                  "Value": "1D"
                 }
               }
             },
             "maxTiles": {
               "expr": {
                 "Literal": {
-                  "Value": "7L"
+                  "Value": "6L"
                 }
               }
             }
@@ -165,7 +165,7 @@
             "overFlowDirection": {
               "expr": {
                 "Literal": {
-                  "Value": "1D"
+                  "Value": "0D"
                 }
               }
             }
@@ -388,5 +388,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "a625790407b8c27280d3"
+  "isHidden": true
 }

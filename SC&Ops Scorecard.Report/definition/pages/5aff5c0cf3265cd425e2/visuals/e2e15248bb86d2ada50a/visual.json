@@ -40,15 +40,15 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Measure"
+                      "Entity": "CSCI Measures"
                     }
                   },
-                  "Property": "Gross Inventory"
+                  "Property": "DPO"
                 }
               },
-              "queryRef": "Measure.Gross Inventory",
-              "nativeQueryRef": "Gross Inventory",
-              "displayName": "Gross Inventory"
+              "queryRef": "CSCI Measures.DPO",
+              "nativeQueryRef": "DPO",
+              "displayName": "DPO"
             }
           ],
           "fieldParameters": [
@@ -755,7 +755,8 @@
             "Property": "Gross Inventory"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       },
       {
         "name": "380953c88797f97b6674",

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "418cf62b5772468d01e5",
   "position": {
-    "x": 0,
+    "x": 6,
     "y": 536.85185185185185,
     "z": 18000,
-    "height": 71.580246913580254,
-    "width": 220.24691358024691,
+    "height": 65,
+    "width": 212,
     "tabOrder": 11000
   },
   "visual": {
@@ -84,7 +84,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'YTD'"
+                                "Value": "'PTD'"
                               }
                             }
                           ]

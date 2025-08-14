@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "e823ad2112e78c6625bd",
   "position": {
-    "x": 5.5295195706244264,
+    "x": 6,
     "y": 379.69367718287731,
     "z": 13000,
-    "height": 71.883754418117547,
-    "width": 215.65126325435264,
-    "tabOrder": 11000
+    "height": 80,
+    "width": 212,
+    "tabOrder": 13000
   },
   "visual": {
     "visualType": "slicer",
@@ -20,20 +20,49 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Dim_Locations"
+                      "Entity": "Bridge_Site_Area"
                     }
                   },
-                  "Property": "Site Name"
+                  "Property": "Site"
                 }
               },
-              "queryRef": "Dim_Locations.Site Name",
-              "nativeQueryRef": "Site Name",
+              "queryRef": "Bridge_Site_Area.Site",
+              "nativeQueryRef": "Site",
               "active": true
             }
           ]
         }
       }
     },
+    "expansionStates": [
+      {
+        "roles": [
+          "Values"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "Bridge_Site_Area.Site"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Bridge_Site_Area"
+                    }
+                  },
+                  "Property": "Site"
+                }
+              }
+            ],
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
     "objects": {
       "data": [
         {

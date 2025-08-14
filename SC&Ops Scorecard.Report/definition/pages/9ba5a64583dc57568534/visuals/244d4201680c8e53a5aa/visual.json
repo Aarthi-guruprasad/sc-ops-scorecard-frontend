@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "244d4201680c8e53a5aa",
   "position": {
-    "x": 0,
+    "x": 6,
     "y": 347.50431480842252,
-    "z": 14000,
-    "height": 72.903003106662069,
-    "width": 221.13910942354161,
-    "tabOrder": 15000
+    "z": 15000,
+    "height": 80,
+    "width": 212,
+    "tabOrder": 16000
   },
   "visual": {
     "visualType": "slicer",
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Bridge_Site"
+                      "Entity": "Bridge_Site_Area"
                     }
                   },
                   "Property": "Site Group"
                 }
               },
-              "queryRef": "Bridge_Site.Site Group",
-              "nativeQueryRef": "Site Group1",
+              "queryRef": "Bridge_Site_Area.Site Group",
+              "nativeQueryRef": "Site Group",
               "active": true
             },
             {
@@ -35,14 +35,29 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Bridge_Site"
+                      "Entity": "Bridge_Site_Area"
                     }
                   },
                   "Property": "Site"
                 }
               },
-              "queryRef": "Bridge_Site.Site",
+              "queryRef": "Bridge_Site_Area.Site",
               "nativeQueryRef": "Site",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Bridge_Site_Area"
+                    }
+                  },
+                  "Property": "Site Hierarchy"
+                }
+              },
+              "queryRef": "Bridge_Site_Area.Site Hierarchy",
+              "nativeQueryRef": "Site Hierarchy",
               "active": false
             }
           ]
@@ -109,6 +124,13 @@
                   }
                 }
               }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Site'"
+                }
+              }
             }
           }
         }
@@ -139,6 +161,13 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
@@ -335,6 +364,7 @@
             }
           ]
         },
+        "howCreated": "User",
         "objects": {
           "general": [
             {

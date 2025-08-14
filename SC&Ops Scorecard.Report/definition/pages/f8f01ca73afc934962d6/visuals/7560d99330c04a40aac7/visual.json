@@ -19,14 +19,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Bridge_Site"
+                      "Entity": "Bridge_Site_Area"
                     }
                   },
                   "Property": "Site Group"
                 }
               },
-              "queryRef": "Bridge_Site.Site Group",
-              "nativeQueryRef": "Site Group1",
+              "queryRef": "Bridge_Site_Area.Site Group",
+              "nativeQueryRef": "Site Group",
               "active": true
             },
             {
@@ -34,15 +34,30 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Bridge_Site"
+                      "Entity": "Bridge_Site_Area"
                     }
                   },
                   "Property": "Site"
                 }
               },
-              "queryRef": "Bridge_Site.Site",
+              "queryRef": "Bridge_Site_Area.Site",
               "nativeQueryRef": "Site",
-              "active": true
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Bridge_Site_Area"
+                    }
+                  },
+                  "Property": "Site Hierarchy"
+                }
+              },
+              "queryRef": "Bridge_Site_Area.Site Hierarchy",
+              "nativeQueryRef": "Site Hierarchy",
+              "active": false
             }
           ]
         }
@@ -56,7 +71,7 @@
         "levels": [
           {
             "queryRefs": [
-              "Bridge_Site.Site Group"
+              "Bridge_Site_Area.Site Group"
             ],
             "isCollapsed": true,
             "identityKeys": [
@@ -64,7 +79,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Bridge_Site"
+                      "Entity": "Bridge_Site_Area"
                     }
                   },
                   "Property": "Site Group"
@@ -75,26 +90,32 @@
           },
           {
             "queryRefs": [
-              "Bridge_Site.Site"
+              "Bridge_Site_Area.Site"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Bridge_Site_Area"
+                    }
+                  },
+                  "Property": "Site"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "Bridge_Site_Area.Site Hierarchy"
             ],
             "isCollapsed": true,
             "isPinned": true
           }
         ],
-        "root": {
-          "children": [
-            {
-              "identityValues": [
-                {
-                  "Literal": {
-                    "Value": "'MI OTC'"
-                  }
-                }
-              ],
-              "isToggled": true
-            }
-          ]
-        }
+        "root": {}
       }
     ],
     "objects": {
@@ -548,6 +569,7 @@
             }
           ]
         },
+        "howCreated": "User",
         "objects": {
           "general": [
             {

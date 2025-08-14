@@ -16,22 +16,17 @@
           "projections": [
             {
               "field": {
-                "Aggregation": {
+                "Measure": {
                   "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Date"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
+                    "SourceRef": {
+                      "Entity": "Measure"
                     }
                   },
-                  "Function": 4
+                  "Property": "Last Closed Period"
                 }
               },
-              "queryRef": "Min(Dim_Date.P_YearPeriod)",
-              "nativeQueryRef": "Last P_YearPeriod"
+              "queryRef": "Measure.Last Closed Period",
+              "nativeQueryRef": "Last Closed Period"
             }
           ]
         }

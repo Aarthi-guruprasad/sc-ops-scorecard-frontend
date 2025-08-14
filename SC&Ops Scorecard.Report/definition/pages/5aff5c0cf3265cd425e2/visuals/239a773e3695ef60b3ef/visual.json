@@ -4,7 +4,7 @@
   "position": {
     "x": 240,
     "y": 196,
-    "z": 12000,
+    "z": 13000,
     "height": 410,
     "width": 332,
     "tabOrder": 7000
@@ -20,15 +20,15 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Measure"
+                      "Entity": "CSCI Measures"
                     }
                   },
-                  "Property": "Gross Inventory"
+                  "Property": "DPO"
                 }
               },
-              "queryRef": "Measure.Gross Inventory",
-              "nativeQueryRef": "Gross Inventory",
-              "displayName": "Gross Inventory"
+              "queryRef": "CSCI Measures.DPO",
+              "nativeQueryRef": "DPO",
+              "displayName": "DPO"
             }
           ],
           "fieldParameters": [
@@ -56,10 +56,10 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "Measure"
+                    "Entity": "CSCI Measures"
                   }
                 },
-                "Property": "Gross Inventory"
+                "Property": "DPO"
               }
             },
             "direction": "Descending"

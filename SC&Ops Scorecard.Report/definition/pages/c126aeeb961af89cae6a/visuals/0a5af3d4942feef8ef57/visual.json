@@ -2,9 +2,9 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "0a5af3d4942feef8ef57",
   "position": {
-    "x": 240,
-    "y": 626,
-    "z": 13000,
+    "x": 0,
+    "y": 3.9086022745623268,
+    "z": 0,
     "height": 438,
     "width": 574,
     "tabOrder": 11000
@@ -313,7 +313,7 @@
                           "Entity": "MetricSelector"
                         }
                       },
-                      "Property": "BarColor"
+                      "Property": "BarColor_OI"
                     }
                   }
                 }
@@ -446,6 +446,7 @@
     },
     "drillFilterOtherVisuals": true
   },
+  "parentGroupName": "3aeb93a1750748d8a0c9",
   "filterConfig": {
     "filters": [
       {
