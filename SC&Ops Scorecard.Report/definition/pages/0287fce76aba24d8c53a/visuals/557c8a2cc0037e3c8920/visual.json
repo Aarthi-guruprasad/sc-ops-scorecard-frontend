@@ -1,6 +1,5 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/0287fce76aba24d8c53a/visuals/557c8a2cc0037e3c8920/visual.json
   "name": "557c8a2cc0037e3c8920",
   "position": {
     "x": 245.33333333333334,
@@ -9,16 +8,6 @@
     "height": 54,
     "width": 1560,
     "tabOrder": 22000
-========
-  "name": "1a1ce4667e3d99a7c764",
-  "position": {
-    "x": 224,
-    "y": 1052,
-    "z": 12000,
-    "height": 48,
-    "width": 1616,
-    "tabOrder": 10000
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/1a1ce4667e3d99a7c764/visual.json
   },
   "visual": {
     "visualType": "bookmarkNavigator",
@@ -29,11 +18,7 @@
             "allowDeselectionBookmark": {
               "expr": {
                 "Literal": {
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/0287fce76aba24d8c53a/visuals/557c8a2cc0037e3c8920/visual.json
                   "Value": "false"
-========
-                  "Value": "'rectangle'"
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/1a1ce4667e3d99a7c764/visual.json
                 }
               }
             },
@@ -57,23 +42,11 @@
       "fill": [
         {
           "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        },
-        {
-          "properties": {
             "fillColor": {
               "solid": {
                 "color": {
                   "expr": {
                     "Literal": {
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/0287fce76aba24d8c53a/visuals/557c8a2cc0037e3c8920/visual.json
                       "Value": "'#E87722'"
                     }
                   }
@@ -115,9 +88,6 @@
                     "ThemeDataColor": {
                       "ColorId": 4,
                       "Percent": 0
-========
-                      "Value": "'#001489'"
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/1a1ce4667e3d99a7c764/visual.json
                     }
                   }
                 }
@@ -126,11 +96,7 @@
             "weight": {
               "expr": {
                 "Literal": {
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/0287fce76aba24d8c53a/visuals/557c8a2cc0037e3c8920/visual.json
                   "Value": "2D"
-========
-                  "Value": "0D"
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/1a1ce4667e3d99a7c764/visual.json
                 }
               }
             }
@@ -143,50 +109,14 @@
       "text": [
         {
           "properties": {
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/0287fce76aba24d8c53a/visuals/557c8a2cc0037e3c8920/visual.json
-========
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        },
-        {
-          "properties": {
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'** Note: Some KPIs like Net PPV, Net POV, % Logistics, % Distribution, Net Sales, Customer Fines & OEE% are not available at Material Number granularity so numbers will be repeated'"
-                }
-              }
-            },
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/1a1ce4667e3d99a7c764/visual.json
             "fontColor": {
               "solid": {
                 "color": {
                   "expr": {
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/0287fce76aba24d8c53a/visuals/557c8a2cc0037e3c8920/visual.json
                     "Literal": {
                       "Value": "'#001489'"
                     }
                   }
-========
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "13D"
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/1a1ce4667e3d99a7c764/visual.json
                 }
               }
             },
@@ -197,24 +127,10 @@
                 }
               }
             },
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/0287fce76aba24d8c53a/visuals/557c8a2cc0037e3c8920/visual.json
             "fontSize": {
               "expr": {
                 "Literal": {
                   "Value": "12D"
-========
-            "italic": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'left'"
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/1a1ce4667e3d99a7c764/visual.json
                 }
               }
             }
@@ -225,7 +141,6 @@
         },
         {
           "properties": {
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/0287fce76aba24d8c53a/visuals/557c8a2cc0037e3c8920/visual.json
             "fontSize": {
               "expr": {
                 "Literal": {
@@ -253,16 +168,6 @@
               "expr": {
                 "Literal": {
                   "Value": "12L"
-========
-            "lineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#001489'"
-                    }
-                  }
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/1a1ce4667e3d99a7c764/visual.json
                 }
               }
             }
