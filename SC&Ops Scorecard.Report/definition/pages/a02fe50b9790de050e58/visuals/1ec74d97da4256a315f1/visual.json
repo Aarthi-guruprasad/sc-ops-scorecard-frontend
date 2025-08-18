@@ -3,8 +3,8 @@
   "name": "1ec74d97da4256a315f1",
   "position": {
     "x": 240,
-    "y": 240,
-    "z": 2000,
+    "y": 260,
+    "z": 16000,
     "height": 768.00000000000011,
     "width": 1584
   },
@@ -198,6 +198,21 @@
               "expr": {
                 "Literal": {
                   "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Table_material'"
                 }
               }
             }
