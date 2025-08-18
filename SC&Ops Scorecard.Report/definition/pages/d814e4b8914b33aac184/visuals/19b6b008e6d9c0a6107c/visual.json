@@ -1,15 +1,5 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/5aff5c0cf3265cd425e2/visuals/ee7917bce803531d51c7/visual.json
-  "name": "ee7917bce803531d51c7",
-  "position": {
-    "x": 240,
-    "y": 126,
-    "z": 0,
-    "height": 54,
-    "width": 1420,
-    "tabOrder": 26000
-========
   "name": "19b6b008e6d9c0a6107c",
   "position": {
     "x": 0,
@@ -18,36 +8,30 @@
     "height": 2400,
     "width": 224.00000000000003,
     "tabOrder": 3000
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/19b6b008e6d9c0a6107c/visual.json
   },
   "visual": {
-    "visualType": "bookmarkNavigator",
+    "visualType": "shape",
     "objects": {
-      "bookmarks": [
+      "shape": [
         {
           "properties": {
-            "allowDeselectionBookmark": {
+            "tileShape": {
               "expr": {
                 "Literal": {
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/5aff5c0cf3265cd425e2/visuals/ee7917bce803531d51c7/visual.json
-                  "Value": "false"
-========
                   "Value": "'rectangle'"
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/19b6b008e6d9c0a6107c/visual.json
                 }
               }
-            },
-            "selectedBookmark": {
+            }
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "properties": {
+            "shapeAngle": {
               "expr": {
                 "Literal": {
-                  "Value": "'3b4109e2ad24caaaec48'"
-                }
-              }
-            },
-            "bookmarkGroup": {
-              "expr": {
-                "Literal": {
-                  "Value": "'7361f4e7a9ccd1716439'"
+                  "Value": "0L"
                 }
               }
             }
@@ -75,152 +59,15 @@
                 "color": {
                   "expr": {
                     "Literal": {
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/5aff5c0cf3265cd425e2/visuals/ee7917bce803531d51c7/visual.json
-                      "Value": "'#E87722'"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "selected"
-          }
-        }
-      ],
-      "outline": [
-        {
-          "properties": {
-            "lineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 4,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "selected"
-          }
-        },
-        {
-          "properties": {
-            "lineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 4,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "weight": {
-              "expr": {
-                "Literal": {
-                  "Value": "2D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
-          }
-        }
-      ],
-      "text": [
-        {
-          "properties": {
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#001489'"
-                    }
-                  }
-                }
-              }
-            },
-            "bold": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "12D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
-          }
-        },
-        {
-          "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "12D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "selected"
-          }
-        }
-      ],
-      "shape": [
-        {
-          "properties": {
-            "tileShape": {
-              "expr": {
-                "Literal": {
-                  "Value": "'rectangleRounded'"
-                }
-              }
-            },
-            "rectangleRoundedCurve": {
-              "expr": {
-                "Literal": {
-                  "Value": "12L"
-========
                       "Value": "'#F5F5F5'"
                     }
                   }
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/19b6b008e6d9c0a6107c/visual.json
                 }
               }
             }
           },
           "selector": {
             "id": "default"
-          }
-        }
-      ],
-      "layout": [
-        {
-          "properties": {
-            "cellPadding": {
-              "expr": {
-                "Literal": {
-                  "Value": "3L"
-                }
-              }
-            }
           }
         }
       ]
