@@ -1,18 +1,5 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-<<<<<<<< HEAD:SC&Ops Scorecard.Report/definition/pages/c126aeeb961af89cae6a/visuals/3aeb93a1750748d8a0c9/visual.json
-  "name": "3aeb93a1750748d8a0c9",
-  "position": {
-    "x": 240,
-    "y": 622.09139772543767,
-    "z": 30000,
-    "height": 450.94834944289369,
-    "width": 1577.3761793813005,
-    "tabOrder": 26000
-  },
-  "visualGroup": {
-    "displayName": "Graphs_VS",
-========
   "name": "fa0c51938102b02a23c5",
   "position": {
     "x": 240,
@@ -24,7 +11,6 @@
   },
   "visualGroup": {
     "displayName": "Group 1",
->>>>>>>> feature/avijitsingh:SC&Ops Scorecard.Report/definition/pages/d814e4b8914b33aac184/visuals/fa0c51938102b02a23c5/visual.json
     "groupMode": "ScaleMode"
   }
 }
