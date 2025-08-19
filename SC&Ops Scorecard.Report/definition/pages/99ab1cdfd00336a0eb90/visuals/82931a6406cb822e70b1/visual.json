@@ -6,8 +6,7 @@
     "y": 460,
     "z": 13000,
     "height": 80,
-    "width": 212,
-    "tabOrder": 4000
+    "width": 212
   },
   "visual": {
     "visualType": "slicer",
@@ -106,7 +105,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'P3 2025'"
+                                "Value": "'P7 2025'"
                               }
                             }
                           ]

@@ -3,11 +3,11 @@
   "name": "8f7786fd03729be2204e",
   "position": {
     "x": 228,
-    "y": 148,
-    "z": 103000,
+    "y": 188,
+    "z": 104000,
     "height": 75,
     "width": 390,
-    "tabOrder": 31000
+    "tabOrder": 68000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -1652,7 +1652,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Service Top 11'"
+                  "Value": "'Service Top 11 (>90% SL)'"
                 }
               }
             },

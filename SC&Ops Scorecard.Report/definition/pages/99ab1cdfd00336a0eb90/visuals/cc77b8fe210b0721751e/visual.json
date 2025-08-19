@@ -3,11 +3,11 @@
   "name": "cc77b8fe210b0721751e",
   "position": {
     "x": 225,
-    "y": 164.42665151188527,
+    "y": 203.86676197098089,
     "z": 63000,
     "height": 40,
-    "width": 250,
-    "tabOrder": 69000
+    "width": 270,
+    "tabOrder": 82000
   },
   "visual": {
     "visualType": "shape",
@@ -100,7 +100,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Operations'"
+                  "Value": "'Operations & Quality'"
                 }
               }
             },

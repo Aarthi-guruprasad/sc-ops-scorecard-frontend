@@ -3,11 +3,11 @@
   "name": "53781e795e078ea62696",
   "position": {
     "x": 400,
-    "y": 64,
-    "z": 49000,
+    "y": 104,
+    "z": 50000,
     "height": 25,
     "width": 25,
-    "tabOrder": 22000
+    "tabOrder": 47000
   },
   "visual": {
     "visualType": "actionButton",
@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Forecast accuracy looking back at the forecast made two periods prior to the actual sales period at an SKU Level'"
+                  "Value": "'Forecast accuracy looking back at the forecast made two periods prior to the actual sales period at an SKU Level. (Excl. Contract Division)'"
                 }
               }
             }
