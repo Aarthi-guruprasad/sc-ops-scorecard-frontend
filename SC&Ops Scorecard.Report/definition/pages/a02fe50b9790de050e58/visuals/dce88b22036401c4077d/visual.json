@@ -7,7 +7,7 @@
     "z": 17000,
     "height": 768,
     "width": 1584,
-    "tabOrder": 10003
+    "tabOrder": 13000
   },
   "visual": {
     "visualType": "tableEx",
@@ -182,48 +182,6 @@
   },
   "filterConfig": {
     "filters": [
-      {
-        "name": "913d55a38901a8109863",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Bridge_Site_Area"
-              }
-            },
-            "Property": "Site Hierarchy"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "22e07218e49dd0d8b742",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Bridge_Site_Area"
-              }
-            },
-            "Property": "Site Group"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "639c9f2cd41d709c0b8d",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Bridge_Site_Area"
-              }
-            },
-            "Property": "Area"
-          }
-        },
-        "type": "Categorical"
-      },
       {
         "name": "62d2af8f2b13ce06b1ea",
         "field": {

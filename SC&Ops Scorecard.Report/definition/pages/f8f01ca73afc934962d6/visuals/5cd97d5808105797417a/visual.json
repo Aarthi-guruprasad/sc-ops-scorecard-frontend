@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "f12d447450e1d4a45271",
+  "name": "5cd97d5808105797417a",
   "position": {
-    "x": 153.91309255079008,
-    "y": 0,
-    "z": 1000,
-    "height": 38,
-    "width": 207.88261851015804,
-    "tabOrder": 30014
+    "x": 655.22222222222217,
+    "y": 290,
+    "z": 109003,
+    "height": 35,
+    "width": 207.77777777777777,
+    "tabOrder": 108003
   },
   "visual": {
     "visualType": "slicer",
@@ -23,17 +23,102 @@
                       "Entity": "Bridge_Site_Area"
                     }
                   },
+                  "Property": "Site Group"
+                }
+              },
+              "queryRef": "Bridge_Site_Area.Site Group",
+              "nativeQueryRef": "Site Group",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Bridge_Site_Area"
+                    }
+                  },
                   "Property": "Site"
                 }
               },
               "queryRef": "Bridge_Site_Area.Site",
               "nativeQueryRef": "Site",
-              "active": true
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Bridge_Site_Area"
+                    }
+                  },
+                  "Property": "Site Hierarchy"
+                }
+              },
+              "queryRef": "Bridge_Site_Area.Site Hierarchy",
+              "nativeQueryRef": "Site Hierarchy",
+              "active": false
             }
           ]
         }
       }
     },
+    "expansionStates": [
+      {
+        "roles": [
+          "Values"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "Bridge_Site_Area.Site Group"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Bridge_Site_Area"
+                    }
+                  },
+                  "Property": "Site Group"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "Bridge_Site_Area.Site"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Bridge_Site_Area"
+                    }
+                  },
+                  "Property": "Site"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "Bridge_Site_Area.Site Hierarchy"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
     "objects": {
       "data": [
         {
@@ -162,7 +247,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -172,7 +257,7 @@
                   "expr": {
                     "ThemeDataColor": {
                       "ColorId": 0,
-                      "Percent": -0.6
+                      "Percent": -0.1
                     }
                   }
                 }
@@ -330,7 +415,6 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "c73177fc5cd46835168e",
   "filterConfig": {
     "filters": [
       {
@@ -388,18 +472,104 @@
         "howCreated": "User"
       },
       {
-        "name": "6febfba2e6c8c5414d3c",
+        "name": "10cad057342b2afdbfdf",
         "field": {
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "Bridge_Site_Area"
+                "Entity": "Bridge_Site"
               }
             },
-            "Property": "Site"
+            "Property": "Site Group"
           }
         },
         "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "b",
+              "Entity": "Bridge_Site",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "b"
+                              }
+                            },
+                            "Property": "Site Group"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "null"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'CSCI'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'HER'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'LDM'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'MGX'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Sandbox'"
+                            }
+                          }
+                        ],
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'PUK'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
         "objects": {
           "general": [
             {

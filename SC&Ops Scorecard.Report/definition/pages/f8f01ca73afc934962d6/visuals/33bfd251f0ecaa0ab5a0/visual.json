@@ -3,11 +3,11 @@
   "name": "33bfd251f0ecaa0ab5a0",
   "position": {
     "x": 629,
-    "y": 938,
-    "z": 101000,
+    "y": 978,
+    "z": 102000,
     "height": 75,
     "width": 390,
-    "tabOrder": 36000
+    "tabOrder": 40000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -270,6 +270,20 @@
                 }
               }
             ],
+            "metadata": "Measure.ABP Variance"
+          }
+        },
+        {
+          "properties": {
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "1L"
+                }
+              }
+            }
+          },
+          "selector": {
             "metadata": "Measure.ABP Variance"
           }
         }

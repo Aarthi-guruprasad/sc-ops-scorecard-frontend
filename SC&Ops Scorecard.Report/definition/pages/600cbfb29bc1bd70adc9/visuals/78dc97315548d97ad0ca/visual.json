@@ -6,7 +6,8 @@
     "y": 0,
     "z": 0,
     "height": 50.596145996691654,
-    "width": 1576.0699477969451
+    "width": 1576.0699477969451,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "pageNavigator",

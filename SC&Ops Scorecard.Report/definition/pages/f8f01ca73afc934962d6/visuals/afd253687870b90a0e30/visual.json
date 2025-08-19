@@ -3,11 +3,11 @@
   "name": "afd253687870b90a0e30",
   "position": {
     "x": 1829,
-    "y": 60.7193648602002,
-    "z": 61000,
+    "y": 100.7193648602002,
+    "z": 62000,
     "height": 75,
     "width": 390,
-    "tabOrder": 25000
+    "tabOrder": 80000
   },
   "visual": {
     "visualType": "cardVisual",
