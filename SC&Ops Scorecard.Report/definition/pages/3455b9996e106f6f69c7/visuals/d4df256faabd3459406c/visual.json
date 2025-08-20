@@ -310,6 +310,34 @@
           "selector": {
             "id": "d814e4b8914b33aac184"
           }
+        },
+        {
+          "properties": {
+            "showPage": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "a88f72570b2b6758d63c"
+          }
+        },
+        {
+          "properties": {
+            "showPage": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "73518d568be54c067081"
+          }
         }
       ],
       "outline": [

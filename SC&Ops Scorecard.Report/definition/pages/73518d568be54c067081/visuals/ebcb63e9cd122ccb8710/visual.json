@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "ebcb63e9cd122ccb8710",
+  "position": {
+    "x": 107.36196783986209,
+    "y": 105.71045688023305,
+    "z": 3000,
+    "height": 96.109524481681547,
+    "width": 240.8540654900666,
+    "tabOrder": 45
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Health of Key Forecast Indicators like Bias and Accuracy %",
+                    "textStyle": {
+                      "fontStyle": "italic",
+                      "fontSize": "12pt",
+                      "color": "#333333"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "329f9f8b0575ce1d2050"
+}
