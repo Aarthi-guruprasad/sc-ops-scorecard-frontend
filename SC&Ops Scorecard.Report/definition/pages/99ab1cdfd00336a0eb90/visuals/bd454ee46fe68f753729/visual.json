@@ -4,7 +4,7 @@
   "position": {
     "x": 0,
     "y": 0.016411309297382104,
-    "z": 15000,
+    "z": 0,
     "height": 75,
     "width": 390,
     "tabOrder": 1000
@@ -197,7 +197,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "Deviations _Color_KPI"
@@ -764,7 +764,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Deviations Switch"
@@ -1188,7 +1188,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Reference_lbl_title"
@@ -1388,7 +1388,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "Deviations _Color"

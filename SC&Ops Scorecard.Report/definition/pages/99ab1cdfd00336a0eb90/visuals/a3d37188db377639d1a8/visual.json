@@ -4,7 +4,7 @@
   "position": {
     "x": 1025,
     "y": 651.62842490799642,
-    "z": 53000,
+    "z": 45000,
     "height": 74.527273063344481,
     "width": 388.60649525886771,
     "tabOrder": 70000
@@ -79,34 +79,6 @@
           },
           "selector": {
             "metadata": "Measure.FA% SSID"
-          }
-        },
-        {
-          "properties": {
-            "value": {
-              "expr": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "MetricSelector"
-                    }
-                  },
-                  "Property": "SSSO_Scrap_Off_"
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Measure.SSSO: Scrap-Off",
-            "id": "field-da89dc39-4496-32ac-7f25-b1fe382828de",
-            "order": 0
           }
         },
         {
@@ -248,6 +220,34 @@
             "id": "field-40382640-e067-1f2d-b6d2-10755dbceb63",
             "order": 0
           }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "SSSO_Scrap_Off_"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.SSSO: Scrap-Off",
+            "id": "field-d011f7dd-aada-3b5d-c4d5-ec531990c2b2",
+            "order": 0
+          }
         }
       ],
       "layout": [
@@ -336,7 +336,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "SSSO_Scrap_off_Color_KPI"
@@ -689,136 +689,6 @@
           "properties": {
             "titleText": {
               "expr": {
-                "Literal": {
-                  "Value": "'vs PP'"
-                }
-              }
-            },
-            "titleContentType": {
-              "expr": {
-                "Literal": {
-                  "Value": "'custom'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Measure.SSSO: Scrap-Off",
-            "id": "field-8a4577f9-c5d1-2c24-0db4-50459b192fc1"
-          }
-        },
-        {
-          "properties": {
-            "titleContentType": {
-              "expr": {
-                "Literal": {
-                  "Value": "'custom'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Measure.SSSO: Scrap-Off",
-            "id": "field-1c2cea06-81f4-08a4-4292-5ee0edf6f241"
-          }
-        },
-        {
-          "properties": {
-            "titleText": {
-              "expr": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "MetricSelector"
-                        }
-                      },
-                      "Property": "Metric"
-                    }
-                  },
-                  "Function": 3
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Measure.SSSO: Scrap-Off",
-            "id": "field-1c2cea06-81f4-08a4-4292-5ee0edf6f241"
-          }
-        },
-        {
-          "properties": {
-            "titleContentType": {
-              "expr": {
-                "Literal": {
-                  "Value": "'custom'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Measure.SSSO: Scrap-Off",
-            "id": "field-da89dc39-4496-32ac-7f25-b1fe382828de"
-          }
-        },
-        {
-          "properties": {
-            "titleText": {
-              "expr": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "MetricSelector"
-                        }
-                      },
-                      "Property": "Metric"
-                    }
-                  },
-                  "Function": 3
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Measure.SSSO: Scrap-Off",
-            "id": "field-da89dc39-4496-32ac-7f25-b1fe382828de"
-          }
-        },
-        {
-          "properties": {
-            "titleFontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "12D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Measure.SSSO: Scrap-Off"
-          }
-        },
-        {
-          "properties": {
-            "titleText": {
-              "expr": {
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
@@ -1051,6 +921,48 @@
           "selector": {
             "metadata": "Measure.Bias%",
             "id": "field-11014e6d-8aa2-efe1-dce9-0412ad69b262"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.SSSO: Scrap-Off",
+            "id": "field-d011f7dd-aada-3b5d-c4d5-ec531990c2b2"
+          }
+        },
+        {
+          "properties": {
+            "titleText": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Reference_lbl_title"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.SSSO: Scrap-Off",
+            "id": "field-d011f7dd-aada-3b5d-c4d5-ec531990c2b2"
           }
         }
       ],
@@ -1137,48 +1049,6 @@
           },
           "selector": {
             "metadata": "Measure.FA% SSID"
-          }
-        },
-        {
-          "properties": {
-            "paddingSelection": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Custom'"
-                }
-              }
-            },
-            "leftMargin": {
-              "expr": {
-                "Literal": {
-                  "Value": "5L"
-                }
-              }
-            },
-            "rightMargin": {
-              "expr": {
-                "Literal": {
-                  "Value": "5L"
-                }
-              }
-            },
-            "topMargin": {
-              "expr": {
-                "Literal": {
-                  "Value": "3L"
-                }
-              }
-            },
-            "bottomMargin": {
-              "expr": {
-                "Literal": {
-                  "Value": "5L"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Measure.SSSO: Scrap-Off"
           }
         }
       ],
@@ -1377,68 +1247,6 @@
                           "Entity": "MetricSelector"
                         }
                       },
-                      "Property": "SSSO_Scrap_off_Color"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Measure.SSSO: Scrap-Off",
-            "id": "field-1c2cea06-81f4-08a4-4292-5ee0edf6f241"
-          }
-        },
-        {
-          "properties": {
-            "valueFontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "MetricSelector"
-                        }
-                      },
-                      "Property": "SSSO_Scrap_off_Color"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Measure.SSSO: Scrap-Off",
-            "id": "field-da89dc39-4496-32ac-7f25-b1fe382828de"
-          }
-        },
-        {
-          "properties": {
-            "valueFontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "MetricSelector"
-                        }
-                      },
                       "Property": "Forecast_Accuracy_Lag_Color"
                     }
                   }
@@ -1580,6 +1388,37 @@
             ],
             "metadata": "Measure.SSSO: Salvage & Obsolescence",
             "id": "field-40382640-e067-1f2d-b6d2-10755dbceb63"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "SSSO_Scrap_off_Color"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.SSSO: Scrap-Off",
+            "id": "field-d011f7dd-aada-3b5d-c4d5-ec531990c2b2"
           }
         }
       ],

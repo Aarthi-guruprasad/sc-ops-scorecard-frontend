@@ -4,7 +4,7 @@
   "position": {
     "x": 659.27718142405479,
     "y": 652.78404563639253,
-    "z": 30000,
+    "z": 26000,
     "height": 72.952802862497862,
     "width": 386.37965960508132,
     "tabOrder": 76000
@@ -194,6 +194,21 @@
           }
         },
         {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.SSSO Shrinkage",
+            "id": "field-095c3e16-0c03-6779-06e1-46e226869509",
+            "order": 0
+          }
+        },
+        {
           "properties": {
             "value": {
               "expr": {
@@ -217,7 +232,7 @@
               }
             ],
             "metadata": "CSCI Measures.SSSO Shrinkage",
-            "id": "field-095c3e16-0c03-6779-06e1-46e226869509",
+            "id": "field-2878e902-9304-3953-d04a-36908e29c484",
             "order": 0
           }
         }
@@ -368,7 +383,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "CSCI Measures"
                         }
                       },
                       "Property": "SSSO_Shrinkage_Color_KPI"
@@ -923,7 +938,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Reference_lbl_title"
@@ -941,6 +956,48 @@
             ],
             "metadata": "CSCI Measures.SSSO Shrinkage",
             "id": "field-095c3e16-0c03-6779-06e1-46e226869509"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.SSSO Shrinkage",
+            "id": "field-2878e902-9304-3953-d04a-36908e29c484"
+          }
+        },
+        {
+          "properties": {
+            "titleText": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Reference_lbl_title"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.SSSO Shrinkage",
+            "id": "field-2878e902-9304-3953-d04a-36908e29c484"
           }
         }
       ],
@@ -1428,6 +1485,37 @@
             ],
             "metadata": "CSCI Measures.SSSO Shrinkage",
             "id": "field-095c3e16-0c03-6779-06e1-46e226869509"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "CSCI Measures"
+                        }
+                      },
+                      "Property": "SSSO_Shrinkage_Color"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.SSSO Shrinkage",
+            "id": "field-2878e902-9304-3953-d04a-36908e29c484"
           }
         }
       ],

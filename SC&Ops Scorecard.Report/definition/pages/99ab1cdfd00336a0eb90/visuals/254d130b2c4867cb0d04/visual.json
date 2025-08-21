@@ -4,7 +4,7 @@
   "position": {
     "x": 1430,
     "y": 651.62842490799676,
-    "z": 45000,
+    "z": 37000,
     "height": 75,
     "width": 390,
     "tabOrder": 26000
@@ -202,7 +202,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Net_Sales_Actual"
@@ -356,7 +356,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "Net_Sales_Color_KPI"
@@ -953,7 +953,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Reference_lbl_title"
@@ -1449,7 +1449,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "Net_Sales_Actual_Color"

@@ -4,7 +4,7 @@
   "position": {
     "x": 1430,
     "y": 404.99566601465114,
-    "z": 14000,
+    "z": 10000,
     "height": 75.555555555555557,
     "width": 390,
     "tabOrder": 27000
@@ -228,7 +228,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Inflated_Inventory"
@@ -382,7 +382,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "Inflated Inventory _Color_KPI"
@@ -979,7 +979,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Reference_lbl_title"
@@ -1495,7 +1495,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "Inflated_Inventory_Color"

@@ -4,7 +4,7 @@
   "position": {
     "x": 351.25423600461937,
     "y": 652.78404563639253,
-    "z": 52000,
+    "z": 44000,
     "height": 72.952802862497862,
     "width": 386.37965960508132,
     "tabOrder": 87000
@@ -228,7 +228,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "SSSO_Salvage&Obs"
@@ -336,7 +336,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "SSSO_Salvage&Obs_Color_KPI"
@@ -1033,7 +1033,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Reference_lbl_title"
@@ -1560,7 +1560,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "SSSO_Salvage&Obs_Color"
