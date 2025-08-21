@@ -4,7 +4,7 @@
   "position": {
     "x": 22.077791358113416,
     "y": 107.14285714285711,
-    "z": 10000,
+    "z": 2000,
     "height": 135,
     "width": 425,
     "tabOrder": 24
@@ -48,5 +48,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "dfe4f20a0be0745a6c0e"
+  "parentGroupName": "2376960906a4d8b90659"
 }

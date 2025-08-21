@@ -94,12 +94,6 @@
               "objects": {}
             }
           },
-          "cfbff007d05ec0deaace": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
           "6b04a9d889096e05016a": {
             "singleVisual": {
               "visualType": "textbox",
@@ -256,12 +250,6 @@
               "objects": {}
             }
           },
-          "8f9a8302e14b355054b9": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
           "8b8c82154e0d15ec8855": {
             "filters": {
               "byExpr": [
@@ -373,12 +361,6 @@
           "0607af26966e51d8ddc0": {
             "singleVisual": {
               "visualType": "shape",
-              "objects": {}
-            }
-          },
-          "2886b4b20cbe17c4aa96": {
-            "singleVisual": {
-              "visualType": "textbox",
               "objects": {}
             }
           },
@@ -530,183 +512,10 @@
               }
             }
           },
-          "0aaee044622db011d0b9": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "505cb93ec4890b79cde2",
-                  "type": "Categorical",
-                  "filter": {
-                    "Version": 2,
-                    "From": [
-                      {
-                        "Name": "d",
-                        "Entity": "Dim_DateSlicer",
-                        "Type": 0
-                      }
-                    ],
-                    "Where": [
-                      {
-                        "Condition": {
-                          "In": {
-                            "Expressions": [
-                              {
-                                "Column": {
-                                  "Expression": {
-                                    "SourceRef": {
-                                      "Source": "d"
-                                    }
-                                  },
-                                  "Property": "Is_LastClosed_Period"
-                                }
-                              }
-                            ],
-                            "Values": [
-                              [
-                                {
-                                  "Literal": {
-                                    "Value": "1L"
-                                  }
-                                }
-                              ]
-                            ]
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_DateSlicer"
-                        }
-                      },
-                      "Property": "Is_LastClosed_Period"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "d5ee3d15137a76a95eca",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "KPI_Metadata"
-                        }
-                      },
-                      "Property": "Green Count (Visible)"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "card",
-              "objects": {}
-            }
-          },
           "895ea38a0a87093281c8": {
             "singleVisual": {
               "visualType": "shape",
               "objects": {}
-            }
-          },
-          "30ff3a1a5d32445728c2": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "505cb93ec4890b79cde2",
-                  "type": "Categorical",
-                  "filter": {
-                    "Version": 2,
-                    "From": [
-                      {
-                        "Name": "d",
-                        "Entity": "Dim_DateSlicer",
-                        "Type": 0
-                      }
-                    ],
-                    "Where": [
-                      {
-                        "Condition": {
-                          "In": {
-                            "Expressions": [
-                              {
-                                "Column": {
-                                  "Expression": {
-                                    "SourceRef": {
-                                      "Source": "d"
-                                    }
-                                  },
-                                  "Property": "Is_LastClosed_Period"
-                                }
-                              }
-                            ],
-                            "Values": [
-                              [
-                                {
-                                  "Literal": {
-                                    "Value": "1L"
-                                  }
-                                }
-                              ]
-                            ]
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_DateSlicer"
-                        }
-                      },
-                      "Property": "Is_LastClosed_Period"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "dc59fc3341142e3d320e",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "KPI_Metadata"
-                        }
-                      },
-                      "Property": "Red Count (Last Closed)"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "card",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "KPI_Metadata"
-                        }
-                      },
-                      "Property": "Red Count (Last Closed)"
-                    }
-                  }
-                }
-              ]
             }
           },
           "c3a0c0d982326eabed0b": {
