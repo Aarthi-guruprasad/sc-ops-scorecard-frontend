@@ -172,7 +172,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Gross_Inventory"
@@ -326,7 +326,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "Gross Inventory _Color_KPI"
@@ -832,7 +832,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Reference_lbl_title"
@@ -1286,7 +1286,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "Gross_Inventory_Color"

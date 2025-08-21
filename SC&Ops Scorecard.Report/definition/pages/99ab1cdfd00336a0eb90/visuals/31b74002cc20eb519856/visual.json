@@ -4,7 +4,7 @@
   "position": {
     "x": 229,
     "y": 260.12785691059821,
-    "z": 54000,
+    "z": 46000,
     "height": 75,
     "width": 390,
     "tabOrder": 29000
@@ -200,7 +200,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "OEE"
@@ -354,7 +354,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "OEE_Color_KPI"
@@ -951,7 +951,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Reference_lbl_title"
@@ -1447,7 +1447,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "OEE_Color"

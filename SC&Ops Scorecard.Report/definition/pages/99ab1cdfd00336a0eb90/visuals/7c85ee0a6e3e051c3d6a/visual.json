@@ -4,7 +4,7 @@
   "position": {
     "x": 1025,
     "y": 99.440110459095621,
-    "z": 24000,
+    "z": 20000,
     "height": 75,
     "width": 390,
     "tabOrder": 59000
@@ -280,7 +280,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "CSCI Measures"
                         }
                       },
                       "Property": "Bias%_CSCI_Color_KPI"
@@ -863,7 +863,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Reference_lbl_title"

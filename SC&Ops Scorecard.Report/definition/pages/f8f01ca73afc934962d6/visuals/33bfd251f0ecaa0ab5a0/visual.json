@@ -252,7 +252,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "ABP Variance _Color_KPI"
@@ -994,7 +994,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "ABP Variance Switch"
@@ -1565,7 +1565,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Reference_lbl_title"
@@ -1858,7 +1858,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "ABP Variance _Color"

@@ -4,7 +4,7 @@
   "position": {
     "x": 1827,
     "y": 651.44011045909565,
-    "z": 43000,
+    "z": 35000,
     "height": 75,
     "width": 390,
     "tabOrder": 21000
@@ -257,7 +257,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "COGS_Actual"
@@ -411,7 +411,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "COGS_Color_KPI"
@@ -1106,7 +1106,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Reference_lbl_title"
@@ -1664,7 +1664,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "Measure"
                         }
                       },
                       "Property": "COGS_Actual_Color"

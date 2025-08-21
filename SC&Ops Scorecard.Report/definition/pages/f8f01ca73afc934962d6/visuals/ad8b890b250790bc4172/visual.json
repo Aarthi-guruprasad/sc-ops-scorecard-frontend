@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "CSCI Measures"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "DPO"
                 }
               },
-              "queryRef": "CSCI Measures.DPO",
+              "queryRef": "Measure.DPO",
               "nativeQueryRef": "DPO"
             }
           ]
@@ -39,7 +39,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "CSCI Measures"
+                    "Entity": "Measure"
                   }
                 },
                 "Property": "DPO"
@@ -304,6 +304,34 @@
             "id": "field-a12e76f9-83c8-3c1a-2fba-40b3e00d1b11",
             "order": 0
           }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "DPO_"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.DPO",
+            "id": "field-a001e4f4-bdb5-e55c-3a72-f19677bc6937",
+            "order": 0
+          }
         }
       ],
       "layout": [
@@ -457,6 +485,36 @@
               }
             ],
             "metadata": "CSCI Measures.DPO"
+          }
+        },
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "DPO_Color_KPI"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.DPO"
           }
         }
       ],
@@ -1194,6 +1252,48 @@
             "metadata": "CSCI Measures.DPO",
             "id": "field-a12e76f9-83c8-3c1a-2fba-40b3e00d1b11"
           }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.DPO",
+            "id": "field-a001e4f4-bdb5-e55c-3a72-f19677bc6937"
+          }
+        },
+        {
+          "properties": {
+            "titleText": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Reference_lbl_title"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.DPO",
+            "id": "field-a001e4f4-bdb5-e55c-3a72-f19677bc6937"
+          }
         }
       ],
       "padding": [
@@ -1784,6 +1884,37 @@
             ],
             "metadata": "CSCI Measures.DPO",
             "id": "field-a12e76f9-83c8-3c1a-2fba-40b3e00d1b11"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "DPO_Color"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.DPO",
+            "id": "field-a001e4f4-bdb5-e55c-3a72-f19677bc6937"
           }
         }
       ],

@@ -4,7 +4,7 @@
   "position": {
     "x": 351,
     "y": 100.11477451336448,
-    "z": 22000,
+    "z": 18000,
     "height": 75,
     "width": 390.42827304486053,
     "tabOrder": 24000
@@ -312,7 +312,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "MetricSelector"
+                          "Entity": "CSCI Measures"
                         }
                       },
                       "Property": "FA_CSCI_Color_KPI"
@@ -818,7 +818,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "MetricSelector"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Reference_lbl_title"

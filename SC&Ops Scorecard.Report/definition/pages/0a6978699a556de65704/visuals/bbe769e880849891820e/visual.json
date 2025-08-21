@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "FA% Lag2"
+                  "Property": "Service Top 11"
                 }
               },
-              "queryRef": "Measure.FA% Lag2",
-              "nativeQueryRef": "FA% Lag 2",
-              "displayName": "FA% Lag 2"
+              "queryRef": "Measure.Service Top 11",
+              "nativeQueryRef": "Service Top 11",
+              "displayName": "Service Top 11"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "FA% Lag2"
+                "Property": "Service Top 11"
               }
             },
             "direction": "Descending"
@@ -1508,6 +1508,20 @@
           },
           "selector": {
             "metadata": "Measure.Bias% Lag 2"
+          }
+        },
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Service Top 11 (>90% SL)'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Service Top 11"
           }
         }
       ],
@@ -7264,7 +7278,8 @@
             "Property": "FA% Lag2"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       }
     ],
     "filterSortOrder": "Custom"
