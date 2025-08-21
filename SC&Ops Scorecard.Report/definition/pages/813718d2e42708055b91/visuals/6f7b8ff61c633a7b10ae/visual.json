@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Gross Inventory"
+                  "Property": "DIO"
                 }
               },
-              "queryRef": "Measure.Gross Inventory",
-              "nativeQueryRef": "Gross Inventory",
-              "displayName": "Gross Inventory"
+              "queryRef": "Measure.DIO",
+              "nativeQueryRef": "DIO",
+              "displayName": "DIO"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "Gross Inventory"
+                "Property": "DIO"
               }
             },
             "direction": "Descending"

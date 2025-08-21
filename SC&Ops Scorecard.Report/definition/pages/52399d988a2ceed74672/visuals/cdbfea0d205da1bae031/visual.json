@@ -19,13 +19,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "KPI_Metadata"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Green Count (WorkingCapital)"
                 }
               },
-              "queryRef": "KPI_Metadata.Green Count (WorkingCapital)",
+              "queryRef": "Measure.Green Count (WorkingCapital)",
               "nativeQueryRef": "Green Count (WorkingCapital)"
             }
           ]

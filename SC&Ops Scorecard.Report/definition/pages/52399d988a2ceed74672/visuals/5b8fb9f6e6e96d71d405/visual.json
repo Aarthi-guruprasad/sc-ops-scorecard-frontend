@@ -58,14 +58,14 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "KPI_Metadata"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "KPI Status Icon (Operations&Quality)"
                 }
               },
-              "queryRef": "KPI_Metadata.KPI Status Icon (Operations&Quality)",
-              "nativeQueryRef": "KPI Status Icon (Operations&Quality)"
+              "queryRef": "Measure.KPI Status Icon (Operations&Quality)",
+              "nativeQueryRef": "KPI Status Icon (Operations&Quality)1"
             }
           ]
         }
@@ -961,22 +961,6 @@
             ]
           }
         }
-      ],
-      "columnFormatting": [
-        {
-          "properties": {
-            "alignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Center'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "KPI_Metadata.KPI Status Icon (Operations&Quality)"
-          }
-        }
       ]
     },
     "visualContainerObjects": {
@@ -1237,7 +1221,8 @@
             "Property": "KPI Status Icon (Operations&Quality)"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       }
     ],
     "filterSortOrder": "Custom"

@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Forecast accuracy looking back at the forecast made two periods prior to the actual sales period at an SKU Level. (Excl. Contract Division)'"
+                  "Value": "'Forecast accuracy looking back at the forecast made periods prior to the actual sales period at an SKU Level. (Excl. Contract Division). 5-Digit refers to SSID 5-Digit.'"
                 }
               }
             }

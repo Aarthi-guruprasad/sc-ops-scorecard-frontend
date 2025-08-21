@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "KPI_Metadata"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Red Count (Last Closed)"
                 }
               },
-              "queryRef": "KPI_Metadata.Red Count (Last Closed)",
+              "queryRef": "Measure.Red Count (Last Closed)",
               "nativeQueryRef": "Red Count (Last Closed)"
             }
           ]
@@ -39,7 +39,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "KPI_Metadata"
+                    "Entity": "Measure"
                   }
                 },
                 "Property": "Red Count (Last Closed)"

@@ -58,14 +58,14 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "KPI_Metadata"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "KPI Status Icon (Operating Income)"
                 }
               },
-              "queryRef": "KPI_Metadata.KPI Status Icon (Operating Income)",
-              "nativeQueryRef": "KPI Status Icon (Operating Income)"
+              "queryRef": "Measure.KPI Status Icon (Operating Income)",
+              "nativeQueryRef": "KPI Status Icon (Operating Income)1"
             }
           ]
         }
@@ -1242,7 +1242,8 @@
             "Property": "KPI Status Icon (Operating Income)"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       }
     ],
     "filterSortOrder": "Custom"
