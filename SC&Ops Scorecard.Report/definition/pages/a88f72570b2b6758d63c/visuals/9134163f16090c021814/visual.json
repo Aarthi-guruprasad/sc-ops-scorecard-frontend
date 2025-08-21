@@ -3,8 +3,8 @@
   "name": "9134163f16090c021814",
   "position": {
     "x": 22.380130884261007,
-    "y": 107.14285714285714,
-    "z": 5000,
+    "y": 107.14285714285711,
+    "z": 2000,
     "height": 135,
     "width": 425,
     "tabOrder": 2
@@ -48,5 +48,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "9d316e26ec75a8b55b07"
+  "parentGroupName": "55e4e4f9302b07756206"
 }

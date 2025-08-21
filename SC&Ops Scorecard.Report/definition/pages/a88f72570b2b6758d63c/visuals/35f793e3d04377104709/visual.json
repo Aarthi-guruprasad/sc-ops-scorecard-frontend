@@ -4,7 +4,7 @@
   "position": {
     "x": 270,
     "y": 276.9422059296727,
-    "z": 32001,
+    "z": 6000,
     "height": 50,
     "width": 192.85714285714286,
     "tabOrder": 28
@@ -191,6 +191,6 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "9d316e26ec75a8b55b07",
+  "parentGroupName": "55e4e4f9302b07756206",
   "howCreated": "InsertVisualButton"
 }

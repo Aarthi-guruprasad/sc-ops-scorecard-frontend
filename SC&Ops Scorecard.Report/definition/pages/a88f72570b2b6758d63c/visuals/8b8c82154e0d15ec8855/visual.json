@@ -4,7 +4,7 @@
   "position": {
     "x": 23.244845198310109,
     "y": 741.897975912731,
-    "z": 11000,
+    "z": 9000,
     "height": 71.671606028122838,
     "width": 230.51138154990858,
     "tabOrder": 9000
@@ -31,6 +31,23 @@
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "CG_PeriodSelection"
+                  }
+                },
+                "Property": "Period"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
       }
     },
     "objects": {
@@ -67,7 +84,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'PTD'"
+                                "Value": "'YTD'"
                               }
                             }
                           ]
@@ -368,6 +385,19 @@
           },
           "selector": {
             "id": "default"
+          }
+        }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "strictSingleSelect": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
           }
         }
       ]
