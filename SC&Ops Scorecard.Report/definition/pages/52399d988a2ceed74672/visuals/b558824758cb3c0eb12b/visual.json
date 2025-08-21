@@ -20,19 +20,34 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "KPI_Metadata"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Green Count (Visible)"
                 }
               },
-              "queryRef": "KPI_Metadata.Green Count (Visible)",
+              "queryRef": "Measure.Green Count (Visible)",
               "nativeQueryRef": "Green Count (Visible)"
             }
           ]
         }
       },
       "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Measure"
+                  }
+                },
+                "Property": "Green Count (Visible)"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
         "isDefaultSort": true
       }
     },
@@ -185,20 +200,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "284df1fe16be27c617eb",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "KPI_Metadata"
-              }
-            },
-            "Property": "Green Count (Visible)"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }

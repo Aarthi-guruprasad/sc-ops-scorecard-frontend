@@ -19,13 +19,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "KPI_Metadata"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Green Count (Sales Growth)"
                 }
               },
-              "queryRef": "KPI_Metadata.Green Count (Sales Growth)",
+              "queryRef": "Measure.Green Count (Sales Growth)",
               "nativeQueryRef": "Green Count (Sales Growth)"
             }
           ]

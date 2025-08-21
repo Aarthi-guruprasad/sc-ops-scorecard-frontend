@@ -19,13 +19,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "KPI_Metadata"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Red Count (OperatingIncome)"
                 }
               },
-              "queryRef": "KPI_Metadata.Red Count (OperatingIncome)",
+              "queryRef": "Measure.Red Count (OperatingIncome)",
               "nativeQueryRef": "Red Count (OperatingIncome)"
             }
           ]

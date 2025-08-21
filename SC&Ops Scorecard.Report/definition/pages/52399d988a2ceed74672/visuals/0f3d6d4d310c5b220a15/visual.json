@@ -58,14 +58,14 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "KPI_Metadata"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "KPI Status Icon (Working Capital)"
                 }
               },
-              "queryRef": "KPI_Metadata.KPI Status Icon (Working Capital)",
-              "nativeQueryRef": "KPI Status Icon (Working Capital)"
+              "queryRef": "Measure.KPI Status Icon (Working Capital)",
+              "nativeQueryRef": "KPI Status Icon (Working Capital)1"
             }
           ]
         }
@@ -1221,7 +1221,8 @@
             "Property": "KPI Status Icon (Working Capital)"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       }
     ],
     "filterSortOrder": "Custom"

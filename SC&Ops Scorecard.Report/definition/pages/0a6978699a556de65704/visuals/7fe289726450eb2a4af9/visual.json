@@ -43,12 +43,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Service Top 11"
+                  "Property": "FA% Lag4"
                 }
               },
-              "queryRef": "Measure.Service Top 11",
-              "nativeQueryRef": "Service Top 11",
-              "displayName": "Service Top 11"
+              "queryRef": "Measure.FA% Lag4",
+              "nativeQueryRef": "FA% Lag 4",
+              "displayName": "FA% Lag 4"
             }
           ],
           "fieldParameters": [

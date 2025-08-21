@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "KPI_Metadata"
+                      "Entity": "Measure"
                     }
                   },
                   "Property": "Total KPI Count"
                 }
               },
-              "queryRef": "KPI_Metadata.Total KPI Count",
+              "queryRef": "Measure.Total KPI Count",
               "nativeQueryRef": "Total KPI Count"
             }
           ]
@@ -39,7 +39,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "KPI_Metadata"
+                    "Entity": "Measure"
                   }
                 },
                 "Property": "Total KPI Count"

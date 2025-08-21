@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Total Logistics on Net Sales Actual"
+                  "Property": "Total Distribution on COGS Actual"
                 }
               },
-              "queryRef": "Measure.Total Logistics on Net Sales Actual",
-              "nativeQueryRef": "% Logistics vs Net Sales",
-              "displayName": "% Logistics vs Net Sales"
+              "queryRef": "Measure.Total Distribution on COGS Actual",
+              "nativeQueryRef": "Distribution to COGS",
+              "displayName": "Distribution to COGS"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "Total Logistics on Net Sales Actual"
+                "Property": "Total Distribution on COGS Actual"
               }
             },
             "direction": "Descending"

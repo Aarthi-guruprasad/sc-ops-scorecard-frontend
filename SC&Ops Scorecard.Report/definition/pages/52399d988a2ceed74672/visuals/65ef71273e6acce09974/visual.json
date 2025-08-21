@@ -67,7 +67,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'''Fact_Forecast_Accuracy''[SSID 5-Digit]'"
+                                "Value": "'''Fact_Forecast_Accuracy''[SSID]'"
                               }
                             }
                           ]
@@ -95,7 +95,7 @@
                                 "0": [
                                   {
                                     "Literal": {
-                                      "Value": "'''Fact_Forecast_Accuracy''[SSID 5-Digit]'"
+                                      "Value": "'''Fact_Forecast_Accuracy''[SSID]'"
                                     }
                                   }
                                 ]
@@ -119,7 +119,7 @@
                         },
                         "valueMap": [
                           {
-                            "0": "5 Digit"
+                            "0": "SSID"
                           }
                         ]
                       }
