@@ -7,7 +7,7 @@
     "z": 28000,
     "height": 70.499139414802059,
     "width": 229.774972907503,
-    "tabOrder": 58
+    "tabOrder": 23000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -67,7 +67,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'''Fact_Forecast_Accuracy''[SSID]'"
+                                "Value": "'''Fact_Forecast_Accuracy''[SSID 5-Digit]'"
                               }
                             }
                           ]
@@ -95,7 +95,7 @@
                                 "0": [
                                   {
                                     "Literal": {
-                                      "Value": "'''Fact_Forecast_Accuracy''[SSID]'"
+                                      "Value": "'''Fact_Forecast_Accuracy''[SSID 5-Digit]'"
                                     }
                                   }
                                 ]
@@ -119,7 +119,7 @@
                         },
                         "valueMap": [
                           {
-                            "0": "SSID"
+                            "0": "5 Digit"
                           }
                         ]
                       }

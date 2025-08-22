@@ -7,7 +7,7 @@
     "z": 34000,
     "height": 409.93944030088608,
     "width": 1033.9873780837636,
-    "tabOrder": 46
+    "tabOrder": 17000
   },
   "visual": {
     "visualType": "pivotTable",
@@ -69,6 +69,23 @@
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "KPI_Metadata"
+                  }
+                },
+                "Property": "KPI"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
       }
     },
     "objects": {
@@ -1120,7 +1137,6 @@
           }
         },
         "type": "Categorical",
-        "howCreated": "User",
         "objects": {
           "general": [
             {
@@ -1210,20 +1226,19 @@
         "howCreated": "User"
       },
       {
-        "name": "1d13f81f789d5d4addb1",
+        "name": "5e22ac163cb68c9c8034",
         "ordinal": 3,
         "field": {
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "KPI_Metadata"
+                "Entity": "Measure"
               }
             },
             "Property": "KPI Status Icon (Sales Growth)"
           }
         },
-        "type": "Advanced",
-        "howCreated": "User"
+        "type": "Advanced"
       }
     ],
     "filterSortOrder": "Custom"

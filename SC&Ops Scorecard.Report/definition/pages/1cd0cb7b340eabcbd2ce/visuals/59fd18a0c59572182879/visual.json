@@ -6,8 +6,7 @@
     "y": 1.8723670346669081,
     "z": 1000,
     "height": 391.72362528107635,
-    "width": 1227.6924792328705,
-    "tabOrder": 1000
+    "width": 1227.6924792328705
   },
   "visual": {
     "visualType": "lineStackedColumnComboChart",
