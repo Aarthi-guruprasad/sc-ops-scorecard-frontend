@@ -4,10 +4,10 @@
   "position": {
     "x": 351,
     "y": 100.11477451336448,
-    "z": 18000,
+    "z": 36000,
     "height": 75,
     "width": 390.42827304486053,
-    "tabOrder": 24000
+    "tabOrder": 23000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -1649,24 +1649,8 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "41b6f8372d4e39a939d4",
-        "ordinal": 0,
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "CSCI Measures"
-              }
-            },
-            "Property": "Bias %"
-          }
-        },
-        "type": "Advanced",
-        "howCreated": "User"
-      },
-      {
         "name": "48f01e43d1c1bb97348d",
-        "ordinal": 1,
+        "ordinal": 0,
         "field": {
           "Measure": {
             "Expression": {
@@ -1681,7 +1665,7 @@
       },
       {
         "name": "63121a7baa32258bb1de",
-        "ordinal": 2,
+        "ordinal": 1,
         "field": {
           "Measure": {
             "Expression": {
@@ -1697,7 +1681,7 @@
       },
       {
         "name": "6164a1e464090d3e1598",
-        "ordinal": 3,
+        "ordinal": 2,
         "field": {
           "Measure": {
             "Expression": {
@@ -1713,7 +1697,7 @@
       },
       {
         "name": "101973e95118c5ecb04e",
-        "ordinal": 4,
+        "ordinal": 3,
         "field": {
           "Column": {
             "Expression": {
@@ -1794,7 +1778,7 @@
       },
       {
         "name": "d19a4cbb8db087458291",
-        "ordinal": 5,
+        "ordinal": 4,
         "field": {
           "Column": {
             "Expression": {
@@ -1856,7 +1840,7 @@
       },
       {
         "name": "bc867ed86848bce5b60d",
-        "ordinal": 6,
+        "ordinal": 5,
         "field": {
           "Column": {
             "Expression": {

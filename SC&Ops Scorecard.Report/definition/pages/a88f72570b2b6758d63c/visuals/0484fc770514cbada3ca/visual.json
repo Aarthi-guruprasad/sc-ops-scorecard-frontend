@@ -1,41 +1,48 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "758f240505005a648893",
+  "name": "0484fc770514cbada3ca",
   "position": {
-    "x": 26.028383816987969,
-    "y": 97.606439313704755,
-    "z": 2500,
-    "height": 71.5780554967168,
-    "width": 65.070959542469808,
-    "tabOrder": 5
+    "x": 0,
+    "y": 0,
+    "z": 30002,
+    "height": 40,
+    "width": 100
   },
   "visual": {
-    "visualType": "image",
+    "visualType": "actionButton",
     "objects": {
-      "general": [
+      "icon": [
         {
           "properties": {
-            "imageUrl": {
+            "shapeType": {
               "expr": {
-                "ResourcePackageItem": {
-                  "PackageName": "RegisteredResources",
-                  "PackageType": 1,
-                  "ItemName": "production_1098141914471874579921118.png"
+                "Literal": {
+                  "Value": "'back'"
                 }
               }
             }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ]
     },
     "visualContainerObjects": {
-      "title": [
+      "visualLink": [
         {
           "properties": {
-            "text": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "'Manu_img'"
+                  "Value": "true"
+                }
+              }
+            },
+            "type": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Back'"
                 }
               }
             }
@@ -45,6 +52,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "a64e13c1980e0984dcb4",
   "howCreated": "InsertVisualButton"
 }

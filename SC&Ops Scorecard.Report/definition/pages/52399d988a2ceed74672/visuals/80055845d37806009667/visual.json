@@ -6,7 +6,8 @@
     "y": 255.32596318089981,
     "z": 1000,
     "height": 73.110218652387331,
-    "width": 77.631578947368453
+    "width": 77.631578947368453,
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "card",
@@ -164,7 +165,23 @@
   "filterConfig": {
     "filters": [
       {
+        "name": "43079edb20497dada80a",
+        "ordinal": 0,
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure"
+              }
+            },
+            "Property": "Green Count (Sales Growth)"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
         "name": "505cb93ec4890b79cde2",
+        "ordinal": 1,
         "field": {
           "Column": {
             "Expression": {
@@ -232,6 +249,7 @@
           ]
         }
       }
-    ]
+    ],
+    "filterSortOrder": "Custom"
   }
 }
