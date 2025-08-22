@@ -1209,20 +1209,19 @@
         "howCreated": "User"
       },
       {
-        "name": "1d13f81f789d5d4addb1",
+        "name": "05d87d933521690db05e",
         "ordinal": 3,
         "field": {
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "KPI_Metadata"
+                "Entity": "Measure"
               }
             },
             "Property": "KPI Status Icon (Sales Growth)"
           }
         },
-        "type": "Advanced",
-        "howCreated": "User"
+        "type": "Advanced"
       }
     ],
     "filterSortOrder": "Custom"
