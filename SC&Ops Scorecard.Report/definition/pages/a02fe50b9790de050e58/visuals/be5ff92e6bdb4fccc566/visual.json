@@ -27,9 +27,9 @@
                 }
               },
               "queryRef": "Dim_Value_Stream.Value Stream_Jamie",
-              "nativeQueryRef": "Value Stream",
+              "nativeQueryRef": "Site Group",
               "active": true,
-              "displayName": "Value Stream"
+              "displayName": "Site Group"
             }
           ]
         }

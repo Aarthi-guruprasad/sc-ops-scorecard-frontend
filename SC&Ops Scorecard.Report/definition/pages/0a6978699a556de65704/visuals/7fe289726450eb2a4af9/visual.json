@@ -43,12 +43,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "FA% Lag4"
+                  "Property": "FA% Lag2"
                 }
               },
-              "queryRef": "Measure.FA% Lag4",
-              "nativeQueryRef": "FA% Lag 4",
-              "displayName": "FA% Lag 4"
+              "queryRef": "Measure.FA% Lag2",
+              "nativeQueryRef": "FA% Lag 2",
+              "displayName": "FA% Lag 2"
             }
           ],
           "fieldParameters": [

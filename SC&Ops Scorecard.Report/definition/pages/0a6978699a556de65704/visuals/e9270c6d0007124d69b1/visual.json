@@ -23,13 +23,13 @@
                       "Entity": "Dim_Value_Stream"
                     }
                   },
-                  "Property": "Value_Stream_Final"
+                  "Property": "Value Stream_Jamie"
                 }
               },
-              "queryRef": "Dim_Value_Stream.Value_Stream_Final",
-              "nativeQueryRef": "Value Stream",
+              "queryRef": "Dim_Value_Stream.Value Stream_Jamie",
+              "nativeQueryRef": "Site Group",
               "active": true,
-              "displayName": "Value Stream"
+              "displayName": "Site Group"
             }
           ]
         }
