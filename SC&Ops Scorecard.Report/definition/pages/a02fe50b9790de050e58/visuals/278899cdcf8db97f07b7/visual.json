@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Dim_Profit_Center"
+                      "Entity": "Bridge_CSCA_CSCI"
                     }
                   },
                   "Property": "Area"
                 }
               },
-              "queryRef": "Dim_Profit_Center.Area",
-              "nativeQueryRef": "Area",
+              "queryRef": "Bridge_CSCA_CSCI.Area",
+              "nativeQueryRef": "Area1",
               "active": true
             }
           ]
@@ -57,6 +57,13 @@
                   "Value": "'Dropdown'"
                 }
               }
+            },
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
             }
           }
         }
@@ -69,47 +76,6 @@
                 "Literal": {
                   "Value": "0D"
                 }
-              }
-            },
-            "filter": {
-              "filter": {
-                "Version": 2,
-                "From": [
-                  {
-                    "Name": "d",
-                    "Entity": "Dim_Profit_Center",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "In": {
-                        "Expressions": [
-                          {
-                            "Column": {
-                              "Expression": {
-                                "SourceRef": {
-                                  "Source": "d"
-                                }
-                              },
-                              "Property": "Area"
-                            }
-                          }
-                        ],
-                        "Values": [
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'CSCA'"
-                              }
-                            }
-                          ]
-                        ]
-                      }
-                    }
-                  }
-                ]
               }
             }
           }
