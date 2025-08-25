@@ -3,8 +3,8 @@
   "name": "70c294836a3c7575f5ad",
   "position": {
     "x": 0,
-    "y": 672,
-    "z": 31000,
+    "y": 50,
+    "z": 1000,
     "height": 360,
     "width": 240,
     "tabOrder": 35000
@@ -218,7 +218,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'''Measure''[SSSO: Salvage & Obsolescence]'"
+                                "Value": "'''Measure''[Net Sales Actual]'"
                               }
                             }
                           ]
@@ -440,6 +440,7 @@
     },
     "drillFilterOtherVisuals": true
   },
+  "parentGroupName": "376f04db38ab22d01e23",
   "filterConfig": {
     "filters": [
       {

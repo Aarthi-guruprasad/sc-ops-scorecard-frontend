@@ -3,8 +3,8 @@
   "name": "45a1a1d06ac1829d305e",
   "position": {
     "x": 240,
-    "y": 622,
-    "z": 32000,
+    "y": 0,
+    "z": 2000,
     "height": 450,
     "width": 1576.5271632563613,
     "tabOrder": 25000
@@ -13,5 +13,6 @@
     "displayName": "Graphs_Customer",
     "groupMode": "ScaleMode"
   },
+  "parentGroupName": "376f04db38ab22d01e23",
   "isHidden": true
 }

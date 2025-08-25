@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "SSSO: Salvage & Obsolescence"
+                  "Property": "Net Sales Actual"
                 }
               },
-              "queryRef": "Measure.SSSO: Salvage & Obsolescence",
-              "nativeQueryRef": "SSSO: Salvage & Obs",
-              "displayName": "SSSO: Salvage & Obs"
+              "queryRef": "Measure.Net Sales Actual",
+              "nativeQueryRef": "Net Sales",
+              "displayName": "Net Sales"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "SSSO: Salvage & Obsolescence"
+                "Property": "Net Sales Actual"
               }
             },
             "direction": "Descending"
