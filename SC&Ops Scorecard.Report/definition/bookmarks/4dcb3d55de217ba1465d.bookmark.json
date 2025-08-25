@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/1.4.0/schema.json",
-  "displayName": "FA% Lag2",
+  "displayName": "FA% Lag2 CSCA",
   "name": "4dcb3d55de217ba1465d",
   "options": {
     "applyOnlyToTargetVisuals": true,

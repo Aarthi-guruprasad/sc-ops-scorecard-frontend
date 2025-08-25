@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/1.4.0/schema.json",
-  "displayName": "Bias% Lag4",
+  "displayName": "Bias% Lag4 CSCA",
   "name": "789c52dd574650944227",
   "options": {
     "applyOnlyToTargetVisuals": true,
