@@ -23,11 +23,11 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Green Count (Visible)"
+                  "Property": "Total Green Count"
                 }
               },
-              "queryRef": "Measure.Green Count (Visible)",
-              "nativeQueryRef": "Green Count (Visible)"
+              "queryRef": "Measure.Total Green Count",
+              "nativeQueryRef": "Total Green Count"
             }
           ]
         }
@@ -42,7 +42,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "Green Count (Visible)"
+                "Property": "Total Green Count"
               }
             },
             "direction": "Descending"

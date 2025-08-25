@@ -23,11 +23,11 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Red Count (Last Closed)"
+                  "Property": "Total Red Count"
                 }
               },
-              "queryRef": "Measure.Red Count (Last Closed)",
-              "nativeQueryRef": "Red Count (Last Closed)"
+              "queryRef": "Measure.Total Red Count",
+              "nativeQueryRef": "Total Red Count"
             }
           ]
         }
@@ -42,7 +42,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "Red Count (Last Closed)"
+                "Property": "Total Red Count"
               }
             },
             "direction": "Descending"
