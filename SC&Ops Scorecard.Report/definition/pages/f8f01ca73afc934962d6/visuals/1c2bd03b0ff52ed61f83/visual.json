@@ -4,10 +4,10 @@
   "position": {
     "x": 640,
     "y": 985,
-    "z": 109000,
+    "z": 108000,
     "height": 26,
     "width": 26,
-    "tabOrder": 29000
+    "tabOrder": 28000
   },
   "visual": {
     "visualType": "actionButton",
@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Difference between planned and actual activities & resource consumption out of actvity based planning (ABP) processes'"
+                  "Value": "'Difference between planned and actual activities & resource consumption out of activity based planning (ABP) processes'"
                 }
               }
             }

@@ -6,7 +6,8 @@
     "y": 3.9052287581699829,
     "z": 1000,
     "height": 390,
-    "width": 1232.5
+    "width": 1232.5,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "lineStackedColumnComboChart",
@@ -83,6 +84,21 @@
               "queryRef": "Measure.ReferenceLine_Service",
               "nativeQueryRef": "Plan",
               "displayName": "Plan"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Bias_Lower_Limit"
+                }
+              },
+              "queryRef": "Measure.Bias_Lower_Limit",
+              "nativeQueryRef": " ",
+              "displayName": " "
             }
           ]
         }

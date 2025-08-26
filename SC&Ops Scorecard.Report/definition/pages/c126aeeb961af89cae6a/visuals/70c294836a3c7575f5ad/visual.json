@@ -218,7 +218,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'''Measure''[Net Sales Actual]'"
+                                "Value": "'''Measure''[Total Distribution on COGS Actual]'"
                               }
                             }
                           ]
