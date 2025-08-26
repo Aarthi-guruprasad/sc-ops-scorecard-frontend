@@ -84,6 +84,21 @@
               "queryRef": "Measure.ReferenceLine_Service",
               "nativeQueryRef": "Plan",
               "displayName": "Plan"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Bias_Lower_Limit"
+                }
+              },
+              "queryRef": "Measure.Bias_Lower_Limit",
+              "nativeQueryRef": " ",
+              "displayName": " "
             }
           ]
         }

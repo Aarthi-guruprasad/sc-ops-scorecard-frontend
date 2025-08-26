@@ -43,12 +43,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Net Sales Actual"
+                  "Property": "Total Distribution on COGS Actual"
                 }
               },
-              "queryRef": "Measure.Net Sales Actual",
-              "nativeQueryRef": "Net Sales",
-              "displayName": "Net Sales"
+              "queryRef": "Measure.Total Distribution on COGS Actual",
+              "nativeQueryRef": "Distribution to COGS",
+              "displayName": "Distribution to COGS"
             }
           ],
           "fieldParameters": [
