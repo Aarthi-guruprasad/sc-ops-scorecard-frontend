@@ -65,12 +65,26 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Net Sales Actual"
+                  "Property": "Net POV Actual"
                 }
               },
-              "queryRef": "Measure.Net Sales Actual",
-              "nativeQueryRef": "Net Sales",
-              "displayName": "Net Sales"
+              "queryRef": "Measure.Net POV Actual",
+              "nativeQueryRef": "Net POV",
+              "displayName": "Net POV"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "OEE%"
+                }
+              },
+              "queryRef": "Measure.OEE%",
+              "nativeQueryRef": "OEE%"
             }
           ],
           "fieldParameters": [

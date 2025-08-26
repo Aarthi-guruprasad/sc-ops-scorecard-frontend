@@ -67,7 +67,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'''Measure''[Net Sales Actual]'"
+                                "Value": "'''Measure''[Net POV Actual]'"
                               }
                             }
                           ]
@@ -95,7 +95,7 @@
                                 "0": [
                                   {
                                     "Literal": {
-                                      "Value": "'''Measure''[Net Sales Actual]'"
+                                      "Value": "'''Measure''[Net POV Actual]'"
                                     }
                                   }
                                 ]
@@ -119,7 +119,7 @@
                         },
                         "valueMap": [
                           {
-                            "0": "Net Sales"
+                            "0": "Net POV"
                           }
                         ]
                       }
