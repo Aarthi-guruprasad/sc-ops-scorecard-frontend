@@ -6,7 +6,8 @@
     "y": 4,
     "z": 0,
     "height": 438,
-    "width": 574
+    "width": 574,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "clusteredBarChart",

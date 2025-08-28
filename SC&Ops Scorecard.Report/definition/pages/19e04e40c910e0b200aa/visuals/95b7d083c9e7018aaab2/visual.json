@@ -514,20 +514,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "306837a128d98c7a2a27",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Table Waterfall"
-              }
-            },
-            "Property": "Waterfall"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }
