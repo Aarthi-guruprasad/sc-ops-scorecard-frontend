@@ -4,10 +4,10 @@
   "position": {
     "x": 433.33333333333337,
     "y": 628.33333333333337,
-    "z": 69001,
+    "z": 71000,
     "height": 61.666666666666671,
     "width": 40,
-    "tabOrder": 64006
+    "tabOrder": 66000
   },
   "visual": {
     "visualType": "card",
@@ -182,23 +182,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "7fef4056e8193cc3db92",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Distribution CSCA"
-              }
-            },
-            "Property": "ASTM # of incidents"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

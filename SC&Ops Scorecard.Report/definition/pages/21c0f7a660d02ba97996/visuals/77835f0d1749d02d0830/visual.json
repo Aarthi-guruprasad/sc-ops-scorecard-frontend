@@ -1,12 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "bc4d6d34187218d8ea0b",
+  "name": "77835f0d1749d02d0830",
   "position": {
-    "x": 7,
-    "y": 7.452800345100286,
-    "z": 2000,
-    "height": 74.541663671004386,
-    "width": 74.541663671004386
+    "x": 178.89999281041051,
+    "y": 160.67869724638723,
+    "z": 0,
+    "height": 528.41757135667547,
+    "width": 806.70644906175858,
+    "tabOrder": 18000
   },
   "visual": {
     "visualType": "image",
@@ -19,7 +20,20 @@
                 "ResourcePackageItem": {
                   "PackageName": "RegisteredResources",
                   "PackageType": 1,
-                  "ItemName": "quality_(1)41126381739511286.png"
+                  "ItemName": "LP_SS059426343482946176.png"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "imageScaling": [
+        {
+          "properties": {
+            "imageScalingType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Fit'"
                 }
               }
             }
@@ -29,6 +43,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "55a5a3ec10005c274260",
   "howCreated": "InsertVisualButton"
 }

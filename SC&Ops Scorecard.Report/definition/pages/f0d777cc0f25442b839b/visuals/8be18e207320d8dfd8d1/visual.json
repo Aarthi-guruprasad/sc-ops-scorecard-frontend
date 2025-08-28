@@ -6,8 +6,7 @@
     "y": 0,
     "z": 5000,
     "height": 60.443217121159819,
-    "width": 305.53709326551359,
-    "tabOrder": 1000
+    "width": 305.53709326551359
   },
   "visual": {
     "visualType": "actionButton",
@@ -141,7 +140,7 @@
             "navigationSection": {
               "expr": {
                 "Literal": {
-                  "Value": "'4a70b3b0ba765df69f12'"
+                  "Value": "'21c0f7a660d02ba97996'"
                 }
               }
             },
