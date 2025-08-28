@@ -3,8 +3,8 @@
   "name": "95b7d083c9e7018aaab2",
   "position": {
     "x": 847.5,
-    "y": 635,
-    "z": 18000,
+    "y": 35.176211453744486,
+    "z": 1000,
     "height": 432.5,
     "width": 970,
     "tabOrder": 11000
@@ -166,8 +166,9 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "Literal": {
-                      "Value": "'#E87722'"
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": 0
                     }
                   }
                 }
@@ -178,7 +179,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#E87722'"
+                      "Value": "'#30A51D'"
                     }
                   }
                 }
@@ -422,6 +423,7 @@
     },
     "drillFilterOtherVisuals": true
   },
+  "parentGroupName": "9c5f6a4b995838230567",
   "filterConfig": {
     "filters": [
       {
@@ -512,6 +514,20 @@
             }
           ]
         }
+      },
+      {
+        "name": "306837a128d98c7a2a27",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Table Waterfall"
+              }
+            },
+            "Property": "Waterfall"
+          }
+        },
+        "type": "Advanced"
       }
     ]
   }

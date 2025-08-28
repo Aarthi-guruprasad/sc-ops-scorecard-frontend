@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "bb8d8e4f72bc56a30180",
+  "name": "b2320ce22d8920e50ce0",
   "position": {
-    "x": 604,
-    "y": 0,
-    "z": 1000,
-    "height": 450,
-    "width": 972.52716325636118,
-    "tabOrder": 1000
+    "x": 841.374449339207,
+    "y": 34.04405286343615,
+    "z": 0,
+    "height": 432.84581497797353,
+    "width": 969.44493392070478,
+    "tabOrder": 31001
   },
   "visual": {
     "visualType": "waterfallChart",
@@ -20,14 +20,15 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Fact_Customer_Fines"
+                      "Entity": "Dim_Profit_Center"
                     }
                   },
-                  "Property": "ComplianceName"
+                  "Property": "FP&A Cluster"
                 }
               },
-              "queryRef": "Fact_Customer_Fines.ComplianceName",
-              "nativeQueryRef": "ComplianceName"
+              "queryRef": "Dim_Profit_Center.FP&A Cluster",
+              "nativeQueryRef": "Cluster",
+              "displayName": "Cluster"
             }
           ]
         },
@@ -165,9 +166,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 9,
-                      "Percent": 0
+                    "Literal": {
+                      "Value": "'#30A51D'"
                     }
                   }
                 }
@@ -177,19 +177,9 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "Literal": {
-                      "Value": "'#30A51D'"
-                    }
-                  }
-                }
-              }
-            },
-            "otherFill": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#E87722'"
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": 0
                     }
                   }
                 }
@@ -226,6 +216,13 @@
               "expr": {
                 "Literal": {
                   "Value": "1L"
+                }
+              }
+            },
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             },
@@ -341,17 +338,6 @@
                   "Value": "'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'"
                 }
               }
-            },
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#3D4145'"
-                    }
-                  }
-                }
-              }
             }
           }
         }
@@ -437,7 +423,7 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "45a1a1d06ac1829d305e",
+  "parentGroupName": "9c5f6a4b995838230567",
   "filterConfig": {
     "filters": [
       {
@@ -482,14 +468,14 @@
                     [
                       {
                         "Literal": {
-                          "Value": "'Actual'"
+                          "Value": "'Plan'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'Last Year'"
+                          "Value": "'Actual'"
                         }
                       }
                     ]
@@ -513,50 +499,6 @@
           }
         },
         "type": "Categorical",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "d",
-              "Entity": "Dim_Profit_Center",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "Not": {
-                  "Expression": {
-                    "In": {
-                      "Expressions": [
-                        {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Source": "d"
-                              }
-                            },
-                            "Property": "FP&A Cluster"
-                          }
-                        }
-                      ],
-                      "Values": [
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'Industrial'"
-                            }
-                          }
-                        ]
-                      ]
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        "howCreated": "User",
         "objects": {
           "general": [
             {
@@ -572,7 +514,22 @@
             }
           ]
         }
+      },
+      {
+        "name": "53869cccb78d0a86a91b",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Table Waterfall"
+              }
+            },
+            "Property": "Waterfall"
+          }
+        },
+        "type": "Advanced"
       }
     ]
-  }
+  },
+  "isHidden": true
 }
