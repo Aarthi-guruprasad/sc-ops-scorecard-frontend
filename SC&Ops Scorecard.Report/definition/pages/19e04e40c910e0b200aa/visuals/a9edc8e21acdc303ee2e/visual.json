@@ -4,7 +4,7 @@
   "position": {
     "x": 240,
     "y": 210,
-    "z": 0,
+    "z": 1000,
     "height": 410,
     "width": 332,
     "tabOrder": 25000
@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "SSSO: Salvage & Obsolescence"
+                  "Property": "SSSO: Scrap-Off"
                 }
               },
-              "queryRef": "Measure.SSSO: Salvage & Obsolescence",
-              "nativeQueryRef": "SSSO: Salvage & Obs",
-              "displayName": "SSSO: Salvage & Obs"
+              "queryRef": "Measure.SSSO: Scrap-Off",
+              "nativeQueryRef": "SSSO: Scrap-Off",
+              "displayName": "SSSO: Scrap-Off"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "SSSO: Salvage & Obsolescence"
+                "Property": "SSSO: Scrap-Off"
               }
             },
             "direction": "Descending"
