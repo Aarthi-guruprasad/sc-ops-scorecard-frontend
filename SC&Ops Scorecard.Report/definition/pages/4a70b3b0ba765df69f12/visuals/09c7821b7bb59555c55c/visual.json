@@ -7,7 +7,7 @@
     "z": 21000,
     "height": 34.993441491197785,
     "width": 380.15602347255776,
-    "tabOrder": 18000
+    "tabOrder": 17000
   },
   "visual": {
     "visualType": "pageNavigator",
@@ -344,6 +344,20 @@
           },
           "selector": {
             "id": "73518d568be54c067081"
+          }
+        },
+        {
+          "properties": {
+            "showPage": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "8e20bd6d170a7251c0d1"
           }
         }
       ],

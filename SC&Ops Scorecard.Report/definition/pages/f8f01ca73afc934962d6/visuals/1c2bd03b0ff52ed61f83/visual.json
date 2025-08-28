@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Difference between planned and actual activities & resource consumption out of activity based planning (ABP) processes'"
+                  "Value": "'Difference between planned and actual activities & resource consumption out of Annual Business Plan (ABP) processes'"
                 }
               }
             }
