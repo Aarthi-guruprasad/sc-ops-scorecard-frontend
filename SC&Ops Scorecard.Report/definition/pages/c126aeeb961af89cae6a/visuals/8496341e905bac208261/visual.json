@@ -43,12 +43,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Total Distribution on COGS Actual"
+                  "Property": "Customer Fines"
                 }
               },
-              "queryRef": "Measure.Total Distribution on COGS Actual",
-              "nativeQueryRef": "Distribution to COGS",
-              "displayName": "Distribution to COGS"
+              "queryRef": "Measure.Customer Fines",
+              "nativeQueryRef": "Customer Fines",
+              "displayName": "Customer Fines"
             }
           ],
           "fieldParameters": [
