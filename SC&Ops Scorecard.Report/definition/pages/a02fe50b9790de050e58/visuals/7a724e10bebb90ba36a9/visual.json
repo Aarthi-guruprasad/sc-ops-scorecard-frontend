@@ -76,14 +76,14 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "CSCI Measures"
+                      "Entity": "Measure"
                     }
                   },
-                  "Property": "FA% L1"
+                  "Property": "Net Inventory"
                 }
               },
-              "queryRef": "CSCI Measures.FA% L1",
-              "nativeQueryRef": "FA% L1"
+              "queryRef": "Measure.Net Inventory",
+              "nativeQueryRef": "Net Inventory"
             }
           ],
           "fieldParameters": [

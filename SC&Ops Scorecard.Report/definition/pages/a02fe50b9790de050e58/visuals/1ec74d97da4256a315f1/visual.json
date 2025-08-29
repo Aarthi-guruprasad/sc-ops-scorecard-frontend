@@ -121,12 +121,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Service Rate%"
+                  "Property": "Net Inventory"
                 }
               },
-              "queryRef": "Measure.Service Rate%",
-              "nativeQueryRef": "Service Rate%",
-              "displayName": "Service Rate%"
+              "queryRef": "Measure.Net Inventory",
+              "nativeQueryRef": "Net Inventory",
+              "displayName": "Net Inventory"
             }
           ],
           "fieldParameters": [
