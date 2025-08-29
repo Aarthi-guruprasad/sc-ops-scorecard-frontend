@@ -3,9 +3,9 @@
   "name": "e6d9f90bee5c25b6da99",
   "position": {
     "x": 246,
-    "y": 12,
-    "z": 3000,
-    "height": 40,
+    "y": 8,
+    "z": 2000,
+    "height": 35,
     "width": 544,
     "tabOrder": 16000
   },
@@ -22,7 +22,7 @@
                     "value": "Select KPI for Validation",
                     "textStyle": {
                       "fontWeight": "bold",
-                      "fontSize": "11pt",
+                      "fontSize": "12pt",
                       "color": "#001489"
                     }
                   }

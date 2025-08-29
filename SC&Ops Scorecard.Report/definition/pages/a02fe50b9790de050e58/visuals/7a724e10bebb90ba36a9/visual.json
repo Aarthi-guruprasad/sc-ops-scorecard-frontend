@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "1ec74d97da4256a315f1",
+  "name": "7a724e10bebb90ba36a9",
   "position": {
-    "x": 240,
-    "y": 260,
-    "z": 16000,
-    "height": 768.00000000000011,
-    "width": 1584,
-    "tabOrder": 13000
+    "x": 245.48134301531383,
+    "y": 260.66575598533325,
+    "z": 19000,
+    "height": 781.99726795599975,
+    "width": 1574.1174778920124,
+    "tabOrder": 18001
   },
   "visual": {
     "visualType": "tableEx",
@@ -20,70 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Dim_Value_Stream"
+                      "Entity": "Dim_Profit_Center"
                     }
                   },
-                  "Property": "Global Product Number"
+                  "Property": "Area"
                 }
               },
-              "queryRef": "Dim_Value_Stream.Global Product Number",
-              "nativeQueryRef": "Global Product Number"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Dim_Value_Stream"
-                    }
-                  },
-                  "Property": "Material Type"
-                }
-              },
-              "queryRef": "Dim_Value_Stream.Material Type",
-              "nativeQueryRef": "Material Type"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Dim_Value_Stream"
-                    }
-                  },
-                  "Property": "Material Type Description"
-                }
-              },
-              "queryRef": "Dim_Value_Stream.Material Type Description",
-              "nativeQueryRef": "Material Type Description"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Dim_Value_Stream"
-                    }
-                  },
-                  "Property": "Value Stream Description"
-                }
-              },
-              "queryRef": "Dim_Value_Stream.Value Stream Description",
-              "nativeQueryRef": "Value Stream Description"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Dim_Value_Stream"
-                    }
-                  },
-                  "Property": "Value Stream_Jamie"
-                }
-              },
-              "queryRef": "Dim_Value_Stream.Value Stream_Jamie",
-              "nativeQueryRef": "Value Stream_Jamie"
+              "queryRef": "Dim_Profit_Center.Area",
+              "nativeQueryRef": "Area"
             },
             {
               "field": {
@@ -104,29 +48,42 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Dim_Profit_Center"
+                      "Entity": "Dim_Value_Stream"
                     }
                   },
-                  "Property": "Area"
+                  "Property": "Value Stream_Jamie"
                 }
               },
-              "queryRef": "Dim_Profit_Center.Area",
-              "nativeQueryRef": "Area"
+              "queryRef": "Dim_Value_Stream.Value Stream_Jamie",
+              "nativeQueryRef": "Value Stream_Jamie"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Dim_Value_Stream"
+                    }
+                  },
+                  "Property": "Value Stream Description"
+                }
+              },
+              "queryRef": "Dim_Value_Stream.Value Stream Description",
+              "nativeQueryRef": "Value Stream Description"
             },
             {
               "field": {
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Measure"
+                      "Entity": "CSCI Measures"
                     }
                   },
-                  "Property": "Service Rate%"
+                  "Property": "FA% L1"
                 }
               },
-              "queryRef": "Measure.Service Rate%",
-              "nativeQueryRef": "Service Rate%",
-              "displayName": "Service Rate%"
+              "queryRef": "CSCI Measures.FA% L1",
+              "nativeQueryRef": "FA% L1"
             }
           ],
           "fieldParameters": [
@@ -141,7 +98,7 @@
                   "Property": "Parameter"
                 }
               },
-              "index": 7,
+              "index": 4,
               "length": 1
             }
           ]
@@ -152,6 +109,20 @@
       "columnHeaders": [
         {
           "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            },
             "fontColor": {
               "solid": {
                 "color": {
@@ -172,20 +143,6 @@
                       "Value": "'#001489'"
                     }
                   }
-                }
-              }
-            },
-            "fontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "14D"
                 }
               }
             }
@@ -210,10 +167,50 @@
       "title": [
         {
           "properties": {
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Table_material'"
+                  "Value": "'Table_FA_CSCA'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
                 }
               }
             }
@@ -226,77 +223,75 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "30500865903d01a92ae2",
+        "name": "32b770e9de6da4c3c0b0",
         "field": {
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "Dim_Value_Stream"
+                "Entity": "Dim_Profit_Center"
               }
             },
-            "Property": "Global Product Number"
+            "Property": "Area"
           }
         },
-        "type": "Categorical"
-      },
-      {
-        "name": "437f137028c790047248",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "d",
+              "Entity": "Dim_Profit_Center",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Area"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'CSCA'"
+                        }
+                      }
+                    ]
+                  ]
+                }
               }
-            },
-            "Property": "Material Type"
-          }
+            }
+          ]
         },
-        "type": "Categorical"
-      },
-      {
-        "name": "5c38342e8629c8410281",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "requireSingleSelect": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
               }
-            },
-            "Property": "Material Type Description"
-          }
-        },
-        "type": "Categorical"
+            }
+          ]
+        }
       },
       {
-        "name": "dce212f74c50b086a0e1",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
-              }
-            },
-            "Property": "Value Stream Description"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "ab9d86085c2ac6a9a675",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
-              }
-            },
-            "Property": "Value Stream_Jamie"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "3b4e06ae3dbe16613c26",
+        "name": "d89fa91142442b3910a6",
         "field": {
           "Column": {
             "Expression": {
@@ -310,19 +305,34 @@
         "type": "Categorical"
       },
       {
-        "name": "b26b01660760100988ad",
+        "name": "dcb5c2669692b379ea5d",
         "field": {
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "Dim_Profit_Center"
+                "Entity": "Dim_Value_Stream"
               }
             },
-            "Property": "Area"
+            "Property": "Value Stream_Jamie"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "fb5b288b5c1b0e8c12b8",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Dim_Value_Stream"
+              }
+            },
+            "Property": "Value Stream Description"
           }
         },
         "type": "Categorical"
       }
     ]
-  }
+  },
+  "isHidden": true
 }

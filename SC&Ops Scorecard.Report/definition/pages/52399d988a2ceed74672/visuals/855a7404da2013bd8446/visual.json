@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "855a7404da2013bd8446",
   "position": {
-    "x": 22,
-    "y": 105.77245483895922,
+    "x": 22.362499101301317,
+    "y": 99.388884894672515,
     "z": 1000,
-    "height": 135,
-    "width": 425,
+    "height": 160,
+    "width": 424.887482924725,
     "tabOrder": 3000
   },
   "visual": {
@@ -19,7 +19,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "This section is a qualitative and quantitative measure of Perrigo's internal environment, employee engagement, and overall talent management. It's about fostering a productive, inclusive, and high-performing workplace.",
+                    "value": "The Distribution tab provides a focused view of warehouse performance KPIs across the CSCA segment, structured in alignment with Anthony's Distribution Tab. It captures key operational metrics centered on Employee Safety, Warehouse & Transportation Variance, etc",
                     "textStyle": {
                       "fontSize": "14pt"
                     }
