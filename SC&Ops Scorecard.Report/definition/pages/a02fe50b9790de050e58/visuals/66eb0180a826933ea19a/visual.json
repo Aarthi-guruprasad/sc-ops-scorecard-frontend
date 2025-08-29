@@ -51,11 +51,11 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "SSSO: Obsolescenes linked to Conversions"
+                  "Property": "Customer Fines"
                 }
               },
-              "queryRef": "Measure.SSSO: Obsolescenes linked to Conversions",
-              "nativeQueryRef": "SSSO: Obsolescenes linked to Conversions"
+              "queryRef": "Measure.Customer Fines",
+              "nativeQueryRef": "Customer Fines"
             }
           ],
           "fieldParameters": [

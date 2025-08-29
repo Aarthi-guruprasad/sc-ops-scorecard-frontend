@@ -79,11 +79,11 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "FA% Lag2"
+                  "Property": "Net Inventory"
                 }
               },
-              "queryRef": "Measure.FA% Lag2",
-              "nativeQueryRef": "FA% Lag2"
+              "queryRef": "Measure.Net Inventory",
+              "nativeQueryRef": "Net Inventory"
             }
           ],
           "fieldParameters": [

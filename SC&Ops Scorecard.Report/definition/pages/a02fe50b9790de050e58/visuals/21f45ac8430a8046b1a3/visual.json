@@ -166,5 +166,51 @@
     },
     "drillFilterOtherVisuals": true
   },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "016ec5107133195d4a60",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Dim_Profit_Center"
+              }
+            },
+            "Property": "Profit Center"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "7af837449009c7682255",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Dim_Profit_Center"
+              }
+            },
+            "Property": "FP&A Cluster"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "cdb1ed2582ddb445763e",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Dim_Profit_Center"
+              }
+            },
+            "Property": "Area"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  },
   "isHidden": true
 }
