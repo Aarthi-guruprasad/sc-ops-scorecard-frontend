@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "56789268afc63929fe8b",
   "position": {
-    "x": 16,
-    "y": 736,
-    "z": 1000,
-    "height": 192,
-    "width": 192,
+    "x": 32.89956143504206,
+    "y": 802.24315191602557,
+    "z": 12500,
+    "height": 192.33589762024587,
+    "width": 167.02854267021354,
     "tabOrder": 14000
   },
   "visual": {
@@ -67,7 +67,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'''Measure''[Net Inventory]'"
+                                "Value": "'''Measure''[Service Rate%]'"
                               }
                             }
                           ]
@@ -95,7 +95,7 @@
                                 "0": [
                                   {
                                     "Literal": {
-                                      "Value": "'''Measure''[Net Inventory]'"
+                                      "Value": "'''Measure''[Service Rate%]'"
                                     }
                                   }
                                 ]
@@ -119,7 +119,7 @@
                         },
                         "valueMap": [
                           {
-                            "0": "Net Inventory"
+                            "0": "Service Rate%"
                           }
                         ]
                       }
@@ -403,5 +403,6 @@
         }
       }
     ]
-  }
+  },
+  "isHidden": true
 }

@@ -38,29 +38,29 @@
               {
                 "textRuns": [
                   {
-                    "value": "Safety of Our People",
-                    "textStyle": {
-                      "fontSize": "12pt"
-                    }
-                  }
-                ],
-                "listType": "bullet"
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": "Quality of Our Products",
-                    "textStyle": {
-                      "fontSize": "12pt"
-                    }
-                  }
-                ],
-                "listType": "bullet"
-              },
-              {
-                "textRuns": [
-                  {
                     "value": "Growth of Our Sales",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Operations, Quality & Safety.",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Working Capital",
                     "textStyle": {
                       "fontSize": "12pt"
                     }
@@ -83,17 +83,6 @@
                 "textRuns": [
                   {
                     "value": "Culture of Winning",
-                    "textStyle": {
-                      "fontSize": "12pt"
-                    }
-                  }
-                ],
-                "listType": "bullet"
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": "Working Capital",
                     "textStyle": {
                       "fontSize": "12pt"
                     }
