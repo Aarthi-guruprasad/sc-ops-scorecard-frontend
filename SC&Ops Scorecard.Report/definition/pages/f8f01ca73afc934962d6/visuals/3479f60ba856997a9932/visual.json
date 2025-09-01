@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "35d90698ab450d1ca935",
+  "name": "3479f60ba856997a9932",
   "position": {
-    "x": 404.14695520885755,
+    "x": 1740.3062765116113,
     "y": 0,
-    "z": 114000,
+    "z": 118001,
     "height": 43.988784240419875,
-    "width": 1336.1593213027536,
-    "tabOrder": 15000
+    "width": 489.37522467467107,
+    "tabOrder": 118001
   },
   "visual": {
     "visualType": "shape",
@@ -49,6 +49,24 @@
               }
             }
           }
+        },
+        {
+          "properties": {
+            "fillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#001498'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
         }
       ],
       "outline": [
@@ -80,13 +98,8 @@
           "properties": {
             "text": {
               "expr": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Selected Filters CSCA"
+                "Literal": {
+                  "Value": "'Quick link to view KPI Owner''s Names'"
                 }
               }
             },
@@ -95,7 +108,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#001489'"
+                      "Value": "'#001498'"
                     }
                   }
                 }
@@ -111,7 +124,21 @@
             "horizontalAlignment": {
               "expr": {
                 "Literal": {
-                  "Value": "'left'"
+                  "Value": "'center'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "underline": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }
@@ -222,6 +249,33 @@
               "expr": {
                 "Literal": {
                   "Value": "70L"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualLink": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "type": {
+              "expr": {
+                "Literal": {
+                  "Value": "'PageNavigation'"
+                }
+              }
+            },
+            "navigationSection": {
+              "expr": {
+                "Literal": {
+                  "Value": "'5569488b0879e1120314'"
                 }
               }
             }
