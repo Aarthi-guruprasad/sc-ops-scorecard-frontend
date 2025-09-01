@@ -23,11 +23,11 @@
                       "Entity": "Bridge_Site_Area"
                     }
                   },
-                  "Property": "Site Hierarchy"
+                  "Property": "Area"
                 }
               },
-              "queryRef": "Bridge_Site_Area.Site Hierarchy",
-              "nativeQueryRef": "Site Hierarchy"
+              "queryRef": "Bridge_Site_Area.Area",
+              "nativeQueryRef": "Area"
             },
             {
               "field": {
@@ -37,11 +37,11 @@
                       "Entity": "Bridge_Site_Area"
                     }
                   },
-                  "Property": "Site"
+                  "Property": "Site Hierarchy"
                 }
               },
-              "queryRef": "Bridge_Site_Area.Site",
-              "nativeQueryRef": "Site"
+              "queryRef": "Bridge_Site_Area.Site Hierarchy",
+              "nativeQueryRef": "Site Hierarchy"
             },
             {
               "field": {
@@ -65,11 +65,11 @@
                       "Entity": "Bridge_Site_Area"
                     }
                   },
-                  "Property": "Area"
+                  "Property": "Site"
                 }
               },
-              "queryRef": "Bridge_Site_Area.Area",
-              "nativeQueryRef": "Area1"
+              "queryRef": "Bridge_Site_Area.Site",
+              "nativeQueryRef": "Site"
             },
             {
               "field": {

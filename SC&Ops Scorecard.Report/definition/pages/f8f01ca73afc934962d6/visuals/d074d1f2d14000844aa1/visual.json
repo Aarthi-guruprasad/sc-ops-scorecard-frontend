@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "d074d1f2d14000844aa1",
   "position": {
-    "x": 228.880325854332,
-    "y": 1144.8398646876078,
+    "x": 228.19181824717808,
+    "y": 1143.7083902509166,
     "z": 99000,
-    "height": 50.159475319295822,
-    "width": 2001.0990680013806,
+    "height": 52.2366812854986,
+    "width": 2001.4896829391041,
     "tabOrder": 12000
   },
   "visual": {
@@ -93,7 +93,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'** Note: Customer Fines breakdown is not available on Business Unit and Value Stream Level.'"
+                  "Value": "'** Note: All KPIs in Operating Income section are not filtered on Site Group level except SSSO & Customer fines at  Business Unit level. '"
                 }
               }
             },
