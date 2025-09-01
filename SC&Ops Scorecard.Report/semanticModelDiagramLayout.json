@@ -4,7 +4,7 @@
     {
       "ordinal": 0,
       "scrollPosition": {
-        "x": 1314.6588890961375,
+        "x": 1314.4374336688006,
         "y": 637.94737960234556
       },
       "nodes": [
@@ -951,6 +951,16 @@
           },
           "nodeIndex": "Distribution CSCA",
           "nodeLineageTag": "886fc3a1-1d66-49ae-8d74-9ea0aa1e6816",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "Dim_Target",
+          "nodeLineageTag": "3945f5ab-aaeb-4693-bfe9-712651f85ebd",
           "size": {
             "height": 300,
             "width": 234
