@@ -6,8 +6,7 @@
     "y": 4.420176681367372,
     "z": 1000,
     "height": 393.57982331863263,
-    "width": 1227.6924792328705,
-    "tabOrder": 1000
+    "width": 1227.6924792328705
   },
   "visual": {
     "visualType": "lineStackedColumnComboChart",
@@ -78,27 +77,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Switch_Plan_OI"
+                  "Property": "Switch_Plan_Flex_OI"
                 }
               },
-              "queryRef": "Measure.Switch_Plan_OI",
-              "nativeQueryRef": "Plan",
-              "displayName": "Plan"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Switch_Flex_OI"
-                }
-              },
-              "queryRef": "Measure.Switch_Flex_OI",
-              "nativeQueryRef": "Flex",
-              "displayName": "Flex"
+              "queryRef": "Measure.Switch_Plan_Flex_OI",
+              "nativeQueryRef": "Plan/Flex",
+              "displayName": "Plan/Flex"
             }
           ]
         }
@@ -175,7 +159,7 @@
             }
           },
           "selector": {
-            "metadata": "Measure.Switch_Plan_OI"
+            "metadata": "Measure.Switch_Plan_Flex_OI"
           }
         }
       ],
@@ -584,7 +568,8 @@
             "Property": "Switch_Flex_OI"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       },
       {
         "name": "01eeaced1ec771e86f9e",
@@ -680,7 +665,8 @@
             "Property": "Switch_Plan_OI"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       },
       {
         "name": "0890bc2c96a023ed9491",

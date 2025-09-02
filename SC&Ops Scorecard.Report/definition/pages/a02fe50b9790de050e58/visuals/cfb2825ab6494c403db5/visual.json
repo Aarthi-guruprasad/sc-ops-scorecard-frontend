@@ -7,7 +7,7 @@
     "z": 18000,
     "height": 768.00000000000011,
     "width": 1584,
-    "tabOrder": 10000
+    "tabOrder": 9000
   },
   "visual": {
     "visualType": "tableEx",
@@ -138,24 +138,6 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "6b469b65836211b4cad7",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Fact_Customer_Fines"
-              }
-            },
-            "Property": "ComplianceName"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   },
   "isHidden": true
 }

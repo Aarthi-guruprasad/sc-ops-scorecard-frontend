@@ -6,8 +6,7 @@
     "y": 5,
     "z": 1000,
     "height": 392,
-    "width": 1230,
-    "tabOrder": 1000
+    "width": 1230
   },
   "visual": {
     "visualType": "lineStackedColumnComboChart",
@@ -43,12 +42,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Customer Fines"
+                  "Property": "Net Sales Actual"
                 }
               },
-              "queryRef": "Measure.Customer Fines",
-              "nativeQueryRef": "Customer Fines",
-              "displayName": "Customer Fines"
+              "queryRef": "Measure.Net Sales Actual",
+              "nativeQueryRef": "Net Sales",
+              "displayName": "Net Sales"
             }
           ],
           "fieldParameters": [
@@ -78,27 +77,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Switch_Plan_OI"
+                  "Property": "Switch_Plan_Flex_OI"
                 }
               },
-              "queryRef": "Measure.Switch_Plan_OI",
-              "nativeQueryRef": "Plan",
-              "displayName": "Plan"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Switch_Flex_OI"
-                }
-              },
-              "queryRef": "Measure.Switch_Flex_OI",
-              "nativeQueryRef": "Flex",
-              "displayName": "Flex"
+              "queryRef": "Measure.Switch_Plan_Flex_OI",
+              "nativeQueryRef": "Plan/Flex",
+              "displayName": "Plan/Flex"
             }
           ]
         }
@@ -175,7 +159,7 @@
             }
           },
           "selector": {
-            "metadata": "Measure.Switch_Plan_OI"
+            "metadata": "Measure.Switch_Plan_Flex_OI"
           }
         }
       ],
@@ -577,7 +561,8 @@
             "Property": "Switch_Flex_OI"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       },
       {
         "name": "01eeaced1ec771e86f9e",
@@ -658,7 +643,8 @@
             "Property": "Switch_Plan_OI"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       },
       {
         "name": "b4beab507340420595cb",

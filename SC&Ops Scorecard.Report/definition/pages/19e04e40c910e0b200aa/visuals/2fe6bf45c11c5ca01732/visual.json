@@ -329,20 +329,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "f829f043328bb035a532",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measure"
-              }
-            },
-            "Property": "Total Logistics on Net Sales Actual"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }

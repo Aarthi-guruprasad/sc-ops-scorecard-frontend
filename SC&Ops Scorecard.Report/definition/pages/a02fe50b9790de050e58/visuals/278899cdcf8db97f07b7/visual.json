@@ -6,8 +6,7 @@
     "y": 600,
     "z": 6000,
     "height": 80,
-    "width": 200,
-    "tabOrder": 1000
+    "width": 200
   },
   "visual": {
     "visualType": "slicer",
@@ -223,20 +222,6 @@
           ]
         },
         "howCreated": "User"
-      },
-      {
-        "name": "49f263de07d6a5ae0ebd",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Profit_Center"
-              }
-            },
-            "Property": "Area"
-          }
-        },
-        "type": "Categorical"
       }
     ]
   }

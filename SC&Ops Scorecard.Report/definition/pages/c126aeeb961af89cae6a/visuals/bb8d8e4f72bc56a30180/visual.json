@@ -6,7 +6,8 @@
     "y": 0,
     "z": 1000,
     "height": 450,
-    "width": 972.52716325636118
+    "width": 972.52716325636118,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "waterfallChart",
@@ -481,14 +482,14 @@
                     [
                       {
                         "Literal": {
-                          "Value": "'Actual'"
+                          "Value": "'Plan'"
                         }
                       }
                     ],
                     [
                       {
                         "Literal": {
-                          "Value": "'Last Year'"
+                          "Value": "'Actual'"
                         }
                       }
                     ]
@@ -512,49 +513,6 @@
           }
         },
         "type": "Categorical",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "d",
-              "Entity": "Dim_Profit_Center",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "Not": {
-                  "Expression": {
-                    "In": {
-                      "Expressions": [
-                        {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Source": "d"
-                              }
-                            },
-                            "Property": "FP&A Cluster"
-                          }
-                        }
-                      ],
-                      "Values": [
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'Industrial'"
-                            }
-                          }
-                        ]
-                      ]
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        },
         "howCreated": "User",
         "objects": {
           "general": [

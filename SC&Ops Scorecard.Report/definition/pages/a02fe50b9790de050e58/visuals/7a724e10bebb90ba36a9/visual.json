@@ -7,7 +7,7 @@
     "z": 19000,
     "height": 781.99726795599975,
     "width": 1574.1174778920124,
-    "tabOrder": 18001
+    "tabOrder": 18000
   },
   "visual": {
     "visualType": "tableEx",
@@ -289,48 +289,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "d89fa91142442b3910a6",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Profit_Center"
-              }
-            },
-            "Property": "FP&A Cluster"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "dcb5c2669692b379ea5d",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
-              }
-            },
-            "Property": "Value Stream_Jamie"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "fb5b288b5c1b0e8c12b8",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
-              }
-            },
-            "Property": "Value Stream Description"
-          }
-        },
-        "type": "Categorical"
       }
     ]
   },
