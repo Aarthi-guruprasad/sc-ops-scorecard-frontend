@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Customer Fines"
+                  "Property": "Net Sales Actual"
                 }
               },
-              "queryRef": "Measure.Customer Fines",
-              "nativeQueryRef": "Customer Fines",
-              "displayName": "Customer Fines"
+              "queryRef": "Measure.Net Sales Actual",
+              "nativeQueryRef": "Net Sales",
+              "displayName": "Net Sales"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "Customer Fines"
+                "Property": "Net Sales Actual"
               }
             },
             "direction": "Descending"
