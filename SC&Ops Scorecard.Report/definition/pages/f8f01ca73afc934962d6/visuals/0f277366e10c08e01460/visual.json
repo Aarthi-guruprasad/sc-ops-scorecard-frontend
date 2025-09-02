@@ -6,7 +6,7 @@
     "y": 290,
     "z": 6000,
     "height": 40,
-    "width": 260,
+    "width": 325,
     "tabOrder": 20000
   },
   "visual": {
@@ -100,7 +100,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Operations & Quality'"
+                  "Value": "'Operations, Quality & Safety'"
                 }
               }
             },

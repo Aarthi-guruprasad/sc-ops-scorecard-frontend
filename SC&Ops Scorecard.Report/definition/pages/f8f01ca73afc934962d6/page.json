@@ -1162,7 +1162,7 @@
     {
       "source": "c49f36864d58435fdefa",
       "target": "7fdf9a66dd5d01552939",
-      "type": "NoFilter"
+      "type": "DataFilter"
     },
     {
       "source": "864ce8e9700cd4bce761",
