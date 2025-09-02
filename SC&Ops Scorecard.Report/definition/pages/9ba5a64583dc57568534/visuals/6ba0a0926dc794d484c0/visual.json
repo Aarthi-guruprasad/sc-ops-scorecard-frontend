@@ -171,6 +171,20 @@
           ]
         },
         "howCreated": "User"
+      },
+      {
+        "name": "6785b9c17cae7864b994",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure"
+              }
+            },
+            "Property": "Switch_YTD_Operations"
+          }
+        },
+        "type": "Advanced"
       }
     ]
   }
