@@ -42,12 +42,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "OEE%"
+                  "Property": "RFT%"
                 }
               },
-              "queryRef": "Measure.OEE%",
-              "nativeQueryRef": "OEE%",
-              "displayName": "OEE%"
+              "queryRef": "Measure.RFT%",
+              "nativeQueryRef": "RFT%",
+              "displayName": "RFT%"
             }
           ],
           "fieldParameters": [
@@ -78,7 +78,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "OEE%"
+                "Property": "RFT%"
               }
             },
             "direction": "Descending"

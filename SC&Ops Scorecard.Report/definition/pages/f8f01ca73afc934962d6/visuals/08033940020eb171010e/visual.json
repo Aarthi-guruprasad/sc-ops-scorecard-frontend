@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "08033940020eb171010e",
   "position": {
-    "x": 1492.48288366718,
-    "y": 572,
+    "x": 1446.1312819038033,
+    "y": 569.10489611043215,
     "z": 91000,
-    "height": 26,
-    "width": 26,
+    "height": 27.492990150262422,
+    "width": 24.74369113523618,
     "tabOrder": 17000
   },
   "visual": {
@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Discrepancies between reported value of inventory and actual value of inventory, usually identified through physical inventory audits'"
+                  "Value": "'Inflated inventory contains Unrealized Profit and is applicable when goods are sold between Perrigo entities. When inflating inventory value with the unrealized profit we increase the value financially to reflect the intercompany profit that will be realized when the goods are sold to the final customer. Inflated inventory is used in the reconciliation between CFIN and BW inventory.'"
                 }
               }
             }

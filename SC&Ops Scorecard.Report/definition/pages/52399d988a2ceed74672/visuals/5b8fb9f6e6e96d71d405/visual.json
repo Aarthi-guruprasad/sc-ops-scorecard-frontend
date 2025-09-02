@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "5b8fb9f6e6e96d71d405",
   "position": {
-    "x": 611.53515064562407,
-    "y": 333.3142037302726,
+    "x": 611.241642102236,
+    "y": 300.65137680638435,
     "z": 34000,
-    "height": 393.91678622668576,
-    "width": 1038.5078909612625,
+    "height": 487.00553598389536,
+    "width": 1038.6138471493277,
     "tabOrder": 16000
   },
   "visual": {
@@ -1209,20 +1209,19 @@
         "howCreated": "User"
       },
       {
-        "name": "7c375a84909b5510714a",
+        "name": "f097dcfa56acdb06aa76",
         "ordinal": 3,
         "field": {
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "KPI_Metadata"
+                "Entity": "Measure"
               }
             },
             "Property": "KPI Status Icon (Operations&Quality)"
           }
         },
-        "type": "Advanced",
-        "howCreated": "User"
+        "type": "Advanced"
       }
     ],
     "filterSortOrder": "Custom"

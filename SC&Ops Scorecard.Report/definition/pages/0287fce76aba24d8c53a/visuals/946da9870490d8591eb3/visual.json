@@ -75,7 +75,7 @@
             "maxTiles": {
               "expr": {
                 "Literal": {
-                  "Value": "12L"
+                  "Value": "6L"
                 }
               }
             }
@@ -218,7 +218,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'''Measure''[OEE%]'"
+                                "Value": "'''Measure''[RFT%]'"
                               }
                             }
                           ]
@@ -571,6 +571,21 @@
                       "0": "RFT%"
                     }
                   ]
+                }
+              }
+            }
+          ]
+        },
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
                 }
               }
             }

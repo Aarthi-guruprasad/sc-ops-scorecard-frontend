@@ -3,11 +3,10 @@
   "name": "106514ba1072189b99eb",
   "position": {
     "x": 1439.5732546599929,
-    "y": 740.2319641007939,
+    "y": 830.98996915600037,
     "z": 23000,
     "height": 26,
-    "width": 26,
-    "tabOrder": 78000
+    "width": 26
   },
   "visual": {
     "visualType": "actionButton",
