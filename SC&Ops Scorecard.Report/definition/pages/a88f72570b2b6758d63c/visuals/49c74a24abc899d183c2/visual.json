@@ -967,14 +967,14 @@
                         [
                           {
                             "Literal": {
-                              "Value": "'HRA - RD'"
+                              "Value": "'Industrial'"
                             }
                           }
                         ],
                         [
                           {
                             "Literal": {
-                              "Value": "'Industrial'"
+                              "Value": "'HRA - RD'"
                             }
                           }
                         ]
@@ -1350,8 +1350,147 @@
         }
       },
       {
-        "name": "c5523b202848c800a4c4",
+        "name": "59e7a6e8538769900710",
         "ordinal": 3,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Dim_Rejection_Reason_Code"
+              }
+            },
+            "Property": "Service Level_Flag"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "d",
+              "Entity": "Dim_Rejection_Reason_Code",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "Service Level_Flag"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "1D"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "requireSingleSelect": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "994dbacf6adda14252f4",
+        "ordinal": 4,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact_SALESORDER_PBI_Full"
+              }
+            },
+            "Property": "Sales Document Item Category"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "f",
+              "Entity": "Fact_SALESORDER_PBI_Full",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "f"
+                          }
+                        },
+                        "Property": "Sales Document Item Category"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Z135'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'ZDS'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'ZSP'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "c5523b202848c800a4c4",
+        "ordinal": 5,
         "field": {
           "Measure": {
             "Expression": {
@@ -1366,7 +1505,7 @@
       },
       {
         "name": "f97ea3862a61e99e0697",
-        "ordinal": 4,
+        "ordinal": 6,
         "field": {
           "Column": {
             "Expression": {
@@ -1381,7 +1520,7 @@
       },
       {
         "name": "aeb54cd08cdae0d4d435",
-        "ordinal": 5,
+        "ordinal": 7,
         "field": {
           "Column": {
             "Expression": {
@@ -1396,7 +1535,7 @@
       },
       {
         "name": "7f49fcea13cbd5a2b329",
-        "ordinal": 6,
+        "ordinal": 8,
         "field": {
           "Column": {
             "Expression": {

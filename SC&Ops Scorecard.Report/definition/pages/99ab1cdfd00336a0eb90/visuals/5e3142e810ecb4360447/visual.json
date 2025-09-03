@@ -472,119 +472,46 @@
         "howCreated": "User"
       },
       {
-        "name": "10cad057342b2afdbfdf",
+        "name": "4ac585586d76b67190d7",
         "field": {
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "Bridge_Site"
+                "Entity": "Bridge_Site_Area"
               }
             },
             "Property": "Site Group"
           }
         },
-        "type": "Categorical",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "b",
-              "Entity": "Bridge_Site",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "Not": {
-                  "Expression": {
-                    "In": {
-                      "Expressions": [
-                        {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Source": "b"
-                              }
-                            },
-                            "Property": "Site Group"
-                          }
-                        }
-                      ],
-                      "Values": [
-                        [
-                          {
-                            "Literal": {
-                              "Value": "null"
-                            }
-                          }
-                        ],
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'CSCI'"
-                            }
-                          }
-                        ],
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'HER'"
-                            }
-                          }
-                        ],
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'LDM'"
-                            }
-                          }
-                        ],
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'MGX'"
-                            }
-                          }
-                        ],
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'Sandbox'"
-                            }
-                          }
-                        ],
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'PUK'"
-                            }
-                          }
-                        ]
-                      ]
-                    }
-                  }
-                }
+        "type": "Categorical"
+      },
+      {
+        "name": "b6dd739e8f644bb83e57",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
               }
-            }
-          ]
+            },
+            "Property": "Site"
+          }
         },
-        "howCreated": "User",
-        "objects": {
-          "general": [
-            {
-              "properties": {
-                "isInvertedSelectionMode": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "true"
-                    }
-                  }
-                }
+        "type": "Categorical"
+      },
+      {
+        "name": "601639c906a2385203c6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
               }
-            }
-          ]
-        }
+            },
+            "Property": "Site Hierarchy"
+          }
+        },
+        "type": "Categorical"
       }
     ]
   }
