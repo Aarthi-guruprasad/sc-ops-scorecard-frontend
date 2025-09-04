@@ -6,7 +6,8 @@
     "y": 864.936200561249,
     "z": 8000,
     "height": 85.731561729639225,
-    "width": 232.427789578133
+    "width": 232.427789578133,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -390,7 +391,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'vs Plan'"
+                                "Value": "'vs PP'"
                               }
                             }
                           ]

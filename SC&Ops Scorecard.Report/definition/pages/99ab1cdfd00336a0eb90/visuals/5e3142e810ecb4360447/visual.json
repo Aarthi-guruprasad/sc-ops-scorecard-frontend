@@ -6,8 +6,7 @@
     "y": 2.5,
     "z": 98000,
     "height": 35,
-    "width": 207.77777777777777,
-    "tabOrder": 2000
+    "width": 207.77777777777777
   },
   "visual": {
     "visualType": "slicer",
@@ -471,6 +470,48 @@
           ]
         },
         "howCreated": "User"
+      },
+      {
+        "name": "4ac585586d76b67190d7",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Site Group"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "b6dd739e8f644bb83e57",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Site"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "601639c906a2385203c6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Site Hierarchy"
+          }
+        },
+        "type": "Categorical"
       }
     ]
   }

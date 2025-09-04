@@ -42,7 +42,7 @@
               },
               "queryRef": "Bridge_Site_Area.Site",
               "nativeQueryRef": "Site",
-              "active": true
+              "active": false
             },
             {
               "field": {
@@ -115,20 +115,7 @@
             "isPinned": true
           }
         ],
-        "root": {
-          "children": [
-            {
-              "identityValues": [
-                {
-                  "Literal": {
-                    "Value": "'MI OTC'"
-                  }
-                }
-              ],
-              "isToggled": true
-            }
-          ]
-        }
+        "root": {}
       }
     ],
     "objects": {
@@ -139,6 +126,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Dropdown'"
+                }
+              }
+            },
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

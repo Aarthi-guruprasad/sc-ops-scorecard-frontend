@@ -6,8 +6,7 @@
     "y": 536.85185185185185,
     "z": 38000,
     "height": 65,
-    "width": 212,
-    "tabOrder": 79000
+    "width": 212
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -487,6 +486,20 @@
         },
         "type": "Advanced",
         "howCreated": "User"
+      },
+      {
+        "name": "901054936991b43170ea",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "CG_PeriodSelection"
+              }
+            },
+            "Property": "Period"
+          }
+        },
+        "type": "Categorical"
       }
     ]
   }
