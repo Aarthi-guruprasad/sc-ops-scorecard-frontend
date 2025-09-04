@@ -7,7 +7,7 @@
     "z": 16000,
     "height": 74.285714285714292,
     "width": 390,
-    "tabOrder": 111000
+    "tabOrder": 108000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -1827,7 +1827,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "981a86c4a29b803da265",
+        "name": "6fb4522f3ad1f1ce6100",
         "ordinal": 0,
         "field": {
           "Measure": {
@@ -1836,11 +1836,80 @@
                 "Entity": "Measure"
               }
             },
-            "Property": "On Time Closure of Deviations%"
+            "Property": "Critical or Major Observations"
           }
         },
-        "type": "Advanced",
-        "howCreated": "User"
+        "type": "Advanced"
+      },
+      {
+        "name": "fa1313d708a8ff7e7c77",
+        "ordinal": 1,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Area"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "b",
+              "Entity": "Bridge_Site_Area",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "b"
+                          }
+                        },
+                        "Property": "Area"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'CSCA'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "requireSingleSelect": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "filterSortOrder": "Custom"

@@ -7,7 +7,7 @@
     "z": 5000,
     "height": 85.731561729639225,
     "width": 232.427789578133,
-    "tabOrder": 23000
+    "tabOrder": 22000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -552,20 +552,6 @@
           ]
         },
         "howCreated": "User"
-      },
-      {
-        "name": "def38e179f43ac0ed733",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "MetricSelector"
-              }
-            },
-            "Property": "Metric"
-          }
-        },
-        "type": "Categorical"
       }
     ]
   }
