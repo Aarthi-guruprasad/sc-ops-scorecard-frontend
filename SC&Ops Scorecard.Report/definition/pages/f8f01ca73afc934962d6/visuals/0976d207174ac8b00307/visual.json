@@ -3,7 +3,7 @@
   "name": "0976d207174ac8b00307",
   "position": {
     "x": 2180,
-    "y": 428.78381411244942,
+    "y": 428,
     "z": 119006,
     "height": 29.09090909090909,
     "width": 29.09090909090909,
@@ -101,6 +101,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'WebUrl'"
+                }
+              }
+            },
+            "webUrl": {
+              "expr": {
+                "Literal": {
+                  "Value": "'https://app.powerbi.com/groups/me/apps/c50c03c2-fea7-46b8-8515-2877745c40e6/reports/af04bc82-cb89-4274-b396-64e23e3eb009/ReportSection36dbcbf666df501094e8?experience=power-bi'"
                 }
               }
             }
