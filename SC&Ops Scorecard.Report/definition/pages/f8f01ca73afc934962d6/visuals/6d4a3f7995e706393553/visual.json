@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "03a340a118f410a950cf",
+  "name": "6d4a3f7995e706393553",
   "position": {
-    "x": 1047.4829247249982,
-    "y": 426.14134732906751,
-    "z": 118003,
-    "height": 74.231073405708528,
-    "width": 387.65116111870014,
-    "tabOrder": 118003
+    "x": 1055.7142857142858,
+    "y": 427.14285714285717,
+    "z": 133001,
+    "height": 75.714285714285722,
+    "width": 387.14285714285717,
+    "tabOrder": 133001
   },
   "visual": {
     "visualType": "cardVisual",
@@ -1826,6 +1826,76 @@
           }
         },
         "type": "Advanced"
+      },
+      {
+        "name": "5cf05589125f87c0499e",
+        "ordinal": 1,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "CG_PeriodSelection"
+              }
+            },
+            "Property": "Period"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "c",
+              "Entity": "CG_PeriodSelection",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "c"
+                          }
+                        },
+                        "Property": "Period"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'PTD'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "requireSingleSelect": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "filterSortOrder": "Custom"
