@@ -131,61 +131,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "6c5991e2649040b19e4b",
-        "ordinal": 2,
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Bridge_Site_Area"
-              }
-            },
-            "Property": "Area"
-          }
-        },
-        "type": "Categorical",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "b",
-              "Entity": "Bridge_Site_Area",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "In": {
-                  "Expressions": [
-                    {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Source": "b"
-                          }
-                        },
-                        "Property": "Area"
-                      }
-                    }
-                  ],
-                  "Values": [
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'CSCA'"
-                        }
-                      }
-                    ]
-                  ]
-                }
-              }
-            }
-          ]
-        },
-        "howCreated": "User"
       }
     ],
     "filterSortOrder": "Custom"
@@ -1167,6 +1112,76 @@
     {
       "source": "864ce8e9700cd4bce761",
       "target": "7fdf9a66dd5d01552939",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "51d76106a873ad3277a0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "d4e095fe4aadbfdf13a2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "d21be2e0c821105255f3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "c053d1e2986ea0e43036",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "dc0e893c147a65e72d1e",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "5cd97d5808105797417a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "dca284996730d3a845a1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "b296a7fa81509ae1e07a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "08033940020eb171010e",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5cd97d5808105797417a",
+      "target": "31b384467163481bc0b5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0805f6b4c67d7e312963",
+      "target": "e97219748892bf0a2133",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0805f6b4c67d7e312963",
+      "target": "03a340a118f410a950cf",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0805f6b4c67d7e312963",
+      "target": "bdb338ed87bba6e4ad77",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0805f6b4c67d7e312963",
+      "target": "21c757962429ac47b09d",
       "type": "NoFilter"
     }
   ]
