@@ -106,7 +106,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'P7 2025'"
+                                "Value": "'P6 2025'"
                               }
                             }
                           ]
@@ -203,5 +203,23 @@
       "filterChanges": true
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "138cc3a07e7177e52819",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Dim_DateSlicer"
+              }
+            },
+            "Property": "P_YearPeriod"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
   }
 }
