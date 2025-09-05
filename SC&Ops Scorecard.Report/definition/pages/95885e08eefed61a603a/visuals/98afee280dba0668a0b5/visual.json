@@ -167,51 +167,5 @@
     "drillFilterOtherVisuals": true
   },
   "parentGroupName": "efa8a543faebedc852b8",
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "de3a989bfc67789541fd",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Bridge_Site_Area"
-              }
-            },
-            "Property": "Site Hierarchy"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "4bce491a2401085f4ee5",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Bridge_Site_Area"
-              }
-            },
-            "Property": "Site Group"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "7013f9f0b586e65e4557",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Bridge_Site_Area"
-              }
-            },
-            "Property": "Area"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
-  },
   "isHidden": true
 }

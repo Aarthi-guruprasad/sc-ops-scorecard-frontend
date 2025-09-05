@@ -37,27 +37,12 @@
                       "Entity": "Bridge_Site_Area"
                     }
                   },
-                  "Property": "Site"
-                }
-              },
-              "queryRef": "Bridge_Site_Area.Site",
-              "nativeQueryRef": "Site",
-              "active": false
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Bridge_Site_Area"
-                    }
-                  },
                   "Property": "Site Hierarchy"
                 }
               },
               "queryRef": "Bridge_Site_Area.Site Hierarchy",
               "nativeQueryRef": "Site Hierarchy",
-              "active": false
+              "active": true
             }
           ]
         }
@@ -90,32 +75,36 @@
           },
           {
             "queryRefs": [
-              "Bridge_Site_Area.Site"
-            ],
-            "isCollapsed": true,
-            "identityKeys": [
-              {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Bridge_Site_Area"
-                    }
-                  },
-                  "Property": "Site"
-                }
-              }
-            ],
-            "isPinned": true
-          },
-          {
-            "queryRefs": [
               "Bridge_Site_Area.Site Hierarchy"
             ],
             "isCollapsed": true,
             "isPinned": true
           }
         ],
-        "root": {}
+        "root": {
+          "children": [
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'Nutrition'"
+                  }
+                }
+              ],
+              "isToggled": true
+            },
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'Oral Care'"
+                  }
+                }
+              ],
+              "isToggled": true
+            }
+          ]
+        }
       }
     ],
     "objects": {
@@ -126,13 +115,6 @@
               "expr": {
                 "Literal": {
                   "Value": "'Dropdown'"
-                }
-              }
-            },
-            "isInvertedSelectionMode": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
                 }
               }
             }
@@ -437,7 +419,8 @@
             "Property": "Site"
           }
         },
-        "type": "Categorical"
+        "type": "Categorical",
+        "howCreated": "User"
       },
       {
         "name": "10cad057342b2afdbfdf",

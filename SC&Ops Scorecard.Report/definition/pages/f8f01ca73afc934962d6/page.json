@@ -3,7 +3,7 @@
   "name": "f8f01ca73afc934962d6",
   "displayName": "Scorecard",
   "displayOption": "FitToPage",
-  "height": 1195,
+  "height": 1250,
   "width": 2230,
   "filterConfig": {
     "filters": [
@@ -180,7 +180,7 @@
           "width": {
             "expr": {
               "Literal": {
-                "Value": "260L"
+                "Value": "205L"
               }
             }
           }
@@ -1182,6 +1182,31 @@
     {
       "source": "0805f6b4c67d7e312963",
       "target": "21c757962429ac47b09d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "53571ba165cb1e0276cb",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "828f4d508eee4310505a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "59dc1aa3abb6ce968e59",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "32abc56cbabdd3155c00",
+      "type": "NoFilter"
+    },
+    {
+      "source": "31b384467163481bc0b5",
+      "target": "6952c8982415091668c7",
       "type": "NoFilter"
     }
   ]
