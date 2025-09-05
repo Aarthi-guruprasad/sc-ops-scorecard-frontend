@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "9e33a6f55b21d38ac561",
+  "name": "ecc8a920d040e2a02c88",
   "position": {
-    "x": 1040,
-    "y": 351.66666666666669,
-    "z": 114000,
-    "height": 28.333333333333336,
-    "width": 26.666666666666668,
-    "tabOrder": 100012
+    "x": 740.50638675198309,
+    "y": 450,
+    "z": 12000,
+    "height": 28.888888888888889,
+    "width": 25.555555555555554,
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "actionButton",
@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Percentage of Good catch - Proactive safety or quality initiative where individuals identify and report potential hazards, near misses, or situations that could have led to negative consequences (accidents, errors, defects) before they actually occurred - which have been closed on time'"
+                  "Value": "'Rate of Incidents reported as per ASTM E2920: Standard Guide for Recording Occupational Injuries and Illnesses'"
                 }
               }
             }

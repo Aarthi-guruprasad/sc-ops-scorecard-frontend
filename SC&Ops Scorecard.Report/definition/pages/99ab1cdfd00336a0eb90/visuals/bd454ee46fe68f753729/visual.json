@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "bd454ee46fe68f753729",
   "position": {
-    "x": 634.44444444444446,
-    "y": 258.88888888888886,
+    "x": 351.910273923359,
+    "y": 360.15817096843773,
     "z": 4000,
-    "height": 74.444444444444443,
-    "width": 390,
-    "tabOrder": 2000
+    "height": 74.231073405708528,
+    "width": 390.40046013372637,
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -1840,6 +1840,76 @@
           }
         },
         "type": "Advanced"
+      },
+      {
+        "name": "5e899e987101f58e7e31",
+        "ordinal": 1,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Area"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "b",
+              "Entity": "Bridge_Site_Area",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "b"
+                          }
+                        },
+                        "Property": "Area"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'CSCI'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "requireSingleSelect": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "filterSortOrder": "Custom"

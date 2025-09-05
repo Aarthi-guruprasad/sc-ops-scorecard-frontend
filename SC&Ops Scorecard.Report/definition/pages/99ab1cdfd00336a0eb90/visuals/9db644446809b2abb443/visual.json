@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "93a31b993d0057a4d308",
+  "name": "9db644446809b2abb443",
   "position": {
-    "x": 633.33333333333337,
-    "y": 351.66666666666669,
-    "z": 107000,
-    "height": 73.333333333333343,
-    "width": 386.66666666666669,
-    "tabOrder": 100002
+    "x": 1440.206017232907,
+    "y": 451.20921808136706,
+    "z": 5000,
+    "height": 74.231073405708528,
+    "width": 387.97528416311371,
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -23,11 +23,11 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "ASTM -Rate"
+                  "Property": "GOOD Catch Closure Rate"
                 }
               },
-              "queryRef": "Measure.ASTM -Rate",
-              "nativeQueryRef": "ASTM -Rate"
+              "queryRef": "Measure.GOOD Catch Closure Rate",
+              "nativeQueryRef": "GOOD Catch Closure Rate"
             }
           ]
         }
@@ -42,7 +42,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "ASTM -Rate"
+                "Property": "GOOD Catch Closure Rate"
               }
             },
             "direction": "Descending"
@@ -179,7 +179,7 @@
                           "Entity": "Measure"
                         }
                       },
-                      "Property": "ASTM Rate_Color_KPI"
+                      "Property": "Good Catch Closure Rate_Color_KPI"
                     }
                   }
                 }
@@ -753,7 +753,7 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "ASTM Rate Switch"
+                  "Property": "Good Catch Closure Rate Switch"
                 }
               }
             }
@@ -766,8 +766,8 @@
                 }
               }
             ],
-            "metadata": "Measure.ASTM -Rate",
-            "id": "field-1d571d20-7019-a2d1-ee74-89f0775a09f9",
+            "metadata": "Measure.GOOD Catch Closure Rate",
+            "id": "field-bfc06749-0fd9-490a-57ca-9a2fb1342928",
             "order": 0
           }
         }
@@ -1163,8 +1163,8 @@
             }
           },
           "selector": {
-            "metadata": "Measure.ASTM -Rate",
-            "id": "field-1d571d20-7019-a2d1-ee74-89f0775a09f9"
+            "metadata": "Measure.GOOD Catch Closure Rate",
+            "id": "field-bfc06749-0fd9-490a-57ca-9a2fb1342928"
           }
         },
         {
@@ -1190,8 +1190,8 @@
                 }
               }
             ],
-            "metadata": "Measure.ASTM -Rate",
-            "id": "field-1d571d20-7019-a2d1-ee74-89f0775a09f9"
+            "metadata": "Measure.GOOD Catch Closure Rate",
+            "id": "field-bfc06749-0fd9-490a-57ca-9a2fb1342928"
           }
         }
       ],
@@ -1377,7 +1377,7 @@
                           "Entity": "Measure"
                         }
                       },
-                      "Property": "ASTM Rate_Color"
+                      "Property": "Good Catch Closure Rate_Color"
                     }
                   }
                 }
@@ -1392,8 +1392,8 @@
                 }
               }
             ],
-            "metadata": "Measure.ASTM -Rate",
-            "id": "field-1d571d20-7019-a2d1-ee74-89f0775a09f9"
+            "metadata": "Measure.GOOD Catch Closure Rate",
+            "id": "field-bfc06749-0fd9-490a-57ca-9a2fb1342928"
           }
         }
       ],
@@ -1597,7 +1597,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'ASTM Rate'"
+                  "Value": "'Good Catch Closure Rate%'"
                 }
               }
             },
@@ -1800,7 +1800,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
@@ -1813,7 +1813,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "60d2507d270633b5a038",
+        "name": "2fd1fd3b188736c3922a",
         "ordinal": 0,
         "field": {
           "Measure": {
@@ -1822,22 +1822,22 @@
                 "Entity": "Measure"
               }
             },
-            "Property": "ASTM -Rate"
+            "Property": "GOOD Catch Closure Rate"
           }
         },
         "type": "Advanced"
       },
       {
-        "name": "09bd6c91a0bee5544bff",
+        "name": "0a286e0c6b3d2c6df313",
         "ordinal": 1,
         "field": {
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "Fact_Safety"
+                "Entity": "CG_PeriodSelection"
               }
             },
-            "Property": "Site name/Site UUID/Location UUID"
+            "Property": "Period"
           }
         },
         "type": "Categorical",
@@ -1845,8 +1845,8 @@
           "Version": 2,
           "From": [
             {
-              "Name": "f",
-              "Entity": "Fact_Safety",
+              "Name": "c",
+              "Entity": "CG_PeriodSelection",
               "Type": 0
             }
           ],
@@ -1859,10 +1859,10 @@
                       "Column": {
                         "Expression": {
                           "SourceRef": {
-                            "Source": "f"
+                            "Source": "c"
                           }
                         },
-                        "Property": "Site name/Site UUID/Location UUID"
+                        "Property": "Period"
                       }
                     }
                   ],
@@ -1870,35 +1870,7 @@
                     [
                       {
                         "Literal": {
-                          "Value": "'Belgium-Medgenix'"
-                        }
-                      }
-                    ],
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'France-Laboratoire de la Mer'"
-                        }
-                      }
-                    ],
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'France-Plelo'"
-                        }
-                      }
-                    ],
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'Germany-Herrenberg'"
-                        }
-                      }
-                    ],
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'UK-Braunton (PUK)'"
+                          "Value": "'PTD'"
                         }
                       }
                     ]
@@ -1908,7 +1880,22 @@
             }
           ]
         },
-        "howCreated": "User"
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "requireSingleSelect": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "filterSortOrder": "Custom"

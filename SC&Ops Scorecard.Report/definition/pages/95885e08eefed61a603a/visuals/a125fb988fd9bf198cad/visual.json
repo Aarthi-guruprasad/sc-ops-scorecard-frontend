@@ -153,23 +153,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "efa8a543faebedc852b8",
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "b38700d0b336752d3755",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Profit_Center"
-              }
-            },
-            "Property": "FP&A Cluster"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
-  }
+  "parentGroupName": "efa8a543faebedc852b8"
 }

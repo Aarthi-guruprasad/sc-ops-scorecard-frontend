@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "31b384467163481bc0b5",
   "position": {
-    "x": 632.72727272727263,
-    "y": 458.18181818181813,
-    "z": 119011,
-    "height": 42.727272727272727,
-    "width": 109.09090909090908,
-    "tabOrder": 119010
+    "x": 191.99618951757856,
+    "y": 5.7516715795528626,
+    "z": 10000,
+    "height": 69.020058954633683,
+    "width": 267.45272844920555,
+    "tabOrder": 10000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -23,14 +23,31 @@
                       "Entity": "Fact_Safety"
                     }
                   },
-                  "Property": "Site Group"
+                  "Property": "CSCA_flag"
                 }
               },
-              "queryRef": "Fact_Safety.Site Group",
-              "nativeQueryRef": "Site Group"
+              "queryRef": "Fact_Safety.CSCA_flag",
+              "nativeQueryRef": "CSCA_flag"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Fact_Safety"
+                  }
+                },
+                "Property": "CSCA_flag"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
       }
     },
     "objects": {
@@ -64,7 +81,7 @@
                                   "Source": "f"
                                 }
                               },
-                              "Property": "Site Group"
+                              "Property": "CSCA_flag"
                             }
                           }
                         ],
@@ -72,7 +89,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'CSCA'"
+                                "Value": "'Yes'"
                               }
                             }
                           ]
@@ -99,7 +116,7 @@
             "columnCount": {
               "expr": {
                 "Literal": {
-                  "Value": "1L"
+                  "Value": "2L"
                 }
               }
             },
@@ -382,7 +399,14 @@
             "singleSelect": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "strictSingleSelect": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }
@@ -397,7 +421,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             },
@@ -437,6 +461,20 @@
               "expr": {
                 "Literal": {
                   "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Show Overall CSCA Rollup'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
                 }
               }
             }
@@ -479,68 +517,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "a46e4bd9834bd0a7b212",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Fact_Safety"
-              }
-            },
-            "Property": "Site Group"
-          }
-        },
-        "type": "Categorical",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "f",
-              "Entity": "Fact_Safety",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "In": {
-                  "Expressions": [
-                    {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Source": "f"
-                          }
-                        },
-                        "Property": "Site Group"
-                      }
-                    }
-                  ],
-                  "Values": [
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'CSCA'"
-                        }
-                      }
-                    ]
-                  ]
-                }
-              }
-            }
-          ]
-        },
-        "objects": {
-          "general": [
-            {
-              "properties": {}
-            }
-          ]
-        }
-      }
-    ]
-  }
+  "parentGroupName": "dedfdb275d10c01a90f6"
 }

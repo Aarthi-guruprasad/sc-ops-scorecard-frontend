@@ -4,10 +4,10 @@
   "position": {
     "x": 1430,
     "y": 101.44011045909562,
-    "z": 18000,
+    "z": 13000,
     "height": 72.92898610381684,
     "width": 390.98039772324023,
-    "tabOrder": 31000
+    "tabOrder": 20000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -2187,20 +2187,6 @@
         },
         "type": "Categorical",
         "howCreated": "User"
-      },
-      {
-        "name": "35dfe52c03330e15293e",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "CSCI Measures"
-              }
-            },
-            "Property": "Service Level %"
-          }
-        },
-        "type": "Advanced"
       }
     ],
     "filterSortOrder": "Custom"

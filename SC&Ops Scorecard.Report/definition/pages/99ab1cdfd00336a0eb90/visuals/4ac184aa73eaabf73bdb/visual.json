@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "a4ee6e422ae9ce38d8de",
+  "name": "4ac184aa73eaabf73bdb",
   "position": {
-    "x": 240,
-    "y": 353.33333333333337,
-    "z": 110000,
-    "height": 73.333333333333343,
-    "width": 388.33333333333337,
-    "tabOrder": 100005
+    "x": 1831.784492476299,
+    "y": 450.48684106205081,
+    "z": 7000,
+    "height": 76.666666666666671,
+    "width": 385.321906354515,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -23,11 +23,11 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "ASTM Incidents"
+                  "Property": "pSIF SIFs Focus"
                 }
               },
-              "queryRef": "Measure.ASTM Incidents",
-              "nativeQueryRef": "ASTM Incidents"
+              "queryRef": "Measure.pSIF SIFs Focus",
+              "nativeQueryRef": "pSIF SIFs Focus"
             }
           ]
         }
@@ -42,7 +42,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "ASTM Incidents"
+                "Property": "pSIF SIFs Focus"
               }
             },
             "direction": "Descending"
@@ -179,7 +179,7 @@
                           "Entity": "Measure"
                         }
                       },
-                      "Property": "ASTM Incidents_Color_KPI"
+                      "Property": "pSIF SIFs Focus_Color_KPI"
                     }
                   }
                 }
@@ -753,7 +753,7 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "ASTM Incidents Switch"
+                  "Property": "pSIF SIFs Focus Switch"
                 }
               }
             }
@@ -766,8 +766,8 @@
                 }
               }
             ],
-            "metadata": "Measure.ASTM Incidents",
-            "id": "field-9fdeaac6-0cc7-a3d9-1130-66c0ae28657b",
+            "metadata": "Measure.pSIF SIFs Focus",
+            "id": "field-956afee5-0c74-4122-3c0b-1c0e82fe111a",
             "order": 0
           }
         }
@@ -1163,8 +1163,8 @@
             }
           },
           "selector": {
-            "metadata": "Measure.ASTM Incidents",
-            "id": "field-9fdeaac6-0cc7-a3d9-1130-66c0ae28657b"
+            "metadata": "Measure.pSIF SIFs Focus",
+            "id": "field-956afee5-0c74-4122-3c0b-1c0e82fe111a"
           }
         },
         {
@@ -1190,8 +1190,8 @@
                 }
               }
             ],
-            "metadata": "Measure.ASTM Incidents",
-            "id": "field-9fdeaac6-0cc7-a3d9-1130-66c0ae28657b"
+            "metadata": "Measure.pSIF SIFs Focus",
+            "id": "field-956afee5-0c74-4122-3c0b-1c0e82fe111a"
           }
         }
       ],
@@ -1377,7 +1377,7 @@
                           "Entity": "Measure"
                         }
                       },
-                      "Property": "ASTM Incidents_Color"
+                      "Property": "pSIF SIFs Focus_Color"
                     }
                   }
                 }
@@ -1392,8 +1392,8 @@
                 }
               }
             ],
-            "metadata": "Measure.ASTM Incidents",
-            "id": "field-9fdeaac6-0cc7-a3d9-1130-66c0ae28657b"
+            "metadata": "Measure.pSIF SIFs Focus",
+            "id": "field-956afee5-0c74-4122-3c0b-1c0e82fe111a"
           }
         }
       ],
@@ -1597,7 +1597,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'ASTM Incidents'"
+                  "Value": "'pSIF SIF Focus Actions %'"
                 }
               }
             },
@@ -1800,7 +1800,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
@@ -1813,7 +1813,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "32939da94e9ad5e9c015",
+        "name": "1ef6012dcd1ded5e7c4a",
         "ordinal": 0,
         "field": {
           "Measure": {
@@ -1822,22 +1822,22 @@
                 "Entity": "Measure"
               }
             },
-            "Property": "ASTM Incidents"
+            "Property": "pSIF SIFs Focus"
           }
         },
         "type": "Advanced"
       },
       {
-        "name": "3ea4da892ade1efc4e8d",
+        "name": "f8f35a0ca763cc71bd17",
         "ordinal": 1,
         "field": {
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "Fact_Safety"
+                "Entity": "CG_PeriodSelection"
               }
             },
-            "Property": "Site name/Site UUID/Location UUID"
+            "Property": "Period"
           }
         },
         "type": "Categorical",
@@ -1845,8 +1845,8 @@
           "Version": 2,
           "From": [
             {
-              "Name": "f",
-              "Entity": "Fact_Safety",
+              "Name": "c",
+              "Entity": "CG_PeriodSelection",
               "Type": 0
             }
           ],
@@ -1859,10 +1859,10 @@
                       "Column": {
                         "Expression": {
                           "SourceRef": {
-                            "Source": "f"
+                            "Source": "c"
                           }
                         },
-                        "Property": "Site name/Site UUID/Location UUID"
+                        "Property": "Period"
                       }
                     }
                   ],
@@ -1870,35 +1870,7 @@
                     [
                       {
                         "Literal": {
-                          "Value": "'Belgium-Medgenix'"
-                        }
-                      }
-                    ],
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'France-Laboratoire de la Mer'"
-                        }
-                      }
-                    ],
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'France-Plelo'"
-                        }
-                      }
-                    ],
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'Germany-Herrenberg'"
-                        }
-                      }
-                    ],
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'UK-Braunton (PUK)'"
+                          "Value": "'PTD'"
                         }
                       }
                     ]
@@ -1908,7 +1880,22 @@
             }
           ]
         },
-        "howCreated": "User"
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "requireSingleSelect": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "filterSortOrder": "Custom"

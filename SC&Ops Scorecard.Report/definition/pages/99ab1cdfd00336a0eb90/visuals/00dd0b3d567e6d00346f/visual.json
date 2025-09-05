@@ -2,8 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "00dd0b3d567e6d00346f",
   "position": {
-    "x": 1827,
-    "y": 259.45652176839303,
+    "x": 1423.5536303432632,
+    "y": 357.97650483291562,
     "z": 2000,
     "height": 75,
     "width": 390,
@@ -1827,7 +1827,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "981a86c4a29b803da265",
+        "name": "1c085554bd9dbe4777bd",
         "ordinal": 0,
         "field": {
           "Measure": {
@@ -1836,11 +1836,80 @@
                 "Entity": "Measure"
               }
             },
-            "Property": "On Time Closure of Deviations%"
+            "Property": "Critical or Major Observations"
           }
         },
-        "type": "Advanced",
-        "howCreated": "User"
+        "type": "Advanced"
+      },
+      {
+        "name": "884680cd1d36e07e3501",
+        "ordinal": 1,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Area"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "b",
+              "Entity": "Bridge_Site_Area",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "b"
+                          }
+                        },
+                        "Property": "Area"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'CSCI'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "requireSingleSelect": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "filterSortOrder": "Custom"

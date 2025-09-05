@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "bf16ca17e78b38de4379",
+  "name": "5611c845a56e24afb96d",
   "position": {
-    "x": 645,
-    "y": 351.66666666666669,
-    "z": 112000,
-    "height": 28.333333333333336,
-    "width": 26.666666666666668,
-    "tabOrder": 100009
+    "x": 1447.0776721201087,
+    "y": 450,
+    "z": 16000,
+    "height": 27.116907739170898,
+    "width": 26.559410727046661,
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "actionButton",
@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Rate of Incidents reported as per ASTM E2920: Standard Guide for Recording Occupational Injuries and Illnesses'"
+                  "Value": "'Percentage of Good catch - Proactive safety or quality initiative where individuals identify and report potential hazards, near misses, or situations that could have led to negative consequences (accidents, errors, defects) before they actually occurred - which have been closed on time'"
                 }
               }
             }
