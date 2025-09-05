@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Schedule adherence or on-schedule performance, is a metric that measures how well actual work completion aligns with the planned or scheduled completion dates'"
+                  "Value": "'The percentage of finished goods batches produced that were not affected by a batch-related deviation'"
                 }
               }
             }

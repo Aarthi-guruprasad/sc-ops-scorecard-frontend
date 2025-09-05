@@ -55,8 +55,8 @@
                 }
               },
               "queryRef": "CSCI Measures.FA Target CSCI",
-              "nativeQueryRef": "FA Target CSCI",
-              "displayName": "FA Target CSCI"
+              "nativeQueryRef": "FA% CSCI Plan",
+              "displayName": "FA% CSCI Plan"
             }
           ],
           "fieldParameters": [

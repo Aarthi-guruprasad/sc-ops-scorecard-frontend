@@ -88,7 +88,7 @@
               "identityValues": [
                 {
                   "Literal": {
-                    "Value": "'Nutrition'"
+                    "Value": "'Oral Care'"
                   }
                 }
               ],
@@ -98,7 +98,7 @@
               "identityValues": [
                 {
                   "Literal": {
-                    "Value": "'Oral Care'"
+                    "Value": "'MI OTC'"
                   }
                 }
               ],
