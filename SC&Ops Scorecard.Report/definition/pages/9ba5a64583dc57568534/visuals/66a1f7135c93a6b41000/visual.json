@@ -2,9 +2,9 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "66a1f7135c93a6b41000",
   "position": {
-    "x": 48.000000000000007,
-    "y": 672,
-    "z": 28000,
+    "x": 45.457110764057717,
+    "y": 46,
+    "z": 0,
     "height": 312,
     "width": 144,
     "tabOrder": 1000
@@ -123,6 +123,13 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
+                }
+              }
+            },
+            "selectAllCheckboxEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             },
@@ -362,10 +369,10 @@
       "title": [
         {
           "properties": {
-            "show": {
+            "titleWrap": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
@@ -381,6 +388,26 @@
                   "Value": "false"
                 }
               }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
             }
           }
         }
@@ -388,5 +415,6 @@
     },
     "drillFilterOtherVisuals": true
   },
+  "parentGroupName": "f36e20d4a8fbd6c5deb6",
   "isHidden": true
 }

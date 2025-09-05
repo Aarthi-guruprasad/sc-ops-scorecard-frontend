@@ -5,6 +5,8 @@
   "options": {
     "applyOnlyToTargetVisuals": true,
     "targetVisualNames": [
+      "9ac1b88aecdb8753a0e6",
+      "f8faf5d2d69ff37350db",
       "d62b2a75e06760555ad0",
       "c7b4282b429cbbd2e2b5",
       "946da9870490d8591eb3"
@@ -182,9 +184,155 @@
           ]
         },
         "visualContainers": {
+          "20527f95e9683320c407": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "90394e100d0ed5ee4353": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "9687fb0c14289c7aea31": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "aceb37937d8d5ac6d99d": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "b83f0c1e1bc03289b76b": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
           "048bd65f00434d4a0834": {
             "singleVisual": {
               "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "4b58816abcbca213a1f8": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "baa321dcb63820e27388": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "9e41a76719373a5065cc",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "LastN"
+                        }
+                      },
+                      "Property": "LastN"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "l",
+                                "Entity": "LastN",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "Comparison": {
+                                    "ComparisonKind": 0,
+                                    "Left": {
+                                      "Column": {
+                                        "Expression": {
+                                          "SourceRef": {
+                                            "Source": "l"
+                                          }
+                                        },
+                                        "Property": "LastN"
+                                      }
+                                    },
+                                    "Right": {
+                                      "Literal": {
+                                        "Value": "6D"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "data": [
+                    {
+                      "properties": {
+                        "numericStart": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "6D"
+                            }
+                          }
+                        },
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Single'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "LastN"
+                        }
+                      },
+                      "Property": "LastN"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "be998c9de1f2e0146224": {
+            "singleVisual": {
+              "visualType": "actionButton",
               "objects": {}
             }
           },
@@ -213,7 +361,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "275a1377598f16b6d64f",
+                  "name": "23197755e00efd7e807f",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -303,7 +451,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "e9caec20546dd044bf30",
+                  "name": "8ef0a37cf07d5b374fea",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -318,7 +466,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "7d111d453463fdcf0492",
+                  "name": "e27211d47d92549cfbcc",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -367,18 +515,6 @@
                 ]
               },
               "projections": {
-                "Category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site_Area"
-                        }
-                      },
-                      "Property": "Site"
-                    }
-                  }
-                ],
                 "Y": [
                   {
                     "Measure": {
@@ -388,6 +524,18 @@
                         }
                       },
                       "Property": "GOOD Catch Closure Rate"
+                    }
+                  }
+                ],
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Site"
                     }
                   }
                 ]
@@ -410,6 +558,78 @@
                   }
                 ]
               }
+            }
+          },
+          "250215b6c56670cda672": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "35746698c21eb8db175a": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "3968cedb6eba02d59206": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "3d5dc3ec026e86b32123": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "3ea492c4388021c342b9": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "40cc7c0d8b1dd8b43a95": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "47fa18164d90c5bd7573": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "557c8a2cc0037e3c8920": {
+            "singleVisual": {
+              "visualType": "bookmarkNavigator",
+              "objects": {}
+            }
+          },
+          "5a88b7525bca27176382": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "6592e4ce405b3c87b402": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "398f37af3bea35478834": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "6b5dfe4d104807c540bd": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
             }
           },
           "1ddcef06d8cc00e446ec": {
@@ -465,7 +685,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "887ac1d9640badcb6118",
+                  "name": "74aa2da68557b3e4860a",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -480,7 +700,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "f12933a7cfc2991ef165",
+                  "name": "3dd51263df7a9b1f140c",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -495,7 +715,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "d4481165afca8ef42fa4",
+                  "name": "9a3455efe73b3c385ded",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -529,18 +749,6 @@
                 ]
               },
               "projections": {
-                "Category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_DateSlicer"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                ],
                 "Y": [
                   {
                     "Measure": {
@@ -550,6 +758,18 @@
                         }
                       },
                       "Property": "GOOD Catch Closure Rate"
+                    }
+                  }
+                ],
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_DateSlicer"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
                     }
                   }
                 ],
@@ -586,13 +806,13 @@
               }
             }
           },
-          "20527f95e9683320c407": {
+          "c0d503604954dd0ba4ab": {
             "singleVisual": {
-              "visualType": "actionButton",
+              "visualType": "shape",
               "objects": {}
             }
           },
-          "250215b6c56670cda672": {
+          "754060648d3b5e1825a9": {
             "singleVisual": {
               "visualType": "image",
               "objects": {}
@@ -604,88 +824,121 @@
               "objects": {}
             }
           },
-          "35746698c21eb8db175a": {
+          "af228d08a4995a6d3012": {
             "singleVisual": {
               "visualType": "textbox",
               "objects": {}
             }
           },
-          "3968cedb6eba02d59206": {
+          "b64797384790a9291934": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ddc219eff47fb3dede27",
+                  "type": "RelativeDate",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "Dim_Date",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Between": {
+                            "Expression": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "d"
+                                  }
+                                },
+                                "Property": "Date"
+                              }
+                            },
+                            "LowerBound": {
+                              "DateSpan": {
+                                "Expression": {
+                                  "DateAdd": {
+                                    "Expression": {
+                                      "Now": {}
+                                    },
+                                    "Amount": -1,
+                                    "TimeUnit": 1
+                                  }
+                                },
+                                "TimeUnit": 1
+                              }
+                            },
+                            "UpperBound": {
+                              "DateSpan": {
+                                "Expression": {
+                                  "DateAdd": {
+                                    "Expression": {
+                                      "Now": {}
+                                    },
+                                    "Amount": -1,
+                                    "TimeUnit": 1
+                                  }
+                                },
+                                "TimeUnit": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Date"
+                        }
+                      },
+                      "Property": "Date"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "dc82b97824d27738eb91",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Last Closed Period"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
             "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "398f37af3bea35478834": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "3d5dc3ec026e86b32123": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "3ea492c4388021c342b9": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "40cc7c0d8b1dd8b43a95": {
-            "singleVisual": {
-              "visualType": "shape",
-              "objects": {}
-            }
-          },
-          "47fa18164d90c5bd7573": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "4b58816abcbca213a1f8": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "54a56540cb300b9bc317": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "557c8a2cc0037e3c8920": {
-            "singleVisual": {
-              "visualType": "bookmarkNavigator",
-              "objects": {}
-            }
-          },
-          "5a88b7525bca27176382": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "6592e4ce405b3c87b402": {
-            "singleVisual": {
-              "visualType": "shape",
-              "objects": {}
-            }
-          },
-          "6b5dfe4d104807c540bd": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "754060648d3b5e1825a9": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
+              "visualType": "card",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Last Closed Period"
+                    }
+                  }
+                }
+              ]
             }
           },
           "7e6fd40c752c3d340723": {
@@ -697,12 +950,6 @@
           "820144efcdd30b104e0c": {
             "singleVisual": {
               "visualType": "image",
-              "objects": {}
-            }
-          },
-          "90394e100d0ed5ee4353": {
-            "singleVisual": {
-              "visualType": "actionButton",
               "objects": {}
             }
           },
@@ -901,111 +1148,11 @@
               }
             }
           },
-          "9687fb0c14289c7aea31": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "993f7427238b2b8ba911": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "f84e43e92f69b1b11ed2",
-                  "type": "Categorical",
-                  "filter": {
-                    "Version": 2,
-                    "From": [
-                      {
-                        "Name": "c",
-                        "Entity": "CG_PeriodSelection",
-                        "Type": 0
-                      }
-                    ],
-                    "Where": [
-                      {
-                        "Condition": {
-                          "In": {
-                            "Expressions": [
-                              {
-                                "Column": {
-                                  "Expression": {
-                                    "SourceRef": {
-                                      "Source": "c"
-                                    }
-                                  },
-                                  "Property": "Period"
-                                }
-                              }
-                            ],
-                            "Values": [
-                              [
-                                {
-                                  "Literal": {
-                                    "Value": "'YTD'"
-                                  }
-                                }
-                              ]
-                            ]
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "CG_PeriodSelection"
-                        }
-                      },
-                      "Property": "Period"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "570bd4f4dce77f3b017b",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Switch_YTD_Operations"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "card",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Switch_YTD_Operations"
-                    }
-                  }
-                }
-              ]
-            }
-          },
           "ace3c7110c01242c3c2a": {
             "filters": {
               "byExpr": [
                 {
-                  "name": "56ef53611a344e3eda5f",
+                  "name": "39e1a353924febb8cc8a",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1131,256 +1278,11 @@
               }
             }
           },
-          "aceb37937d8d5ac6d99d": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "af228d08a4995a6d3012": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "b64797384790a9291934": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "ddc219eff47fb3dede27",
-                  "type": "RelativeDate",
-                  "filter": {
-                    "Version": 2,
-                    "From": [
-                      {
-                        "Name": "d",
-                        "Entity": "Dim_Date",
-                        "Type": 0
-                      }
-                    ],
-                    "Where": [
-                      {
-                        "Condition": {
-                          "Between": {
-                            "Expression": {
-                              "Column": {
-                                "Expression": {
-                                  "SourceRef": {
-                                    "Source": "d"
-                                  }
-                                },
-                                "Property": "Date"
-                              }
-                            },
-                            "LowerBound": {
-                              "DateSpan": {
-                                "Expression": {
-                                  "DateAdd": {
-                                    "Expression": {
-                                      "Now": {}
-                                    },
-                                    "Amount": -1,
-                                    "TimeUnit": 1
-                                  }
-                                },
-                                "TimeUnit": 1
-                              }
-                            },
-                            "UpperBound": {
-                              "DateSpan": {
-                                "Expression": {
-                                  "DateAdd": {
-                                    "Expression": {
-                                      "Now": {}
-                                    },
-                                    "Amount": -1,
-                                    "TimeUnit": 1
-                                  }
-                                },
-                                "TimeUnit": 1
-                              }
-                            }
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Date"
-                        }
-                      },
-                      "Property": "Date"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "983e6a77a2a3e64b101a",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Last Closed Period"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "card",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Last Closed Period"
-                    }
-                  }
-                }
-              ]
-            }
-          },
-          "b83f0c1e1bc03289b76b": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "baa321dcb63820e27388": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "75aa665bd20f8fff8406",
-                  "type": "Advanced",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "LastN"
-                        }
-                      },
-                      "Property": "LastN"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "general": [
-                    {
-                      "properties": {
-                        "filter": {
-                          "filter": {
-                            "Version": 2,
-                            "From": [
-                              {
-                                "Name": "l",
-                                "Entity": "LastN",
-                                "Type": 0
-                              }
-                            ],
-                            "Where": [
-                              {
-                                "Condition": {
-                                  "Comparison": {
-                                    "ComparisonKind": 0,
-                                    "Left": {
-                                      "Column": {
-                                        "Expression": {
-                                          "SourceRef": {
-                                            "Source": "l"
-                                          }
-                                        },
-                                        "Property": "LastN"
-                                      }
-                                    },
-                                    "Right": {
-                                      "Literal": {
-                                        "Value": "6D"
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    }
-                  ],
-                  "data": [
-                    {
-                      "properties": {
-                        "numericStart": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "6D"
-                            }
-                          }
-                        },
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Single'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "activeProjections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "LastN"
-                        }
-                      },
-                      "Property": "LastN"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "be998c9de1f2e0146224": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "c0d503604954dd0ba4ab": {
-            "singleVisual": {
-              "visualType": "shape",
-              "objects": {}
-            }
-          },
           "c7b4282b429cbbd2e2b5": {
             "filters": {
               "byExpr": [
                 {
-                  "name": "7aa71abf92622624d50b",
+                  "name": "90d3be5967160f480f61",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1395,7 +1297,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "ede4f1c09400252c85bb",
+                  "name": "75110f28a63cfa76cb55",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1455,7 +1357,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "1fe7cdfccf3ad4bdd698",
+                  "name": "0d2a01dcbe27402ff99f",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1470,7 +1372,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "a5460898905e22740515",
+                  "name": "13f4ec3890e7a2c59891",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1611,7 +1513,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "fa4cc3b35127997c958e",
+                  "name": "d9adb630cc7abbc6892d",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1737,7 +1639,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "90259eee3b20b963e399",
+                  "name": "e38bd2cb1ef97e153802",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1819,6 +1721,106 @@
               ]
             }
           },
+          "54a56540cb300b9bc317": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "993f7427238b2b8ba911": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "f84e43e92f69b1b11ed2",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "c",
+                        "Entity": "CG_PeriodSelection",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "c"
+                                    }
+                                  },
+                                  "Property": "Period"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'YTD'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "CG_PeriodSelection"
+                        }
+                      },
+                      "Property": "Period"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "7a744ba97a110bd5bdbb",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Switch_YTD_Operations"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Switch_YTD_Operations"
+                    }
+                  }
+                }
+              ]
+            }
+          },
           "ee6e96e08ddc561dd400": {
             "singleVisual": {
               "visualType": "textbox",
@@ -1883,7 +1885,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "55c13574a47ab33f72b4",
+                  "name": "55ca43286866cdddd067",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1931,6 +1933,79 @@
                     }
                   }
                 ]
+              }
+            }
+          },
+          "f8faf5d2d69ff37350db": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "fe8e69233cfaf0bc2dd6",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Slicer_CrossFilter"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "6227405f1831ff5f2769",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Locations"
+                        }
+                      },
+                      "Property": "Focus Lines"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Locations"
+                        }
+                      },
+                      "Property": "Focus Lines"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
               }
             }
           }

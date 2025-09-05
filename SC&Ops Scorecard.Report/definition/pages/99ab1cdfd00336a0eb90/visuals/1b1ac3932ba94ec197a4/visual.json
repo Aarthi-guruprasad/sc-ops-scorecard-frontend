@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "31b74002cc20eb519856",
+  "name": "1b1ac3932ba94ec197a4",
   "position": {
-    "x": 229,
-    "y": 260.12785691059821,
-    "z": 33000,
-    "height": 75,
-    "width": 390,
-    "tabOrder": 19000
+    "x": 676.87981089763014,
+    "y": 259.50663676586458,
+    "z": 19000,
+    "height": 80.014546336141592,
+    "width": 380.6097339232681,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -1680,7 +1680,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -1803,7 +1803,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#E7EBF1'"
+                      "Value": "'#e6e6e6'"
                     }
                   }
                 }
@@ -1840,5 +1840,23 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "94b7a4c978a205ca4973",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure"
+              }
+            },
+            "Property": "OEE%"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

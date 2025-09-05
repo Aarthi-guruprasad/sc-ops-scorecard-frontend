@@ -2,9 +2,9 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "0e051d46c5e70ca02dab",
   "position": {
-    "x": 845,
-    "y": 626,
-    "z": 30000,
+    "x": 842.45711076405769,
+    "y": 0,
+    "z": 2000,
     "height": 456,
     "width": 984,
     "tabOrder": 27000
@@ -610,13 +610,6 @@
                   "Value": "true"
                 }
               }
-            },
-            "fontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'"
-                }
-              }
             }
           }
         }
@@ -627,7 +620,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -653,23 +646,11 @@
             }
           }
         }
-      ],
-      "divider": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
       ]
     },
     "drillFilterOtherVisuals": true
   },
+  "parentGroupName": "f36e20d4a8fbd6c5deb6",
   "filterConfig": {
     "filters": [
       {

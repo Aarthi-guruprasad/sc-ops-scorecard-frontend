@@ -974,8 +974,88 @@
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,
       "tablesLocked": false
+    },
+    {
+      "ordinal": 1,
+      "scrollPosition": {
+        "x": 0,
+        "y": 1.6000000238418579
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 334.17020956240867,
+            "y": 200.1723612002196
+          },
+          "nodeIndex": "Dim_Locations",
+          "nodeLineageTag": "aabbe84a-a398-4d88-9446-c821f0ed3c6e",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 618.349140698079,
+            "y": 407.01858598591235
+          },
+          "nodeIndex": "Fact_OEE",
+          "nodeLineageTag": "3f61f95a-6eac-4c6a-8470-152a91e76f37",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 13.823433192864059
+          },
+          "nodeIndex": "Bridge_CSCA_CSCI",
+          "nodeLineageTag": "bea2d168-2b0e-4846-8581-8c512fc77c71",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 75.551209993206385,
+            "y": 550.34213082235829
+          },
+          "nodeIndex": "Bridge_Site_Area",
+          "nodeLineageTag": "615edd19-fcd9-4df5-8ea2-d23578a8438c",
+          "size": {
+            "height": 268,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 606.224704270973,
+            "y": -50
+          },
+          "nodeIndex": "Fact_OEE_Baseline",
+          "nodeLineageTag": "1432526c-5efa-4289-af1e-a33e06ebc7c6",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Layout 1",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
     }
   ],
-  "selectedDiagram": "All tables",
+  "selectedDiagram": "Layout 1",
   "defaultDiagram": "All tables"
 }
