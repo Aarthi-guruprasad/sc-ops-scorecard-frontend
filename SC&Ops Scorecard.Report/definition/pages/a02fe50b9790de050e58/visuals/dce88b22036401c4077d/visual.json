@@ -210,6 +210,48 @@
             }
           ]
         }
+      },
+      {
+        "name": "6bca86afe2dde3381371",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Area"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "aae406f360ec61524367",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Site Hierarchy"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "ca761833e520ab0ee8d4",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Site Group"
+          }
+        },
+        "type": "Categorical"
       }
     ]
   },
