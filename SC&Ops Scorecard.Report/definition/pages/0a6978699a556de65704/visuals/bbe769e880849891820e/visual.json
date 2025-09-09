@@ -4010,7 +4010,7 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "FA% Target"
+                  "Property": "FA% Lag4 Target"
                 }
               }
             }
@@ -4134,7 +4134,7 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Bias Target"
+                  "Property": "Bias Target CSCA L2"
                 }
               }
             }
@@ -4243,7 +4243,7 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Bias Target"
+                  "Property": "Bias Target CSCA L4"
                 }
               }
             }
@@ -4746,6 +4746,21 @@
           "selector": {
             "metadata": "Measure.Service Top 11",
             "id": "field-6b70cb09-1ca8-99c1-fb72-add1f03f5118"
+          }
+        },
+        {
+          "properties": {
+            "detailPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "1L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.FA% Lag4",
+            "id": "field-f54969c2-796f-0110-1f0b-969a2c37dac3"
           }
         }
       ],
