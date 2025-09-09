@@ -67,7 +67,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'''CSCI Measures''[FA Target CSCI]'"
+                                "Value": "'''CSCI Measures''[FA Target CSCI L1]'"
                               }
                             }
                           ]
@@ -95,7 +95,7 @@
                                 "0": [
                                   {
                                     "Literal": {
-                                      "Value": "'''CSCI Measures''[FA Target CSCI]'"
+                                      "Value": "'''CSCI Measures''[FA Target CSCI L1]'"
                                     }
                                   }
                                 ]
@@ -119,7 +119,7 @@
                         },
                         "valueMap": [
                           {
-                            "0": "FA Target CSCI"
+                            "0": "FA% Lag1 CSCI Plan"
                           }
                         ]
                       }

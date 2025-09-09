@@ -6,8 +6,8 @@
     "applyOnlyToTargetVisuals": true,
     "targetVisualNames": [
       "efa8a543faebedc852b8",
-      "98afee280dba0668a0b5",
       "76098e599967f25c8ba0",
+      "98afee280dba0668a0b5",
       "a125fb988fd9bf198cad"
     ]
   },
@@ -17,6 +17,66 @@
     "sections": {
       "95885e08eefed61a603a": {
         "filters": {
+          "byName": {
+            "a8c7935cd636c8d270e1": {
+              "name": "a8c7935cd636c8d270e1",
+              "type": "Categorical",
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "b",
+                    "Entity": "Bridge_Site_Area",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "Not": {
+                        "Expression": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "b"
+                                    }
+                                  },
+                                  "Property": "Area"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "null"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Bridge_Site_Area"
+                    }
+                  },
+                  "Property": "Area"
+                }
+              },
+              "howCreated": 1
+            }
+          },
           "byExpr": [
             {
               "name": "467930eddcfd7d9b486a",
@@ -78,246 +138,10 @@
                 }
               },
               "howCreated": 1
-            },
-            {
-              "name": "a8c7935cd636c8d270e1",
-              "type": "Categorical",
-              "expression": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Bridge_Site_Area"
-                    }
-                  },
-                  "Property": "Area"
-                }
-              },
-              "howCreated": 1
             }
           ]
         },
         "visualContainers": {
-          "e99bfdac6f5c9d310786": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "d2bd54daf7124cdc9efe": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "a8dc64a77e60dc3b6bc5": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "ddc219eff47fb3dede27",
-                  "type": "RelativeDate",
-                  "filter": {
-                    "Version": 2,
-                    "From": [
-                      {
-                        "Name": "d",
-                        "Entity": "Dim_Date",
-                        "Type": 0
-                      }
-                    ],
-                    "Where": [
-                      {
-                        "Condition": {
-                          "Between": {
-                            "Expression": {
-                              "Column": {
-                                "Expression": {
-                                  "SourceRef": {
-                                    "Source": "d"
-                                  }
-                                },
-                                "Property": "Date"
-                              }
-                            },
-                            "LowerBound": {
-                              "DateSpan": {
-                                "Expression": {
-                                  "DateAdd": {
-                                    "Expression": {
-                                      "Now": {}
-                                    },
-                                    "Amount": -1,
-                                    "TimeUnit": 2
-                                  }
-                                },
-                                "TimeUnit": 2
-                              }
-                            },
-                            "UpperBound": {
-                              "DateSpan": {
-                                "Expression": {
-                                  "DateAdd": {
-                                    "Expression": {
-                                      "Now": {}
-                                    },
-                                    "Amount": -1,
-                                    "TimeUnit": 2
-                                  }
-                                },
-                                "TimeUnit": 2
-                              }
-                            }
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Date"
-                        }
-                      },
-                      "Property": "Date"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "37fe1f2131fafa5f4310",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Last Closed Period"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "card",
-              "objects": {}
-            }
-          },
-          "dbf847065bb23ca5bc3e": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "a125fb988fd9bf198cad": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "b38700d0b336752d3755",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Profit_Center"
-                        }
-                      },
-                      "Property": "FP&A Cluster"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "71f935625ffeb27afc49",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Profit_Center"
-                        }
-                      },
-                      "Property": "Area"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "a3d90da3361ee0b12525",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "ABP Variance_APN"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "tableEx",
-              "objects": {},
-              "projections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Profit_Center"
-                        }
-                      },
-                      "Property": "Area"
-                    }
-                  },
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Profit_Center"
-                        }
-                      },
-                      "Property": "FP&A Cluster"
-                    }
-                  },
-                  {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "ABP Variance_APN"
-                    }
-                  }
-                ]
-              },
-              "parameters": {
-                "Values": [
-                  {
-                    "expr": {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Entity": "Par_Target"
-                          }
-                        },
-                        "Property": "Par_Target"
-                      }
-                    },
-                    "index": 2,
-                    "length": 1
-                  }
-                ]
-              }
-            }
-          },
           "0a0c84e6ee10899ddfc2": {
             "filters": {
               "byExpr": [
@@ -371,7 +195,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "e4c7a6b0ec46a0272f47",
+                  "name": "14b5c76c28db1be4ddd4",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -429,141 +253,21 @@
               }
             }
           },
+          "168685d9ef6a2df260ae": {
+            "singleVisual": {
+              "visualType": "bookmarkNavigator",
+              "objects": {}
+            }
+          },
+          "1b302215b5e149cedceb": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
           "4c25a4bce7169ce89502": {
             "singleVisual": {
               "visualType": "shape",
-              "objects": {}
-            }
-          },
-          "9148f30659d5aadef2ef": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "76098e599967f25c8ba0": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "7807a8380ce73ee0a071",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Validation_Parameter"
-                        }
-                      },
-                      "Property": "Parameter"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "9ec65ba0e8f69a06d05d",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Par_Target"
-                        }
-                      },
-                      "Property": "Par_Target"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "advancedSlicerVisual",
-              "objects": {
-                "merge": {
-                  "general": [
-                    {
-                      "properties": {
-                        "filter": {
-                          "filter": {
-                            "Version": 2,
-                            "From": [
-                              {
-                                "Name": "p",
-                                "Entity": "Par_Target",
-                                "Type": 0
-                              }
-                            ],
-                            "Where": [
-                              {
-                                "Condition": {
-                                  "In": {
-                                    "Expressions": [
-                                      {
-                                        "Column": {
-                                          "Expression": {
-                                            "SourceRef": {
-                                              "Source": "p"
-                                            }
-                                          },
-                                          "Property": "Par_Target Fields"
-                                        }
-                                      }
-                                    ],
-                                    "Values": [
-                                      [
-                                        {
-                                          "Literal": {
-                                            "Value": "'''Measure''[ABP Variance_APN]'"
-                                          }
-                                        }
-                                      ]
-                                    ]
-                                  }
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "cachedFilterDisplayItems": [
-                {
-                  "id": {
-                    "scopeId": {
-                      "Comparison": {
-                        "ComparisonKind": 0,
-                        "Left": {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Entity": "Par_Target"
-                              }
-                            },
-                            "Property": "Par_Target Fields"
-                          }
-                        },
-                        "Right": {
-                          "Literal": {
-                            "Value": "'''Measure''[ABP Variance_APN]'"
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "displayName": "ABP Variance_APN"
-                }
-              ],
-              "display": {
-                "mode": "hidden"
-              }
-            }
-          },
-          "5feff825f8a18557c352": {
-            "singleVisual": {
-              "visualType": "textbox",
               "objects": {}
             }
           },
@@ -625,7 +329,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "fe962754534aabe7a25f",
+                  "name": "102e44f9e05bc99fd8ab",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -676,7 +380,7 @@
               }
             }
           },
-          "1b302215b5e149cedceb": {
+          "5feff825f8a18557c352": {
             "singleVisual": {
               "visualType": "textbox",
               "objects": {}
@@ -864,6 +568,482 @@
               }
             }
           },
+          "76098e599967f25c8ba0": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "7807a8380ce73ee0a071",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Validation_Parameter"
+                        }
+                      },
+                      "Property": "Parameter"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "0113ffad47ba7fa96112",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Par_Target"
+                        }
+                      },
+                      "Property": "Par_Target"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "advancedSlicerVisual",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "p",
+                                "Entity": "Par_Target",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "p"
+                                            }
+                                          },
+                                          "Property": "Par_Target Fields"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "'''Measure''[ABP Variance_APN_Base]'"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "cachedFilterDisplayItems": [
+                {
+                  "id": {
+                    "scopeId": {
+                      "Comparison": {
+                        "ComparisonKind": 0,
+                        "Left": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Par_Target"
+                              }
+                            },
+                            "Property": "Par_Target Fields"
+                          }
+                        },
+                        "Right": {
+                          "Literal": {
+                            "Value": "'''Measure''[ABP Variance_APN_Base]'"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "displayName": "ABP Variance Plan"
+                }
+              ],
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "89361e3875a689553ee2": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "9148f30659d5aadef2ef": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "98afee280dba0668a0b5": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "bdb82675ba47cbe4cd9b",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "96c841be9d5983ad3bf6",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Site Group"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "2aef85e5b8fbd79a3d56",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Site Hierarchy"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "b3ddbfef10ada6532938",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Schedule Attn Target"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "tableEx",
+              "objects": {},
+              "projections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Site Group"
+                    }
+                  },
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Site Hierarchy"
+                    }
+                  },
+                  {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Schedule Attn Target"
+                    }
+                  }
+                ]
+              },
+              "parameters": {
+                "Values": [
+                  {
+                    "expr": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Par_Target"
+                          }
+                        },
+                        "Property": "Par_Target"
+                      }
+                    },
+                    "index": 3,
+                    "length": 1
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "a125fb988fd9bf198cad": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "a33bacfa6e68f2bb8aac",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Profit_Center"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e5ef12500243db68744a",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Profit_Center"
+                        }
+                      },
+                      "Property": "FP&A Cluster"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e36657003bc9577f18e9",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "ABP Variance_APN_Base"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "tableEx",
+              "objects": {},
+              "projections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Profit_Center"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Profit_Center"
+                        }
+                      },
+                      "Property": "FP&A Cluster"
+                    }
+                  },
+                  {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "ABP Variance_APN_Base"
+                    }
+                  }
+                ]
+              },
+              "parameters": {
+                "Values": [
+                  {
+                    "expr": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Par_Target"
+                          }
+                        },
+                        "Property": "Par_Target"
+                      }
+                    },
+                    "index": 2,
+                    "length": 1
+                  }
+                ]
+              }
+            }
+          },
+          "a8dc64a77e60dc3b6bc5": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ddc219eff47fb3dede27",
+                  "type": "RelativeDate",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "Dim_Date",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Between": {
+                            "Expression": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "d"
+                                  }
+                                },
+                                "Property": "Date"
+                              }
+                            },
+                            "LowerBound": {
+                              "DateSpan": {
+                                "Expression": {
+                                  "DateAdd": {
+                                    "Expression": {
+                                      "Now": {}
+                                    },
+                                    "Amount": -1,
+                                    "TimeUnit": 2
+                                  }
+                                },
+                                "TimeUnit": 2
+                              }
+                            },
+                            "UpperBound": {
+                              "DateSpan": {
+                                "Expression": {
+                                  "DateAdd": {
+                                    "Expression": {
+                                      "Now": {}
+                                    },
+                                    "Amount": -1,
+                                    "TimeUnit": 2
+                                  }
+                                },
+                                "TimeUnit": 2
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Date"
+                        }
+                      },
+                      "Property": "Date"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "4eac60f823b393e3fb42",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Last Closed Period"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {}
+            }
+          },
+          "ad94f98e5b7c18176141": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
           "c81644e53bdd077d8816": {
             "filters": {
               "byExpr": [
@@ -988,7 +1168,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "a3a974921064e4f8f098",
+                  "name": "947c269e6de4505d44fe",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1067,6 +1247,19 @@
                         }
                       }
                     }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
                   ]
                 }
               },
@@ -1101,151 +1294,22 @@
               }
             }
           },
-          "ad94f98e5b7c18176141": {
+          "d2bd54daf7124cdc9efe": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "dbf847065bb23ca5bc3e": {
             "singleVisual": {
               "visualType": "textbox",
               "objects": {}
             }
           },
-          "89361e3875a689553ee2": {
+          "e99bfdac6f5c9d310786": {
             "singleVisual": {
-              "visualType": "shape",
+              "visualType": "image",
               "objects": {}
-            }
-          },
-          "98afee280dba0668a0b5": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "de3a989bfc67789541fd",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site_Area"
-                        }
-                      },
-                      "Property": "Site Hierarchy"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "4bce491a2401085f4ee5",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site_Area"
-                        }
-                      },
-                      "Property": "Site Group"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "7013f9f0b586e65e4557",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site_Area"
-                        }
-                      },
-                      "Property": "Area"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "0f889ac399c387c3401b",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Schedule Attn Target"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "tableEx",
-              "objects": {},
-              "projections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site_Area"
-                        }
-                      },
-                      "Property": "Area"
-                    }
-                  },
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site_Area"
-                        }
-                      },
-                      "Property": "Site Group"
-                    }
-                  },
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site_Area"
-                        }
-                      },
-                      "Property": "Site Hierarchy"
-                    }
-                  },
-                  {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Schedule Attn Target"
-                    }
-                  }
-                ]
-              },
-              "parameters": {
-                "Values": [
-                  {
-                    "expr": {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Entity": "Par_Target"
-                          }
-                        },
-                        "Property": "Par_Target"
-                      }
-                    },
-                    "index": 3,
-                    "length": 1
-                  }
-                ]
-              },
-              "display": {
-                "mode": "hidden"
-              }
             }
           }
         }
