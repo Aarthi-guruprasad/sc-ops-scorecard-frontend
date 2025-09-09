@@ -51,12 +51,12 @@
                       "Entity": "CSCI Measures"
                     }
                   },
-                  "Property": "FA Target CSCI"
+                  "Property": "FA Target CSCI L1"
                 }
               },
-              "queryRef": "CSCI Measures.FA Target CSCI",
-              "nativeQueryRef": "FA% CSCI Plan",
-              "displayName": "FA% CSCI Plan"
+              "queryRef": "CSCI Measures.FA Target CSCI L1",
+              "nativeQueryRef": "FA% Lag1 CSCI Plan",
+              "displayName": "FA% Lag1 CSCI Plan"
             }
           ],
           "fieldParameters": [
@@ -132,6 +132,43 @@
                 }
               }
             }
+          }
+        }
+      ],
+      "columnFormatting": [
+        {
+          "properties": {
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "1L"
+                }
+              }
+            },
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.FA Target CSCI L1"
+          }
+        },
+        {
+          "properties": {
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "1L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.FA% Lag4 Target"
           }
         }
       ]
