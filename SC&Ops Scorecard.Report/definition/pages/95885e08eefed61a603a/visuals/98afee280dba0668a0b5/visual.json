@@ -4,10 +4,10 @@
   "position": {
     "x": 0,
     "y": 0,
-    "z": 1000,
+    "z": 2000,
     "height": 768.00000000000011,
     "width": 1584,
-    "tabOrder": 20001
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "tableEx",
@@ -167,5 +167,87 @@
     "drillFilterOtherVisuals": true
   },
   "parentGroupName": "efa8a543faebedc852b8",
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "8a3b8f2ff98c744a21f6",
+        "ordinal": 0,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Area"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "c3df41b9a448db7debbb",
+        "ordinal": 1,
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure"
+              }
+            },
+            "Property": "OEE Target"
+          }
+        },
+        "type": "Advanced",
+        "howCreated": "User"
+      },
+      {
+        "name": "161ffe42a1ce9b8a55b9",
+        "ordinal": 2,
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Map Area_Target"
+          }
+        },
+        "type": "Advanced",
+        "howCreated": "User"
+      },
+      {
+        "name": "d56073d7ab750da5da28",
+        "ordinal": 3,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Site Group"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "ea4417e84160b96dfa60",
+        "ordinal": 4,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Site Hierarchy"
+          }
+        },
+        "type": "Categorical"
+      }
+    ],
+    "filterSortOrder": "Custom"
+  },
   "isHidden": true
 }

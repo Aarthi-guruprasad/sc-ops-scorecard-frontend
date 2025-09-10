@@ -7,7 +7,7 @@
     "z": 16000,
     "height": 768.00000000000011,
     "width": 1584,
-    "tabOrder": 10000
+    "tabOrder": 9000
   },
   "visual": {
     "visualType": "tableEx",
@@ -225,90 +225,6 @@
   },
   "filterConfig": {
     "filters": [
-      {
-        "name": "71d9d38fa77415292090",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
-              }
-            },
-            "Property": "Global Product Number"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "801c9f9a2afca1473866",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
-              }
-            },
-            "Property": "Material Type"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "5140c0192ce08e85c767",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
-              }
-            },
-            "Property": "Material Type Description"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "dcceb019db55ed4747a8",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
-              }
-            },
-            "Property": "Value Stream Description"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "4e30d445505ad98b5573",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
-              }
-            },
-            "Property": "Value Stream_Jamie"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "b120d1ae5325c35935c8",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Profit_Center"
-              }
-            },
-            "Property": "FP&A Cluster"
-          }
-        },
-        "type": "Categorical"
-      },
       {
         "name": "a2c68bc9c43bdd268728",
         "field": {

@@ -7,7 +7,7 @@
     "z": 2000,
     "height": 80,
     "width": 200,
-    "tabOrder": 6000
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "slicer",
@@ -232,7 +232,7 @@
         "howCreated": "User"
       },
       {
-        "name": "3c14f70a7e911e49b8ce",
+        "name": "fcf98abf075a25e50f0b",
         "field": {
           "Column": {
             "Expression": {

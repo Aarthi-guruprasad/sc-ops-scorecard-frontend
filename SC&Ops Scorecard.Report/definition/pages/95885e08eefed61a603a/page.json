@@ -67,6 +67,7 @@
           ]
         },
         "howCreated": "User",
+        "isLockedInViewMode": true,
         "objects": {
           "general": [
             {

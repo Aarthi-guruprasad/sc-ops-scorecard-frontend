@@ -1840,23 +1840,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "b910d260d811832984df",
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "4c8ecc4c40ef85ca98f3",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measure"
-              }
-            },
-            "Property": "OEE%"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
-  }
+  "parentGroupName": "b910d260d811832984df"
 }
