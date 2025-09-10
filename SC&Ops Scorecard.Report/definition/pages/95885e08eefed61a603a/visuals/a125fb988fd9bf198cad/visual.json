@@ -179,7 +179,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Table_material'"
+                  "Value": "''"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
