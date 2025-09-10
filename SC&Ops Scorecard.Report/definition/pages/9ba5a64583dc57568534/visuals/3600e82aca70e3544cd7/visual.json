@@ -7,7 +7,7 @@
     "z": 5000,
     "height": 80.193303417328266,
     "width": 212,
-    "tabOrder": 4000
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "slicer",
@@ -203,23 +203,5 @@
       "filterChanges": true
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "138cc3a07e7177e52819",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_DateSlicer"
-              }
-            },
-            "Property": "P_YearPeriod"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }
