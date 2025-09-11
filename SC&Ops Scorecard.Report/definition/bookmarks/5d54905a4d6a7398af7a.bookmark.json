@@ -6,10 +6,13 @@
     "applyOnlyToTargetVisuals": true,
     "targetVisualNames": [
       "efa8a543faebedc852b8",
+      "43f1ab8aa502106a4b17",
+      "519c2c6ee5e12654973e",
+      "09f47a626ce6e715b461",
+      "02e83a5b41cd3af2aa04",
       "76098e599967f25c8ba0",
       "98afee280dba0668a0b5",
-      "a125fb988fd9bf198cad",
-      "43f1ab8aa502106a4b17"
+      "a125fb988fd9bf198cad"
     ]
   },
   "explorationState": {
@@ -194,7 +197,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "49b2f8d9e99bd49ee159",
+                  "name": "f48c3539ecd200e24a22",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -257,6 +260,177 @@
               "objects": {}
             }
           },
+          "43f1ab8aa502106a4b17": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4f1b72362c60313ebf94",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "ASTM Incidents Plan_Target"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "887a01f5943598624345",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "57296eed9dd7fd58ac35",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Site Name"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "154843af27df57d3d85b",
+                  "type": "Advanced",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "f",
+                        "Entity": "Fact_Safety",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Comparison": {
+                            "ComparisonKind": 0,
+                            "Left": {
+                              "Measure": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "f"
+                                  }
+                                },
+                                "Property": "Map_Safety_Target"
+                              }
+                            },
+                            "Right": {
+                              "Literal": {
+                                "Value": "1L"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Map_Safety_Target"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "5906477dd32d45609ffd",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "pSIF SIFs Focus Plan_Target"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "tableEx",
+              "objects": {},
+              "projections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Site Name"
+                    }
+                  },
+                  {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "pSIF SIFs Focus Plan_Target"
+                    }
+                  }
+                ]
+              },
+              "parameters": {
+                "Values": [
+                  {
+                    "expr": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Par_Target"
+                          }
+                        },
+                        "Property": "Par_Target"
+                      }
+                    },
+                    "index": 2,
+                    "length": 1
+                  }
+                ]
+              }
+            }
+          },
           "4c25a4bce7169ce89502": {
             "singleVisual": {
               "visualType": "shape",
@@ -266,292 +440,6 @@
           "5feff825f8a18557c352": {
             "singleVisual": {
               "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "9148f30659d5aadef2ef": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "a8dc64a77e60dc3b6bc5": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "ddc219eff47fb3dede27",
-                  "type": "RelativeDate",
-                  "filter": {
-                    "Version": 2,
-                    "From": [
-                      {
-                        "Name": "d",
-                        "Entity": "Dim_Date",
-                        "Type": 0
-                      }
-                    ],
-                    "Where": [
-                      {
-                        "Condition": {
-                          "Between": {
-                            "Expression": {
-                              "Column": {
-                                "Expression": {
-                                  "SourceRef": {
-                                    "Source": "d"
-                                  }
-                                },
-                                "Property": "Date"
-                              }
-                            },
-                            "LowerBound": {
-                              "DateSpan": {
-                                "Expression": {
-                                  "DateAdd": {
-                                    "Expression": {
-                                      "Now": {}
-                                    },
-                                    "Amount": -1,
-                                    "TimeUnit": 2
-                                  }
-                                },
-                                "TimeUnit": 2
-                              }
-                            },
-                            "UpperBound": {
-                              "DateSpan": {
-                                "Expression": {
-                                  "DateAdd": {
-                                    "Expression": {
-                                      "Now": {}
-                                    },
-                                    "Amount": -1,
-                                    "TimeUnit": 2
-                                  }
-                                },
-                                "TimeUnit": 2
-                              }
-                            }
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Date"
-                        }
-                      },
-                      "Property": "Date"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "278197a324a306415e0b",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Last Closed Period"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "card",
-              "objects": {}
-            }
-          },
-          "d2bd54daf7124cdc9efe": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "dbf847065bb23ca5bc3e": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "ad94f98e5b7c18176141": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "c81644e53bdd077d8816": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "3fd597b44401002316d9",
-                  "type": "RelativeDate",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Date"
-                        }
-                      },
-                      "Property": "Date"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "1400e7b67034e143291f",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Slicer_CrossFilter"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "fcf98abf075a25e50f0b",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Date"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "general": [
-                    {
-                      "properties": {
-                        "filter": {
-                          "filter": {
-                            "Version": 2,
-                            "From": [
-                              {
-                                "Name": "d",
-                                "Entity": "Dim_Date",
-                                "Type": 0
-                              }
-                            ],
-                            "Where": [
-                              {
-                                "Condition": {
-                                  "In": {
-                                    "Expressions": [
-                                      {
-                                        "Column": {
-                                          "Expression": {
-                                            "SourceRef": {
-                                              "Source": "d"
-                                            }
-                                          },
-                                          "Property": "P_YearPeriod"
-                                        }
-                                      }
-                                    ],
-                                    "Values": [
-                                      [
-                                        {
-                                          "Literal": {
-                                            "Value": "'P6 2025'"
-                                          }
-                                        }
-                                      ]
-                                    ]
-                                  }
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    }
-                  ],
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ],
-                  "selection": [
-                    {
-                      "properties": {
-                        "strictSingleSelect": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "true"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Date"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Date"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "e99bfdac6f5c9d310786": {
-            "singleVisual": {
-              "visualType": "image",
               "objects": {}
             }
           },
@@ -574,7 +462,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "5ce4f26ec7a12bd863eb",
+                  "name": "8acdd3f552326e93f00b",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -673,6 +561,12 @@
               "display": {
                 "mode": "hidden"
               }
+            }
+          },
+          "9148f30659d5aadef2ef": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
             }
           },
           "98afee280dba0668a0b5": {
@@ -819,7 +713,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "364975d734bb94326f3d",
+                  "name": "8e61900420c6f1bf35f0",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -834,7 +728,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "99b1caf4ce28c8675868",
+                  "name": "c3f8df8ac717ccaea6d6",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -849,7 +743,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "75cc7d9b6bf2a6b35d9c",
+                  "name": "771f0753e6e8118bd885",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -925,84 +819,61 @@
               }
             }
           },
-          "43f1ab8aa502106a4b17": {
+          "a8dc64a77e60dc3b6bc5": {
             "filters": {
               "byExpr": [
                 {
-                  "name": "4f1b72362c60313ebf94",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "ASTM Incidents Plan_Target"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "887a01f5943598624345",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Fact_Safety"
-                        }
-                      },
-                      "Property": "Area"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "57296eed9dd7fd58ac35",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Fact_Safety"
-                        }
-                      },
-                      "Property": "Site Name"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "154843af27df57d3d85b",
-                  "type": "Advanced",
+                  "name": "ddc219eff47fb3dede27",
+                  "type": "RelativeDate",
                   "filter": {
                     "Version": 2,
                     "From": [
                       {
-                        "Name": "f",
-                        "Entity": "Fact_Safety",
+                        "Name": "d",
+                        "Entity": "Dim_Date",
                         "Type": 0
                       }
                     ],
                     "Where": [
                       {
                         "Condition": {
-                          "Comparison": {
-                            "ComparisonKind": 0,
-                            "Left": {
-                              "Measure": {
+                          "Between": {
+                            "Expression": {
+                              "Column": {
                                 "Expression": {
                                   "SourceRef": {
-                                    "Source": "f"
+                                    "Source": "d"
                                   }
                                 },
-                                "Property": "Map_Safety_Target"
+                                "Property": "Date"
                               }
                             },
-                            "Right": {
-                              "Literal": {
-                                "Value": "1L"
+                            "LowerBound": {
+                              "DateSpan": {
+                                "Expression": {
+                                  "DateAdd": {
+                                    "Expression": {
+                                      "Now": {}
+                                    },
+                                    "Amount": -1,
+                                    "TimeUnit": 2
+                                  }
+                                },
+                                "TimeUnit": 2
+                              }
+                            },
+                            "UpperBound": {
+                              "DateSpan": {
+                                "Expression": {
+                                  "DateAdd": {
+                                    "Expression": {
+                                      "Now": {}
+                                    },
+                                    "Amount": -1,
+                                    "TimeUnit": 2
+                                  }
+                                },
+                                "TimeUnit": 2
                               }
                             }
                           }
@@ -1011,19 +882,19 @@
                     ]
                   },
                   "expression": {
-                    "Measure": {
+                    "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Fact_Safety"
+                          "Entity": "Dim_Date"
                         }
                       },
-                      "Property": "Map_Safety_Target"
+                      "Property": "Date"
                     }
                   },
                   "howCreated": 1
                 },
                 {
-                  "name": "bdc5edbeddcbb7f6d254",
+                  "name": "6540099f2c1bbdcc4475",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1032,7 +903,246 @@
                           "Entity": "Measure"
                         }
                       },
-                      "Property": "pSIF SIFs Focus Plan_Target"
+                      "Property": "Last Closed Period"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "card",
+              "objects": {}
+            }
+          },
+          "ad94f98e5b7c18176141": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "c81644e53bdd077d8816": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "3fd597b44401002316d9",
+                  "type": "RelativeDate",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Date"
+                        }
+                      },
+                      "Property": "Date"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "1400e7b67034e143291f",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Slicer_CrossFilter"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "fcf98abf075a25e50f0b",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Date"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "d",
+                                "Entity": "Dim_Date",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "d"
+                                            }
+                                          },
+                                          "Property": "P_YearPeriod"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "'P8 2025'"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Date"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Date"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d2bd54daf7124cdc9efe": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "dbf847065bb23ca5bc3e": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "e99bfdac6f5c9d310786": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "519c2c6ee5e12654973e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "94656b7f4fe22eb58252",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Target"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "ef19e766ded5c185a720",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Target"
+                        }
+                      },
+                      "Property": "Customer Name"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e99b55452ddddfe57380",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "CSCI Measures"
+                        }
+                      },
+                      "Property": "FA Target CSCI L1"
                     }
                   },
                   "howCreated": 0
@@ -1048,7 +1158,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Fact_Safety"
+                          "Entity": "Fact_Target"
                         }
                       },
                       "Property": "Area"
@@ -1058,20 +1168,20 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Fact_Safety"
+                          "Entity": "Fact_Target"
                         }
                       },
-                      "Property": "Site Name"
+                      "Property": "Customer Name"
                     }
                   },
                   {
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Measure"
+                          "Entity": "CSCI Measures"
                         }
                       },
-                      "Property": "pSIF SIFs Focus Plan_Target"
+                      "Property": "FA Target CSCI L1"
                     }
                   }
                 ]
@@ -1093,7 +1203,25 @@
                     "length": 1
                   }
                 ]
+              },
+              "display": {
+                "mode": "hidden"
               }
+            }
+          },
+          "02e83a5b41cd3af2aa04": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "09f47a626ce6e715b461": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
             }
           }
         }

@@ -7,7 +7,7 @@
     "z": 2000,
     "height": 80,
     "width": 200,
-    "tabOrder": 5000
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "slicer",
@@ -230,20 +230,6 @@
         },
         "type": "Advanced",
         "howCreated": "User"
-      },
-      {
-        "name": "fcf98abf075a25e50f0b",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Date"
-              }
-            },
-            "Property": "P_YearPeriod"
-          }
-        },
-        "type": "Categorical"
       }
     ]
   }
