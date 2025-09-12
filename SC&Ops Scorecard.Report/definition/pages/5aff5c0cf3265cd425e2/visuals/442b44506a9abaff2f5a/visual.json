@@ -121,6 +121,20 @@
           "selector": {
             "id": "95885e08eefed61a603a"
           }
+        },
+        {
+          "properties": {
+            "showPage": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "326f8ab715fe0b2b37f0"
+          }
         }
       ],
       "outline": [
