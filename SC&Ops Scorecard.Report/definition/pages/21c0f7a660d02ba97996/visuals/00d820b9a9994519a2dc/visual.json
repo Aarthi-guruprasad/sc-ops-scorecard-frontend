@@ -359,34 +359,6 @@
           "selector": {
             "id": "8e20bd6d170a7251c0d1"
           }
-        },
-        {
-          "properties": {
-            "showPage": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "95885e08eefed61a603a"
-          }
-        },
-        {
-          "properties": {
-            "showPage": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "0fa3317aa943b4fba55e"
-          }
         }
       ],
       "outline": [

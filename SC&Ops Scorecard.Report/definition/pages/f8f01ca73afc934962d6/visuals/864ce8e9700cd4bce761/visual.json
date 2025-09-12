@@ -4,7 +4,7 @@
   "position": {
     "x": 6,
     "y": 449.56851915774939,
-    "z": 36000,
+    "z": 30000,
     "height": 80.193303417328266,
     "width": 212,
     "tabOrder": 20000
@@ -236,20 +236,6 @@
           ]
         },
         "howCreated": "User"
-      },
-      {
-        "name": "3409f557fb0a2d702e35",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Value_Stream"
-              }
-            },
-            "Property": "Value Stream_Jamie"
-          }
-        },
-        "type": "Categorical"
       }
     ]
   }
