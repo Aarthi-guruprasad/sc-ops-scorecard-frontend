@@ -19,16 +19,15 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Fact_Customer_Fines"
+                      "Entity": "Dim_Customer"
                     }
                   },
-                  "Property": "ComplianceName"
+                  "Property": "Customer Name"
                 }
               },
-              "queryRef": "Fact_Customer_Fines.ComplianceName",
-              "nativeQueryRef": "Customer",
-              "active": true,
-              "displayName": "Customer"
+              "queryRef": "Dim_Customer.Customer Name",
+              "nativeQueryRef": "Customer Name",
+              "active": true
             }
           ]
         },
@@ -313,7 +312,7 @@
                           "Entity": "MetricSelector"
                         }
                       },
-                      "Property": "BarColor"
+                      "Property": "BarColor_OI"
                     }
                   }
                 }
@@ -499,7 +498,8 @@
             "Property": "ComplianceName"
           }
         },
-        "type": "Categorical"
+        "type": "Categorical",
+        "howCreated": "User"
       }
     ],
     "filterSortOrder": "Custom"
