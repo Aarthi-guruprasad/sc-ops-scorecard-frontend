@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "09f47a626ce6e715b461",
+  "name": "1b8814ab057a34b3aa8e",
   "position": {
-    "x": 0,
-    "y": 792,
-    "z": 4250,
-    "height": 48,
-    "width": 1616,
-    "tabOrder": 4000
+    "x": 1250,
+    "y": 468.7889908849487,
+    "z": 29000,
+    "height": 90,
+    "width": 300,
+    "tabOrder": 28000
   },
   "visual": {
     "visualType": "shape",
@@ -38,7 +38,7 @@
           }
         }
       ],
-      "fill": [
+      "outline": [
         {
           "properties": {
             "show": {
@@ -52,7 +52,7 @@
         },
         {
           "properties": {
-            "fillColor": {
+            "lineColor": {
               "solid": {
                 "color": {
                   "expr": {
@@ -66,7 +66,7 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "50D"
                 }
               }
             }
@@ -93,26 +93,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'** Note: These targets are sourced from the semantic model.'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
+                  "Value": "'Daily'"
                 }
               }
             },
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "15D"
+                  "Value": "18D"
                 }
               }
             },
@@ -123,30 +111,7 @@
                 }
               }
             },
-            "italic": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'left'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
-          }
-        }
-      ],
-      "outline": [
-        {
-          "properties": {
-            "lineColor": {
+            "fontColor": {
               "solid": {
                 "color": {
                   "expr": {
@@ -162,16 +127,58 @@
             "id": "default"
           }
         }
-      ]
-    },
-    "visualContainerObjects": {
-      "title": [
+      ],
+      "fill": [
         {
           "properties": {
-            "text": {
+            "fillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#001489'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        },
+        {
+          "properties": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "'Shape_sm'"
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "glow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "shadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
@@ -181,7 +188,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "efa8a543faebedc852b8",
-  "isHidden": true,
   "howCreated": "InsertVisualButton"
 }

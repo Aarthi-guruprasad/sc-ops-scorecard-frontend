@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "02e83a5b41cd3af2aa04",
+  "name": "aae55c3ad36186a9a09c",
   "position": {
-    "x": 0,
-    "y": 792,
-    "z": 4500,
-    "height": 48,
-    "width": 1616,
-    "tabOrder": 3000
+    "x": 1250,
+    "y": 58.037948394474789,
+    "z": 25000,
+    "height": 77.0263857933712,
+    "width": 300,
+    "tabOrder": 24000
   },
   "visual": {
     "visualType": "shape",
@@ -38,41 +38,16 @@
           }
         }
       ],
-      "fill": [
+      "outline": [
         {
           "properties": {
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             }
-          }
-        },
-        {
-          "properties": {
-            "fillColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#001489'"
-                    }
-                  }
-                }
-              }
-            },
-            "transparency": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
           }
         }
       ],
@@ -93,26 +68,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'** Note: These targets are sourced from Power Apps'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
+                  "Value": "'Frequency'"
                 }
               }
             },
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "15D"
+                  "Value": "24D"
                 }
               }
             },
@@ -122,20 +85,6 @@
                   "Value": "true"
                 }
               }
-            },
-            "italic": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'left'"
-                }
-              }
             }
           },
           "selector": {
@@ -143,10 +92,10 @@
           }
         }
       ],
-      "outline": [
+      "fill": [
         {
           "properties": {
-            "lineColor": {
+            "fillColor": {
               "solid": {
                 "color": {
                   "expr": {
@@ -164,23 +113,7 @@
         }
       ]
     },
-    "visualContainerObjects": {
-      "title": [
-        {
-          "properties": {
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Shape_Static'"
-                }
-              }
-            }
-          }
-        }
-      ]
-    },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "efa8a543faebedc852b8",
   "howCreated": "InsertVisualButton"
 }

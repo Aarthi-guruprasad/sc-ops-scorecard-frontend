@@ -92,6 +92,26 @@
                 }
               ],
               "isToggled": true
+            },
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'Oral Care'"
+                  }
+                }
+              ],
+              "isToggled": true
+            },
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'NY OTC'"
+                  }
+                }
+              ],
+              "isToggled": true
             }
           ]
         }

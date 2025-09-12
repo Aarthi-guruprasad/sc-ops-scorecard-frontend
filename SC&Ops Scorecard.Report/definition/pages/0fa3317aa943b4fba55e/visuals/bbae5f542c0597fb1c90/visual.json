@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "bbae5f542c0597fb1c90",
   "position": {
-    "x": 1390.8011381599747,
-    "y": 261.14513735423157,
-    "z": 12,
+    "x": 1570,
+    "y": 259.5577377395033,
+    "z": 12000,
     "height": 90,
-    "width": 500,
-    "tabOrder": 4007
+    "width": 330,
+    "tabOrder": 11000
   },
   "visual": {
     "visualType": "card",
@@ -93,8 +93,13 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "Literal": {
-                      "Value": "'#001489'"
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "LR FA CSCA Color"
                     }
                   }
                 }
