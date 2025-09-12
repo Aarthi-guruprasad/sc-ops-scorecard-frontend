@@ -1698,31 +1698,6 @@
       "source": "8b3c44539d0fae93db1f",
       "target": "f421d47a956e2dc8d708",
       "type": "NoFilter"
-    },
-    {
-      "source": "31b384467163481bc0b5",
-      "target": "5899093c1be54c8f0ffa",
-      "type": "NoFilter"
-    },
-    {
-      "source": "864ce8e9700cd4bce761",
-      "target": "5899093c1be54c8f0ffa",
-      "type": "NoFilter"
-    },
-    {
-      "source": "c49f36864d58435fdefa",
-      "target": "5899093c1be54c8f0ffa",
-      "type": "DataFilter"
-    },
-    {
-      "source": "0805f6b4c67d7e312963",
-      "target": "5899093c1be54c8f0ffa",
-      "type": "DataFilter"
-    },
-    {
-      "source": "5cd97d5808105797417a",
-      "target": "5899093c1be54c8f0ffa",
-      "type": "DataFilter"
     }
   ]
 }
