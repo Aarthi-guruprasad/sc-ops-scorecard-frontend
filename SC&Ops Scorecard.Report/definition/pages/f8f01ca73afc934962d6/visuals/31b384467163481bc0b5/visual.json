@@ -4,7 +4,7 @@
   "position": {
     "x": 416.99618951757856,
     "y": 532.02962110863473,
-    "z": 20000,
+    "z": 23000,
     "height": 69.020058954633683,
     "width": 267.45272844920555,
     "tabOrder": 16000
@@ -516,5 +516,23 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "62ca222d59a1b33ea41c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact_Safety"
+              }
+            },
+            "Property": "CSCA_flag"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
   }
 }
