@@ -7,7 +7,7 @@
     "z": 32000,
     "height": 69.020058954633683,
     "width": 267.67635113185537,
-    "tabOrder": 7000
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -516,5 +516,23 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "208252dc5125c4127664",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact_Safety"
+              }
+            },
+            "Property": "CSCI_flag"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
   }
 }

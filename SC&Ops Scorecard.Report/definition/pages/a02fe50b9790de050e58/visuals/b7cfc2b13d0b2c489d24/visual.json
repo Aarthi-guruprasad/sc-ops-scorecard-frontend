@@ -6,7 +6,8 @@
     "y": 240,
     "z": 5000,
     "height": 72,
-    "width": 216
+    "width": 216,
+    "tabOrder": 20000
   },
   "visual": {
     "visualType": "textbox",

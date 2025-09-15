@@ -918,6 +918,76 @@
             }
           ]
         }
+      },
+      {
+        "name": "ffd6e80777b6b66e8e8f",
+        "ordinal": 7,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact_PWS"
+              }
+            },
+            "Property": "Area"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "f",
+              "Entity": "Fact_PWS",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "f"
+                          }
+                        },
+                        "Property": "Area"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'CSCA'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "requireSingleSelect": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "filterSortOrder": "Custom"
@@ -935,6 +1005,22 @@
             "Expression": {
               "SourceRef": {
                 "Entity": "Bridge_CSCA_CSCI"
+              }
+            },
+            "Property": "Area"
+          }
+        }
+      },
+      {
+        "name": "d8def67e37e5d3097436",
+        "boundFilter": "ffd6e80777b6b66e8e8f",
+        "asAggregation": false,
+        "qnaSingleSelectRequired": true,
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact_PWS"
               }
             },
             "Property": "Area"

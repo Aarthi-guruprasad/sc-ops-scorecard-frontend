@@ -6,8 +6,7 @@
     "y": 0,
     "z": 1000,
     "height": 60,
-    "width": 120,
-    "tabOrder": 1000
+    "width": 120
   },
   "visual": {
     "visualType": "card",
@@ -78,6 +77,13 @@
                       "Percent": -0.25
                     }
                   }
+                }
+              }
+            },
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "2L"
                 }
               }
             }

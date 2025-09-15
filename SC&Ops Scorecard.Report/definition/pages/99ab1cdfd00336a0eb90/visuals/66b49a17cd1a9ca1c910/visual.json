@@ -7,7 +7,7 @@
     "z": 44000,
     "height": 26,
     "width": 26,
-    "tabOrder": 30000
+    "tabOrder": 29000
   },
   "visual": {
     "visualType": "actionButton",
@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Tendency for forecasts to be consistently higher or lower than the actual outcomes. for CSCI, FA is unexploded and unconstrained.'"
+                  "Value": "'Tendency for forecasts to be consistently higher or lower than the actual outcomes. for CSCI, FA is unexploded and unconstrained. Clusters Excluded - HRA-RD & Industrial'"
                 }
               }
             }

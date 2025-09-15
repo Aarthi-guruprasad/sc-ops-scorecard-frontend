@@ -4,13 +4,53 @@
   "position": {
     "x": 1572.8291034581925,
     "y": 680.81386152850678,
-    "z": 32,
+    "z": 32000,
     "height": 91.934718527572073,
     "width": 327.98332015241931,
-    "tabOrder": 35
+    "tabOrder": 30000
   },
   "visual": {
     "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "LR DPO/DSO"
+                }
+              },
+              "queryRef": "Measure.LR DPO/DSO",
+              "nativeQueryRef": "LR DPO/DSO"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Measure"
+                  }
+                },
+                "Property": "LR DPO/DSO"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
     "objects": {
       "categoryLabels": [
         {
@@ -46,6 +86,22 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "LR DPO/DSO Color"
+                    }
+                  }
                 }
               }
             }
