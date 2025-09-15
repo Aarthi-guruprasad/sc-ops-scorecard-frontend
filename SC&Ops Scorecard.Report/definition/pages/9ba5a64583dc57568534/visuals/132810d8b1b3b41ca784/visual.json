@@ -200,6 +200,13 @@
                   "Value": "2L"
                 }
               }
+            },
+            "columnCount": {
+              "expr": {
+                "Literal": {
+                  "Value": "6L"
+                }
+              }
             }
           }
         }
