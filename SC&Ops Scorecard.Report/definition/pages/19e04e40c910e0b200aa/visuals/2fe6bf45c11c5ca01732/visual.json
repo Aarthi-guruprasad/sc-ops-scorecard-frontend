@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "2fe6bf45c11c5ca01732",
   "position": {
     "x": 244,
@@ -42,12 +42,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Total Logistics on Net Sales Actual"
+                  "Property": "SSSO: Salvage & Obsolescence"
                 }
               },
-              "queryRef": "Measure.Total Logistics on Net Sales Actual",
-              "nativeQueryRef": "% Logistics vs Net Sales",
-              "displayName": "% Logistics vs Net Sales"
+              "queryRef": "Measure.SSSO: Salvage & Obsolescence",
+              "nativeQueryRef": "SSSO: Salvage & Obs",
+              "displayName": "SSSO: Salvage & Obs"
             }
           ],
           "fieldParameters": [
@@ -78,7 +78,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "Total Logistics on Net Sales Actual"
+                "Property": "SSSO: Salvage & Obsolescence"
               }
             },
             "direction": "Descending"
@@ -256,63 +256,6 @@
           }
         },
         "type": "Categorical",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "d",
-              "Entity": "Dim_Profit_Center",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "Not": {
-                  "Expression": {
-                    "In": {
-                      "Expressions": [
-                        {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Source": "d"
-                              }
-                            },
-                            "Property": "FP&A Cluster"
-                          }
-                        }
-                      ],
-                      "Values": [
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'Central'"
-                            }
-                          }
-                        ],
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'HRA - RD'"
-                            }
-                          }
-                        ],
-                        [
-                          {
-                            "Literal": {
-                              "Value": "'Industrial'"
-                            }
-                          }
-                        ]
-                      ]
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        },
         "isLockedInViewMode": true,
         "objects": {
           "general": [

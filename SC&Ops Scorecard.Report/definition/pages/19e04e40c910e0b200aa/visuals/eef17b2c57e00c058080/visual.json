@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "eef17b2c57e00c058080",
   "position": {
     "x": 244.94758909853252,
@@ -25,7 +25,7 @@
             "selectedBookmark": {
               "expr": {
                 "Literal": {
-                  "Value": "'bdacb4ab3bca84c1bab5'"
+                  "Value": "'ed45dc49d1067024e05a'"
                 }
               }
             },

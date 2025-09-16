@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "31b384467163481bc0b5",
   "position": {
     "x": 416.99618951757856,
@@ -89,7 +89,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'No'"
+                                "Value": "'Yes'"
                               }
                             }
                           ]

@@ -1,16 +1,15 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "59fd18a0c59572182879",
   "position": {
     "x": 7.6785755824384507,
     "y": 1.8723670346669081,
     "z": 1000,
     "height": 391.72362528107635,
-    "width": 1227.6924792328705,
-    "tabOrder": 1000
+    "width": 1227.6924792328705
   },
   "visual": {
-    "visualType": "lineStackedColumnComboChart",
+    "visualType": "areaChart",
     "query": {
       "queryState": {
         "Category": {
@@ -49,6 +48,22 @@
               "queryRef": "CSCI Measures.FA% L1",
               "nativeQueryRef": "FA% Lag 1",
               "displayName": "FA% Lag 1"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Switch_Plan_Sales_CSCI"
+                }
+              },
+              "queryRef": "CSCI Measures.Switch_Plan_Sales_CSCI",
+              "nativeQueryRef": "Plan",
+              "displayName": "Plan",
+              "format": "0 %;-0 %;0 %"
             }
           ],
           "fieldParameters": [
@@ -65,26 +80,6 @@
               },
               "index": 0,
               "length": 1
-            }
-          ]
-        },
-        "Y2": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "CSCI Measures"
-                    }
-                  },
-                  "Property": "Switch_Plan_Sales_CSCI"
-                }
-              },
-              "queryRef": "CSCI Measures.Switch_Plan_Sales_CSCI",
-              "nativeQueryRef": "Target",
-              "displayName": "Target",
-              "format": "0 %;-0 %;0 %"
             }
           ]
         }
@@ -277,54 +272,21 @@
                 }
               }
             },
-            "secShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "alignZeros": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "secFontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
-                }
-              }
-            },
-            "secFontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "12D"
-                }
-              }
-            },
-            "secLabelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0.1
-                    }
-                  }
-                }
-              }
-            },
-            "secShowAxisTitle": {
+            "gridlineShow": {
               "expr": {
                 "Literal": {
                   "Value": "false"
                 }
               }
             },
-            "gridlineShow": {
+            "logAxisScale": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "invertAxis": {
               "expr": {
                 "Literal": {
                   "Value": "false"
@@ -340,88 +302,10 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             }
-          }
-        }
-      ],
-      "error": [
-        {
-          "properties": {
-            "enabled": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "markerShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "labelShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "tooltipShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "barShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Measure.Service Rate%"
-          }
-        },
-        {
-          "properties": {
-            "errorRange": {
-              "kind": "ErrorRange",
-              "percentage": {
-                "lowerBoundDelta": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "0.1D"
-                    }
-                  }
-                },
-                "upperBoundDelta": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "0.1D"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Measure.Service Rate%",
-            "highlightMatching": 1
           }
         }
       ],
@@ -463,6 +347,20 @@
                 }
               }
             }
+          }
+        },
+        {
+          "properties": {
+            "areaShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Switch_Plan_Sales_CSCI"
           }
         }
       ]
@@ -705,52 +603,6 @@
           }
         },
         "type": "Categorical",
-        "howCreated": "User"
-      },
-      {
-        "name": "73ddbfa39b400d5f90e5",
-        "ordinal": 4,
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_DateSlicer"
-              }
-            },
-            "Property": "P_YearPeriod"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "4a153226dd822c613403",
-        "ordinal": 5,
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "CSCI Measures"
-              }
-            },
-            "Property": "Switch_Plan_Sales_CSCI"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "6d43b98d9574a548d231",
-        "ordinal": 6,
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "CSCI Measures"
-              }
-            },
-            "Property": "Service Level %"
-          }
-        },
-        "type": "Advanced",
         "howCreated": "User"
       }
     ],

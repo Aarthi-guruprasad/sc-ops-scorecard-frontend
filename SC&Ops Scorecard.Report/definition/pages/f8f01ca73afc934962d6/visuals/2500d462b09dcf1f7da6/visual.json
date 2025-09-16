@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "2500d462b09dcf1f7da6",
   "position": {
     "x": 1436.7073472082891,
@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Schedule adherence or on-schedule performance, is a metric that measures how well actual work completion aligns with the planned or scheduled completion dates'"
+                  "Value": "'PWS Benefits refers to financials savings resulting from Efficiency gains (OEE) & Loss reduction in Supply Chain & Operations. This is achieved through optimizing Work process as we all as applying principles of continuous improvement with 100% employee engagement.'"
                 }
               }
             }

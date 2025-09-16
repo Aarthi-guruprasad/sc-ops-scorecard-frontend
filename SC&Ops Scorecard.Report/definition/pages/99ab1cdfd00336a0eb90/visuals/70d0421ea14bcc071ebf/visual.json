@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "70d0421ea14bcc071ebf",
   "position": {
     "x": 417.59924068076509,
@@ -7,7 +7,7 @@
     "z": 32000,
     "height": 69.020058954633683,
     "width": 267.67635113185537,
-    "tabOrder": 6000
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -516,23 +516,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "208252dc5125c4127664",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Fact_Safety"
-              }
-            },
-            "Property": "CSCI_flag"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }
