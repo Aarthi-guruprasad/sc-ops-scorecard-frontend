@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "e2e15248bb86d2ada50a",
   "position": {
     "x": 6.0130718954248366,
@@ -10,7 +10,7 @@
     "tabOrder": 5
   },
   "visual": {
-    "visualType": "lineStackedColumnComboChart",
+    "visualType": "areaChart",
     "query": {
       "queryState": {
         "Category": {
@@ -49,27 +49,7 @@
               "queryRef": "Measure.Gross Inventory",
               "nativeQueryRef": "Gross Inventory",
               "displayName": "Gross Inventory"
-            }
-          ],
-          "fieldParameters": [
-            {
-              "parameterExpr": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Working_Capital_Parameter"
-                    }
-                  },
-                  "Property": "Working_Capital_Parameter"
-                }
-              },
-              "index": 0,
-              "length": 1
-            }
-          ]
-        },
-        "Y2": {
-          "projections": [
+            },
             {
               "field": {
                 "Measure": {
@@ -99,6 +79,22 @@
               "queryRef": "Measure.Switch_Flex_WC",
               "nativeQueryRef": "Flex",
               "displayName": "Flex"
+            }
+          ],
+          "fieldParameters": [
+            {
+              "parameterExpr": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Working_Capital_Parameter"
+                    }
+                  },
+                  "Property": "Working_Capital_Parameter"
+                }
+              },
+              "index": 0,
+              "length": 1
             }
           ]
         }
@@ -251,13 +247,6 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
-                }
-              }
-            },
-            "labelOrientation": {
-              "expr": {
-                "Literal": {
-                  "Value": "1D"
                 }
               }
             },
@@ -441,46 +430,6 @@
                 }
               }
             },
-            "secShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "alignZeros": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "secFontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
-                }
-              }
-            },
-            "secFontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "12D"
-                }
-              }
-            },
-            "secLabelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0.1
-                    }
-                  }
-                }
-              }
-            },
             "gridlineShow": {
               "expr": {
                 "Literal": {
@@ -501,13 +450,6 @@
                   "Value": "true"
                 }
               }
-            },
-            "secShowAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
             }
           }
         }
@@ -522,84 +464,6 @@
                 }
               }
             }
-          }
-        }
-      ],
-      "error": [
-        {
-          "properties": {
-            "enabled": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "markerShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "labelShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "tooltipShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "barShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Measure.Service Rate%"
-          }
-        },
-        {
-          "properties": {
-            "errorRange": {
-              "kind": "ErrorRange",
-              "percentage": {
-                "lowerBoundDelta": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "0.1D"
-                    }
-                  }
-                },
-                "upperBoundDelta": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "0.1D"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Measure.Service Rate%",
-            "highlightMatching": 1
           }
         }
       ],
@@ -634,6 +498,20 @@
                 }
               }
             }
+          }
+        },
+        {
+          "properties": {
+            "areaShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Switch_Plan_WC"
           }
         }
       ],
@@ -756,36 +634,6 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "6eb87e64c9aa50924b62",
-        "ordinal": 0,
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measure"
-              }
-            },
-            "Property": "Switch_Flex_WC"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "ea496e12620b5cb83fd2",
-        "ordinal": 1,
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measure"
-              }
-            },
-            "Property": "Gross Inventory"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
         "name": "380953c88797f97b6674",
         "ordinal": 2,
         "field": {
@@ -905,36 +753,6 @@
         },
         "type": "Categorical",
         "howCreated": "User"
-      },
-      {
-        "name": "f842474d3528dff9b06f",
-        "ordinal": 5,
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measure"
-              }
-            },
-            "Property": "Switch_Plan_WC"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "c395eb61c8e93616513f",
-        "ordinal": 6,
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_DateSlicer"
-              }
-            },
-            "Property": "P_YearPeriod"
-          }
-        },
-        "type": "Categorical"
       }
     ],
     "filterSortOrder": "Custom"

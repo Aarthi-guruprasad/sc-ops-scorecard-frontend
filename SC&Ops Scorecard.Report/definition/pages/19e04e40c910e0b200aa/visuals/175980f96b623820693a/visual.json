@@ -1,16 +1,15 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "175980f96b623820693a",
   "position": {
     "x": 10.025419293766049,
     "y": 4.420176681367372,
     "z": 1000,
     "height": 393.57982331863263,
-    "width": 1227.6924792328705,
-    "tabOrder": 1000
+    "width": 1227.6924792328705
   },
   "visual": {
-    "visualType": "lineStackedColumnComboChart",
+    "visualType": "areaChart",
     "query": {
       "queryState": {
         "Category": {
@@ -43,12 +42,27 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "Total Logistics on Net Sales Actual"
+                  "Property": "SSSO: Salvage & Obsolescence"
                 }
               },
-              "queryRef": "Measure.Total Logistics on Net Sales Actual",
-              "nativeQueryRef": "% Logistics vs Net Sales",
-              "displayName": "% Logistics vs Net Sales"
+              "queryRef": "Measure.SSSO: Salvage & Obsolescence",
+              "nativeQueryRef": "SSSO: Salvage & Obs",
+              "displayName": "SSSO: Salvage & Obs"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Switch_Plan_Flex_OI"
+                }
+              },
+              "queryRef": "Measure.Switch_Plan_Flex_OI",
+              "nativeQueryRef": "Plan/Flex",
+              "displayName": "Plan/Flex"
             }
           ],
           "fieldParameters": [
@@ -65,25 +79,6 @@
               },
               "index": 0,
               "length": 1
-            }
-          ]
-        },
-        "Y2": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Switch_Plan_Flex_OI"
-                }
-              },
-              "queryRef": "Measure.Switch_Plan_Flex_OI",
-              "nativeQueryRef": "Plan/Flex",
-              "displayName": "Plan/Flex"
             }
           ]
         }
@@ -262,54 +257,7 @@
                 }
               }
             },
-            "secShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "alignZeros": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "secFontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
-                }
-              }
-            },
-            "secFontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "12D"
-                }
-              }
-            },
-            "secLabelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0.1
-                    }
-                  }
-                }
-              }
-            },
             "gridlineShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "secShowAxisTitle": {
               "expr": {
                 "Literal": {
                   "Value": "false"
@@ -329,84 +277,6 @@
                 }
               }
             }
-          }
-        }
-      ],
-      "error": [
-        {
-          "properties": {
-            "enabled": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "markerShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "labelShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "tooltipShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "barShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Measure.Service Rate%"
-          }
-        },
-        {
-          "properties": {
-            "errorRange": {
-              "kind": "ErrorRange",
-              "percentage": {
-                "lowerBoundDelta": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "0.1D"
-                    }
-                  }
-                },
-                "upperBoundDelta": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "0.1D"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Measure.Service Rate%",
-            "highlightMatching": 1
           }
         }
       ],
@@ -448,6 +318,20 @@
                 }
               }
             }
+          }
+        },
+        {
+          "properties": {
+            "areaShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Switch_Plan_Flex_OI"
           }
         }
       ]
@@ -637,21 +521,6 @@
         },
         "type": "Advanced",
         "howCreated": "User"
-      },
-      {
-        "name": "41d58a276aae4d9f235d",
-        "ordinal": 3,
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_DateSlicer"
-              }
-            },
-            "Property": "P_YearPeriod"
-          }
-        },
-        "type": "Categorical"
       },
       {
         "name": "27071d21d24929430419",
