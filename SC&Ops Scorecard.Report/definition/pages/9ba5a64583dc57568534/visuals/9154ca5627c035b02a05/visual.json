@@ -434,7 +434,24 @@
   "filterConfig": {
     "filters": [
       {
+        "name": "bad00549658af27d367b",
+        "ordinal": 0,
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure"
+              }
+            },
+            "Property": "ASTM -Rate"
+          }
+        },
+        "type": "Advanced",
+        "howCreated": "User"
+      },
+      {
         "name": "01eeaced1ec771e86f9e",
+        "ordinal": 1,
         "field": {
           "Measure": {
             "Expression": {
@@ -481,7 +498,108 @@
           ]
         },
         "howCreated": "User"
+      },
+      {
+        "name": "b8a54a8d54089ec6df8d",
+        "ordinal": 2,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact_Safety"
+              }
+            },
+            "Property": "CSCA_flag"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "f",
+              "Entity": "Fact_Safety",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "f"
+                          }
+                        },
+                        "Property": "CSCA_flag"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Yes'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "requireSingleSelect": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "b798529043f482da9103",
+        "ordinal": 3,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Dim_DateSlicer"
+              }
+            },
+            "Property": "P_YearPeriod"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "f1a8d02adc97b4ceb5d4",
+        "ordinal": 4,
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure"
+              }
+            },
+            "Property": "Switch_Plan_Operations"
+          }
+        },
+        "type": "Advanced"
       }
-    ]
+    ],
+    "filterSortOrder": "Custom"
   }
 }
