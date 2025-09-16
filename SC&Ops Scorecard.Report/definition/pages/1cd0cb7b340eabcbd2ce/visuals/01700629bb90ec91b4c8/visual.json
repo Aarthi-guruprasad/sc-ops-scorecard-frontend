@@ -5910,7 +5910,7 @@
                       "Entity": "CSCI Measures"
                     }
                   },
-                  "Property": "FA Target CSCI"
+                  "Property": "FA Target CSCI L1"
                 }
               }
             }
@@ -5937,7 +5937,7 @@
                       "Entity": "CSCI Measures"
                     }
                   },
-                  "Property": "FA Target CSCI"
+                  "Property": "FA Target CSCI L4"
                 }
               }
             }
@@ -6015,10 +6015,10 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Measure"
+                      "Entity": "CSCI Measures"
                     }
                   },
-                  "Property": "Service Target"
+                  "Property": "Service Target CSCI"
                 }
               }
             }
@@ -6045,7 +6045,7 @@
                       "Entity": "CSCI Measures"
                     }
                   },
-                  "Property": "Bias Target CSCI"
+                  "Property": "Bias Target CSCI L1"
                 }
               }
             }
@@ -6094,7 +6094,7 @@
                       "Entity": "CSCI Measures"
                     }
                   },
-                  "Property": "Bias Target CSCI"
+                  "Property": "Bias Target CSCI L4"
                 }
               }
             }
