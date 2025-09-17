@@ -1,12 +1,12 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
-  "name": "30602d256b047f0a050c",
+  "name": "924e1c5d19da0817664f",
   "position": {
-    "x": 394.75375656050034,
+    "x": 1175.2735638795025,
     "y": 0,
-    "z": 1000,
+    "z": 2000,
     "height": 57.1486088144367,
-    "width": 359.5082320799483
+    "width": 360.28470774318788
   },
   "visual": {
     "visualType": "actionButton",
@@ -55,7 +55,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Targets 🡲'"
+                  "Value": "'Refresh Details 🡲'"
                 }
               }
             },
@@ -212,7 +212,7 @@
             "navigationSection": {
               "expr": {
                 "Literal": {
-                  "Value": "'95885e08eefed61a603a'"
+                  "Value": "'326f8ab715fe0b2b37f0'"
                 }
               }
             }
@@ -222,6 +222,6 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "96667ea365dc1915ef4b",
+  "parentGroupName": "15053dda5ff1130221c5",
   "howCreated": "InsertVisualButton"
 }

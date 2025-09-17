@@ -1,40 +1,78 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
-  "name": "30602d256b047f0a050c",
+  "name": "54d05b1cbc08b400cd38",
   "position": {
-    "x": 394.75375656050034,
-    "y": 0,
-    "z": 1000,
-    "height": 57.1486088144367,
-    "width": 359.5082320799483
+    "x": 732.225947453088,
+    "y": 780.26385793371264,
+    "z": 34003,
+    "height": 89.449996405205269,
+    "width": 501.91386871809624,
+    "tabOrder": 34003
   },
   "visual": {
-    "visualType": "actionButton",
+    "visualType": "shape",
     "objects": {
-      "icon": [
+      "shape": [
         {
           "properties": {
-            "shapeType": {
+            "tileShape": {
               "expr": {
                 "Literal": {
-                  "Value": "'blank'"
+                  "Value": "'rectangle'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "rotation": [
+        {
+          "properties": {
+            "shapeAngle": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "outline": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "lineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#001489'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "50D"
                 }
               }
             }
           },
           "selector": {
             "id": "default"
-          }
-        },
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
           }
         }
       ],
@@ -55,7 +93,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Targets 🡲'"
+                  "Value": "'COGS, Net sales, %Logistics vs Net sales, %Distribution to Cogs'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "18D"
                 }
               }
             },
@@ -76,75 +121,6 @@
                   }
                 }
               }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "15D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
-          }
-        },
-        {
-          "properties": {
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": -0.1
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "hover"
-          }
-        }
-      ],
-      "outline": [
-        {
-          "properties": {
-            "lineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#001489'"
-                    }
-                  }
-                }
-              }
-            },
-            "weight": {
-              "expr": {
-                "Literal": {
-                  "Value": "2D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
-          }
-        }
-      ],
-      "shape": [
-        {
-          "properties": {
-            "roundEdge": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
             }
           },
           "selector": {
@@ -153,17 +129,6 @@
         }
       ],
       "fill": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        },
         {
           "properties": {
             "fillColor": {
@@ -176,43 +141,44 @@
                   }
                 }
               }
-            },
-            "transparency": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
-                }
-              }
             }
           },
           "selector": {
-            "id": "hover"
+            "id": "default"
           }
-        }
-      ]
-    },
-    "visualContainerObjects": {
-      "visualLink": [
+        },
         {
           "properties": {
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
-            },
-            "type": {
+            }
+          }
+        }
+      ],
+      "glow": [
+        {
+          "properties": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "'PageNavigation'"
+                  "Value": "false"
                 }
               }
-            },
-            "navigationSection": {
+            }
+          }
+        }
+      ],
+      "shadow": [
+        {
+          "properties": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "'95885e08eefed61a603a'"
+                  "Value": "false"
                 }
               }
             }
@@ -222,6 +188,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "96667ea365dc1915ef4b",
   "howCreated": "InsertVisualButton"
 }

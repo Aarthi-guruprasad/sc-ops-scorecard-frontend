@@ -68,7 +68,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Forecast accuracy looking back at the forecast made selected periods prior to the actual sales period at an SKU Level'"
+                  "Value": "'Forecast accuracy looking back at the forecast made selected periods prior to the actual sales period at an SKU Level.Clusters Excluded - HRA-RD & Industrial.'"
                 }
               }
             }
