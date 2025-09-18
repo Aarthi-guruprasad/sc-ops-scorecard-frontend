@@ -3,10 +3,10 @@
   "name": "93d660ab4c4a7058a0e5",
   "position": {
     "x": 0,
-    "y": 40,
-    "z": 0,
-    "height": 60,
-    "width": 1590,
+    "y": 0,
+    "z": 2000,
+    "height": 377.95566502463055,
+    "width": 182.88177339901478,
     "tabOrder": 18014
   },
   "visual": {
@@ -68,7 +68,7 @@
             "orientation": {
               "expr": {
                 "Literal": {
-                  "Value": "2D"
+                  "Value": "1D"
                 }
               }
             },
@@ -165,7 +165,7 @@
             "overFlowDirection": {
               "expr": {
                 "Literal": {
-                  "Value": "1D"
+                  "Value": "0D"
                 }
               }
             }
@@ -388,5 +388,6 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "08955534b76eca01999e"
+  "parentGroupName": "4ed634b2a799651e3fc9",
+  "isHidden": true
 }

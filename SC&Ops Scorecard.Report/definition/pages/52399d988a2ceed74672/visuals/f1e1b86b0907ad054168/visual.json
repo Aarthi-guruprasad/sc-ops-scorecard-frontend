@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "f1e1b86b0907ad054168",
   "position": {
     "x": 862.22419859428828,
@@ -7,7 +7,7 @@
     "z": 27000,
     "height": 345.71428571428572,
     "width": 480,
-    "tabOrder": 21000
+    "tabOrder": 20000
   },
   "visualGroup": {
     "displayName": "Operations",

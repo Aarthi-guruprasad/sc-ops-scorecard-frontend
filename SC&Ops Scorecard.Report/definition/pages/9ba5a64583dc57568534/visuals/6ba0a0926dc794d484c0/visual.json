@@ -1,13 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "6ba0a0926dc794d484c0",
   "position": {
     "x": 66.25,
     "y": 0,
     "z": 1000,
     "height": 60,
-    "width": 120,
-    "tabOrder": 1000
+    "width": 120
   },
   "visual": {
     "visualType": "card",
@@ -178,20 +177,6 @@
           ]
         },
         "howCreated": "User"
-      },
-      {
-        "name": "c4c1296ea04de7a1f0cb",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measure"
-              }
-            },
-            "Property": "Switch_YTD_Operations"
-          }
-        },
-        "type": "Advanced"
       },
       {
         "name": "d68c870f5af902ef1047",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "68b7d1e8224b0ee645be",
   "position": {
     "x": 1182.7377771713302,
@@ -7,7 +7,7 @@
     "z": 66000,
     "height": 171.19402985074626,
     "width": 394.82587064676613,
-    "tabOrder": 63000
+    "tabOrder": 62000
   },
   "visualGroup": {
     "displayName": "Picks/Hour",
