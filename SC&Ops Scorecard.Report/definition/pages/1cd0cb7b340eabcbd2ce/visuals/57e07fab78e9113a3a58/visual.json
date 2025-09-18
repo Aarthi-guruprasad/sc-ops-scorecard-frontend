@@ -4,10 +4,10 @@
   "position": {
     "x": 386.38591646530892,
     "y": 340.2140144977563,
-    "z": 4000,
+    "z": 6000,
     "height": 60.752502588885058,
     "width": 119.07490507421471,
-    "tabOrder": 4000
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "card",
@@ -78,6 +78,13 @@
                       "Percent": -0.25
                     }
                   }
+                }
+              }
+            },
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }

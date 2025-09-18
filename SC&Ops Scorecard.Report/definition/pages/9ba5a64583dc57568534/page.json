@@ -920,7 +920,6 @@
       {
         "name": "d004b4bbe32ff0070d5b",
         "boundFilter": "ff2978f55490059ce6a5",
-        "asAggregation": false,
         "qnaSingleSelectRequired": true,
         "fieldExpr": {
           "Column": {

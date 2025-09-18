@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "01700629bb90ec91b4c8",
   "position": {
     "x": 240.57991025198481,
     "y": 191.97790818087677,
-    "z": 3000,
+    "z": 5000,
     "height": 400.96651708664137,
     "width": 330,
-    "tabOrder": 2000
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -1388,6 +1388,92 @@
             "metadata": "CSCI Measures.Bias L4 CSCI",
             "id": "field-29071aac-2496-3ed5-ea4d-0e30b887f2ec",
             "order": 2
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-64091ed3-50e8-c6b6-7f50-bb0520b6f7f7",
+            "order": 0
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-78860152-2b9d-fd04-4bdc-84947c9a9d6f",
+            "order": 0
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Active Products YoY_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-68eec127-48f1-56c6-1c39-52c656258f89",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Active Products MoM_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-bcc566c8-5c12-bda2-753e-56e7ad71c71d",
+            "order": 0
           }
         }
       ],
@@ -4008,6 +4094,50 @@
             "metadata": "CSCI Measures.Bias L4 CSCI",
             "id": "field-29071aac-2496-3ed5-ea4d-0e30b887f2ec"
           }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'PP'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-bcc566c8-5c12-bda2-753e-56e7ad71c71d"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'YoY'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-68eec127-48f1-56c6-1c39-52c656258f89"
+          }
         }
       ],
       "padding": [
@@ -6152,6 +6282,111 @@
           },
           "selector": {
             "metadata": "CSCI Measures.Bias L4 CSCI"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Active Products PP"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-bcc566c8-5c12-bda2-753e-56e7ad71c71d"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Active Products PY"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-68eec127-48f1-56c6-1c39-52c656258f89"
+          }
+        },
+        {
+          "properties": {
+            "detailFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            },
+            "detailBold": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-68eec127-48f1-56c6-1c39-52c656258f89"
+          }
+        },
+        {
+          "properties": {
+            "detailFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            },
+            "detailBold": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-bcc566c8-5c12-bda2-753e-56e7ad71c71d"
           }
         }
       ],
@@ -9337,6 +9572,168 @@
           },
           "selector": {
             "metadata": "CSCI Measures.Bias L4 CSCI"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Active Products MoM"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Active Products MoM"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-bcc566c8-5c12-bda2-753e-56e7ad71c71d"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Active Products YoY%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Active Products YoY%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-68eec127-48f1-56c6-1c39-52c656258f89"
           }
         }
       ],
