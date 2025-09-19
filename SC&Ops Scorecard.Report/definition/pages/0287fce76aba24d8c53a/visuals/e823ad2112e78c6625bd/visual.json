@@ -1,10 +1,10 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "e823ad2112e78c6625bd",
   "position": {
     "x": 6,
-    "y": 379.69367718287731,
-    "z": 13000,
+    "y": 0.693677182877309,
+    "z": 0,
     "height": 80,
     "width": 212,
     "tabOrder": 8000
@@ -195,6 +195,7 @@
     },
     "drillFilterOtherVisuals": true
   },
+  "parentGroupName": "9ac1b88aecdb8753a0e6",
   "filterConfig": {
     "filters": [
       {
@@ -250,6 +251,20 @@
           ]
         },
         "howCreated": "User"
+      },
+      {
+        "name": "8c5b9a03fb27d9560f0c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bridge_Site_Area"
+              }
+            },
+            "Property": "Site"
+          }
+        },
+        "type": "Categorical"
       }
     ]
   }

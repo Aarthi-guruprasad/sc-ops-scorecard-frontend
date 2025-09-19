@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "65354c71dbe8033aeb20",
   "position": {
     "x": 1386.8285280728376,
@@ -7,7 +7,7 @@
     "z": 26000,
     "height": 346.70713201820945,
     "width": 480.72837632776941,
-    "tabOrder": 18000
+    "tabOrder": 17000
   },
   "visualGroup": {
     "displayName": "Working Capital",

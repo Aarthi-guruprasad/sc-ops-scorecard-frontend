@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "df31d2db8ab091888020",
   "position": {
     "x": 240,
@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "OEE%"
+                  "Property": "PWS Benefits"
                 }
               },
-              "queryRef": "Measure.OEE%",
-              "nativeQueryRef": "OEE%",
-              "displayName": "OEE%"
+              "queryRef": "Measure.PWS Benefits",
+              "nativeQueryRef": "PWS Benefits",
+              "displayName": "PWS Benefits"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "OEE%"
+                "Property": "PWS Benefits"
               }
             },
             "direction": "Descending"
@@ -9639,7 +9639,8 @@
             "Property": "OEE%"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       },
       {
         "name": "7d05fb1f4d500102b103",
@@ -9697,8 +9698,24 @@
         "howCreated": "User"
       },
       {
-        "name": "7fe8f3f8460513b2973b",
+        "name": "d5b30e8ddd69aa3e9a47",
         "ordinal": 2,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Fact_Safety"
+              }
+            },
+            "Property": "Area"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User"
+      },
+      {
+        "name": "7fe8f3f8460513b2973b",
+        "ordinal": 3,
         "field": {
           "Measure": {
             "Expression": {
@@ -9707,6 +9724,22 @@
               }
             },
             "Property": "Schedule Attn"
+          }
+        },
+        "type": "Advanced",
+        "howCreated": "User"
+      },
+      {
+        "name": "3db7926121953450b12d",
+        "ordinal": 4,
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure"
+              }
+            },
+            "Property": "ASTM -Rate"
           }
         },
         "type": "Advanced",

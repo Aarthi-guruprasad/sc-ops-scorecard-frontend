@@ -1,13 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "9154ca5627c035b02a05",
   "position": {
     "x": 2.5307354950032352,
     "y": 4,
     "z": 1000,
     "height": 390,
-    "width": 1230,
-    "tabOrder": 1000
+    "width": 1230
   },
   "visual": {
     "visualType": "areaChart",
@@ -501,78 +500,8 @@
         "howCreated": "User"
       },
       {
-        "name": "b8a54a8d54089ec6df8d",
-        "ordinal": 2,
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Fact_Safety"
-              }
-            },
-            "Property": "CSCA_flag"
-          }
-        },
-        "type": "Categorical",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "f",
-              "Entity": "Fact_Safety",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "In": {
-                  "Expressions": [
-                    {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Source": "f"
-                          }
-                        },
-                        "Property": "CSCA_flag"
-                      }
-                    }
-                  ],
-                  "Values": [
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'Yes'"
-                        }
-                      }
-                    ]
-                  ]
-                }
-              }
-            }
-          ]
-        },
-        "howCreated": "User",
-        "objects": {
-          "general": [
-            {
-              "properties": {
-                "requireSingleSelect": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "true"
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
         "name": "b798529043f482da9103",
-        "ordinal": 3,
+        "ordinal": 2,
         "field": {
           "Column": {
             "Expression": {
@@ -587,7 +516,7 @@
       },
       {
         "name": "f1a8d02adc97b4ceb5d4",
-        "ordinal": 4,
+        "ordinal": 3,
         "field": {
           "Measure": {
             "Expression": {

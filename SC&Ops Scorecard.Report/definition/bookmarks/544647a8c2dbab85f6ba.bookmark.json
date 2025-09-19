@@ -8,7 +8,9 @@
       "f8faf5d2d69ff37350db",
       "d62b2a75e06760555ad0",
       "c7b4282b429cbbd2e2b5",
-      "946da9870490d8591eb3"
+      "946da9870490d8591eb3",
+      "96d352e76ea1acd6f22a",
+      "e823ad2112e78c6625bd"
     ]
   },
   "explorationState": {
@@ -129,45 +131,6 @@
             {
               "name": "8b748db0378d0ca04b10",
               "type": "Categorical",
-              "filter": {
-                "Version": 2,
-                "From": [
-                  {
-                    "Name": "b",
-                    "Entity": "Bridge_Site_Area",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "In": {
-                        "Expressions": [
-                          {
-                            "Column": {
-                              "Expression": {
-                                "SourceRef": {
-                                  "Source": "b"
-                                }
-                              },
-                              "Property": "Area"
-                            }
-                          }
-                        ],
-                        "Values": [
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'CSCI'"
-                              }
-                            }
-                          ]
-                        ]
-                      }
-                    }
-                  }
-                ]
-              },
               "expression": {
                 "Column": {
                   "Expression": {
@@ -229,7 +192,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "de03775a19391244af1d",
+                  "name": "bbd289d0678218afbb6a",
                   "type": "Advanced",
                   "expression": {
                     "Column": {
@@ -360,7 +323,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "ccc10b74561ba76c07ba",
+                  "name": "8e8875270d98d94861bd",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -450,7 +413,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "56ba3081fbc6e63efc5c",
+                  "name": "b71f051c8d2f377d9490",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -465,7 +428,61 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "f86242fbce315572dbc6",
+                  "name": "0138b435f4cbeeb9159e",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "f",
+                        "Entity": "Fact_Safety",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "f"
+                                    }
+                                  },
+                                  "Property": "Area"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'CSCI'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "32bc3fc21e5d7df1329c",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -478,6 +495,60 @@
                     }
                   },
                   "howCreated": 0
+                },
+                {
+                  "name": "baf030619236a7c0cae1",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "f",
+                        "Entity": "Fact_PWS",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "f"
+                                    }
+                                  },
+                                  "Property": "Area"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'CSCI'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_PWS"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 1
                 }
               ]
             },
@@ -684,7 +755,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "f8ed693214855e3c072a",
+                  "name": "bfd6c6859b643d4c3717",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -699,7 +770,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "953cbc34c52ed1466971",
+                  "name": "82ccf31f95670649825a",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -714,7 +785,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "a7d3c36971c7dcc953c6",
+                  "name": "e0d8c7019f8ecada7c18",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -731,7 +802,7 @@
               ]
             },
             "singleVisual": {
-              "visualType": "lineStackedColumnComboChart",
+              "visualType": "areaChart",
               "objects": {},
               "activeProjections": {
                 "Category": [
@@ -758,6 +829,16 @@
                       },
                       "Property": "PWS Benefits"
                     }
+                  },
+                  {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Switch_Plan_Operations"
+                    }
                   }
                 ],
                 "Category": [
@@ -769,18 +850,6 @@
                         }
                       },
                       "Property": "P_YearPeriod"
-                    }
-                  }
-                ],
-                "Y2": [
-                  {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Switch_Plan_Operations"
                     }
                   }
                 ]
@@ -904,7 +973,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "99cda09418a594359e42",
+                  "name": "568fdbeacd8ddb543b41",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1307,7 +1376,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "5bdc04314aac40ab409c",
+                  "name": "78014963d2662c967415",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1322,7 +1391,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "c6b05e230460ae5cd312",
+                  "name": "7a89550f0539e7a1e523",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1379,7 +1448,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "6b15fa94a992e43a1269",
+                  "name": "cd54119df3eb6519f034",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1394,7 +1463,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "7562b06cbca58260a274",
+                  "name": "e9711e71180385e3c73c",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1606,7 +1675,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "d8a43a7cb1f8ccb34515",
+                  "name": "c0d3c72891b9aa03a74e",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1659,7 +1728,7 @@
                                       [
                                         {
                                           "Literal": {
-                                            "Value": "'P8 2025'"
+                                            "Value": "'P6 2025'"
                                           }
                                         }
                                       ]
@@ -1826,7 +1895,22 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "b1937ee02db5e69d28d7",
+                  "name": "3db7926121953450b12d",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "ASTM -Rate"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "1bfe37c2beacf85b9a19",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1952,7 +2036,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "07c90c30a6f972aec588",
+                  "name": "2cbea61c6ccfab08759c",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -2028,7 +2112,7 @@
                     }
                   ],
                   "root": {
-                    "identityValues": []
+                    "identityValues": null
                   }
                 }
               ]
@@ -2098,7 +2182,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "7474aff6a1322e2612df",
+                  "name": "2f13851a646eb6992a83",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -2198,7 +2282,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "7508b3a077c8e92100e6",
+                  "name": "8db4f83bf3db2b6c63ab",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -2246,6 +2330,165 @@
                     }
                   }
                 ]
+              }
+            }
+          },
+          "96d352e76ea1acd6f22a": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "505a127dbdc8332b7b38",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "f",
+                        "Entity": "Fact_Safety",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "f"
+                                    }
+                                  },
+                                  "Property": "Area"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'CSCI'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "b7e441c85b8458db62e4",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Site Group"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "f",
+                                "Entity": "Fact_Safety",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "f"
+                                            }
+                                          },
+                                          "Property": "Site Group"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "'CSCI'"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Site Group"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
               }
             }
           }

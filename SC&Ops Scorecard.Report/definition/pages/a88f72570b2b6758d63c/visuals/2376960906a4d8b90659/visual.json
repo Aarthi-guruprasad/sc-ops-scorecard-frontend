@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "2376960906a4d8b90659",
   "position": {
     "x": 337.92220864188658,
@@ -7,7 +7,7 @@
     "z": 14000,
     "height": 345.71428571428578,
     "width": 479.99999999999994,
-    "tabOrder": 6000
+    "tabOrder": 5000
   },
   "visualGroup": {
     "displayName": "Operating Income",
