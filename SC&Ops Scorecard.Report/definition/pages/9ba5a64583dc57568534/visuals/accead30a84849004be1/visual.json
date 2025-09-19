@@ -1,9 +1,9 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "accead30a84849004be1",
   "position": {
-    "x": 6,
-    "y": 584.41954259131251,
+    "x": 3.2451258998665269,
+    "y": 515.92455132031148,
     "z": 20000,
     "height": 65.7950609006593,
     "width": 212,

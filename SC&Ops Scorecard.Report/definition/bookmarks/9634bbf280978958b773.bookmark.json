@@ -4,11 +4,12 @@
   "name": "9634bbf280978958b773",
   "options": {
     "targetVisualNames": [
-      "9ac1b88aecdb8753a0e6",
       "f8faf5d2d69ff37350db",
       "d62b2a75e06760555ad0",
       "c7b4282b429cbbd2e2b5",
-      "946da9870490d8591eb3"
+      "946da9870490d8591eb3",
+      "96d352e76ea1acd6f22a",
+      "e823ad2112e78c6625bd"
     ]
   },
   "explorationState": {
@@ -229,7 +230,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "acfa30917c5055d94f3a",
+                  "name": "5c72cb48b0706ec0f8cb",
                   "type": "Advanced",
                   "expression": {
                     "Column": {
@@ -360,7 +361,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "5c252aec25d1973730d6",
+                  "name": "495207e2a82371fb8ca2",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -450,7 +451,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "db588e8928d2bd2dd960",
+                  "name": "b71f051c8d2f377d9490",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -465,7 +466,22 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "dc7399d1097965c1e066",
+                  "name": "0138b435f4cbeeb9159e",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "8c7085be676167799afd",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -684,7 +700,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "2c6b445b273ebfc73003",
+                  "name": "d91add710c31075231e6",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -699,7 +715,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "33875ef349b93a077748",
+                  "name": "27af449cf1fc933ba0ca",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -714,7 +730,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "87fa18541a83fdda23dd",
+                  "name": "9a6e959a5d0dfbad4967",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -731,7 +747,7 @@
               ]
             },
             "singleVisual": {
-              "visualType": "lineStackedColumnComboChart",
+              "visualType": "areaChart",
               "objects": {},
               "activeProjections": {
                 "Category": [
@@ -758,6 +774,16 @@
                       },
                       "Property": "RFT%"
                     }
+                  },
+                  {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Switch_Plan_Operations"
+                    }
                   }
                 ],
                 "Category": [
@@ -769,18 +795,6 @@
                         }
                       },
                       "Property": "P_YearPeriod"
-                    }
-                  }
-                ],
-                "Y2": [
-                  {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Switch_Plan_Operations"
                     }
                   }
                 ]
@@ -904,7 +918,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "6d87816de7cfd738d858",
+                  "name": "53df9e7f655c3f1b776b",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1271,11 +1285,225 @@
               }
             }
           },
+          "c7b4282b429cbbd2e2b5": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "b2d4754b30ff94aebc7b",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "3dce60ab095c29474cda",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "Waterfall OEE"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "SimpleWaterfall",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d62b2a75e06760555ad0": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "c1ebc66083644b021e22",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "4227bb6ff9044f431cbe",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "Waterfall OEE"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "SimpleWaterfall",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "f8faf5d2d69ff37350db": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "fe8e69233cfaf0bc2dd6",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Slicer_CrossFilter"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "6227405f1831ff5f2769",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Locations"
+                        }
+                      },
+                      "Property": "Focus Lines"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Locations"
+                        }
+                      },
+                      "Property": "Focus Lines"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
           "ace3c7110c01242c3c2a": {
             "filters": {
               "byExpr": [
                 {
-                  "name": "02f0190084b7896f2c70",
+                  "name": "2b609b525c2a0d510519",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1401,151 +1629,10 @@
               }
             }
           },
-          "c7b4282b429cbbd2e2b5": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "714a609c0eacc0bf4a61",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "338f688a4ae1d4e682df",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "Waterfall OEE"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "SimpleWaterfall",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 1,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                ]
-              }
-            }
-          },
           "cb1496fda704a6b32c73": {
             "singleVisual": {
               "visualType": "shape",
               "objects": {}
-            }
-          },
-          "d62b2a75e06760555ad0": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "73574f03d81ee386ebdb",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "e018cdc4899632d43b16",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "Waterfall OEE"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "SimpleWaterfall",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 1,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                ]
-              },
-              "display": {
-                "mode": "hidden"
-              }
             }
           },
           "df31d2db8ab091888020": {
@@ -1636,7 +1723,22 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "4ae1c49ab5b7eff4e63f",
+                  "name": "3db7926121953450b12d",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "ASTM -Rate"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "58ea92f1fb55a483043e",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1762,7 +1864,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "d067612b496795758a39",
+                  "name": "954364ac3b6972cde3a3",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1908,7 +2010,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "c3cc7992395018247d58",
+                  "name": "c050a0e3967fddda243a",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -2008,7 +2110,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "2dea896f300cef4402b5",
+                  "name": "8e8cda78fbbc7c32fce2",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -2059,35 +2161,35 @@
               }
             }
           },
-          "f8faf5d2d69ff37350db": {
+          "96d352e76ea1acd6f22a": {
             "filters": {
               "byExpr": [
                 {
-                  "name": "fe8e69233cfaf0bc2dd6",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Slicer_CrossFilter"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "6227405f1831ff5f2769",
+                  "name": "505a127dbdc8332b7b38",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Dim_Locations"
+                          "Entity": "Fact_Safety"
                         }
                       },
-                      "Property": "Focus Lines"
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "b7e441c85b8458db62e4",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Site Group"
                     }
                   },
                   "howCreated": 0
@@ -2119,13 +2221,16 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Dim_Locations"
+                          "Entity": "Fact_Safety"
                         }
                       },
-                      "Property": "Focus Lines"
+                      "Property": "Site Group"
                     }
                   }
                 ]
+              },
+              "display": {
+                "mode": "hidden"
               }
             }
           }

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "11c19b238ad093924420",
   "position": {
     "x": 362.22222222222223,
@@ -7,7 +7,7 @@
     "z": 0,
     "height": 171.19402985074626,
     "width": 394.82587064676613,
-    "tabOrder": 16000
+    "tabOrder": 15000
   },
   "visualGroup": {
     "displayName": "Delivery of ABP Spend - Distribution",

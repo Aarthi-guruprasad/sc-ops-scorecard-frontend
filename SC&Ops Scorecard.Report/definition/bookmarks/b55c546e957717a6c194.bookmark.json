@@ -5,11 +5,12 @@
   "options": {
     "applyOnlyToTargetVisuals": true,
     "targetVisualNames": [
-      "f36e20d4a8fbd6c5deb6",
       "b6fda06ccc83d993c767",
-      "66a1f7135c93a6b41000",
       "0e051d46c5e70ca02dab",
-      "72fc021fdb52788d5990"
+      "72fc021fdb52788d5990",
+      "66a1f7135c93a6b41000",
+      "6aee3911b0e130291ab6",
+      "244d4201680c8e53a5aa"
     ]
   },
   "explorationState": {
@@ -826,12 +827,27 @@
             {
               "name": "ff2978f55490059ce6a5",
               "type": "Categorical",
+              "expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Bridge_Site_Area"
+                    }
+                  },
+                  "Property": "Area"
+                }
+              },
+              "howCreated": 1
+            },
+            {
+              "name": "1a96e3fe3057468e7ed7",
+              "type": "Categorical",
               "filter": {
                 "Version": 2,
                 "From": [
                   {
-                    "Name": "b",
-                    "Entity": "Bridge_Site_Area",
+                    "Name": "f",
+                    "Entity": "Fact_PWS",
                     "Type": 0
                   }
                 ],
@@ -844,7 +860,7 @@
                             "Column": {
                               "Expression": {
                                 "SourceRef": {
-                                  "Source": "b"
+                                  "Source": "f"
                                 }
                               },
                               "Property": "Area"
@@ -869,7 +885,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Bridge_Site_Area"
+                      "Entity": "Fact_PWS"
                     }
                   },
                   "Property": "Area"
@@ -892,78 +908,6 @@
               "objects": {}
             }
           },
-          "0e051d46c5e70ca02dab": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "729701db672d940327e4",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "3e687f67059e35c76f49",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "Waterfall OEE"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "SimpleWaterfall",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 1,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                ]
-              },
-              "display": {
-                "mode": "hidden"
-              }
-            }
-          },
           "132810d8b1b3b41ca784": {
             "singleVisual": {
               "visualType": "bookmarkNavigator",
@@ -982,245 +926,6 @@
               "objects": {}
             }
           },
-          "244d4201680c8e53a5aa": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "aa23ca9c340103b6bffe",
-                  "type": "Advanced",
-                  "filter": {
-                    "Version": 2,
-                    "From": [
-                      {
-                        "Name": "f",
-                        "Entity": "Fact_SSSO",
-                        "Type": 0
-                      },
-                      {
-                        "Name": "m",
-                        "Entity": "Measure",
-                        "Type": 0
-                      }
-                    ],
-                    "Where": [
-                      {
-                        "Condition": {
-                          "Comparison": {
-                            "ComparisonKind": 0,
-                            "Left": {
-                              "Measure": {
-                                "Expression": {
-                                  "SourceRef": {
-                                    "Source": "m"
-                                  }
-                                },
-                                "Property": "Slicer_CrossFilter"
-                              }
-                            },
-                            "Right": {
-                              "Literal": {
-                                "Value": "1L"
-                              }
-                            }
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Slicer_CrossFilter"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "e8a7f10743679afa7a93",
-                  "type": "Categorical",
-                  "filter": {
-                    "Version": 2,
-                    "From": [
-                      {
-                        "Name": "b",
-                        "Entity": "Bridge_Site",
-                        "Type": 0
-                      }
-                    ],
-                    "Where": [
-                      {
-                        "Condition": {
-                          "Not": {
-                            "Expression": {
-                              "In": {
-                                "Expressions": [
-                                  {
-                                    "Column": {
-                                      "Expression": {
-                                        "SourceRef": {
-                                          "Source": "b"
-                                        }
-                                      },
-                                      "Property": "Site Group"
-                                    }
-                                  }
-                                ],
-                                "Values": [
-                                  [
-                                    {
-                                      "Literal": {
-                                        "Value": "null"
-                                      }
-                                    }
-                                  ],
-                                  [
-                                    {
-                                      "Literal": {
-                                        "Value": "'CSCI'"
-                                      }
-                                    }
-                                  ],
-                                  [
-                                    {
-                                      "Literal": {
-                                        "Value": "'HER'"
-                                      }
-                                    }
-                                  ],
-                                  [
-                                    {
-                                      "Literal": {
-                                        "Value": "'LDM'"
-                                      }
-                                    }
-                                  ],
-                                  [
-                                    {
-                                      "Literal": {
-                                        "Value": "'MGX'"
-                                      }
-                                    }
-                                  ],
-                                  [
-                                    {
-                                      "Literal": {
-                                        "Value": "'PUK'"
-                                      }
-                                    }
-                                  ],
-                                  [
-                                    {
-                                      "Literal": {
-                                        "Value": "'Sandbox'"
-                                      }
-                                    }
-                                  ]
-                                ]
-                              }
-                            }
-                          }
-                        }
-                      }
-                    ]
-                  },
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site"
-                        }
-                      },
-                      "Property": "Site Group"
-                    }
-                  },
-                  "howCreated": 1
-                },
-                {
-                  "name": "03c9816509f045025a54",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site_Area"
-                        }
-                      },
-                      "Property": "Site Group"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "54ccf8754e3718402e96",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site_Area"
-                        }
-                      },
-                      "Property": "Site"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "181e762687b20ee6ffec",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site_Area"
-                        }
-                      },
-                      "Property": "Site Hierarchy"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "activeProjections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bridge_Site_Area"
-                        }
-                      },
-                      "Property": "Site Group"
-                    }
-                  }
-                ]
-              }
-            }
-          },
           "a76093831870c6873b90": {
             "singleVisual": {
               "visualType": "actionButton",
@@ -1237,7 +942,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "138cc3a07e7177e52819",
+                  "name": "2b04eb0c8f464132b75d",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1290,7 +995,7 @@
                                       [
                                         {
                                           "Literal": {
-                                            "Value": "'P7 2025'"
+                                            "Value": "'P6 2025'"
                                           }
                                         }
                                       ]
@@ -1457,7 +1162,37 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "a33a94d240c4329454ba",
+                  "name": "c77243f10b148111cd08",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "ASTM -Rate"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "35b38a285655fc3b25d7",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "PWS Benefits"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "eaa8ff4e8df3269a9dab",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1553,6 +1288,21 @@
             "filters": {
               "byExpr": [
                 {
+                  "name": "bad00549658af27d367b",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "ASTM -Rate"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
                   "name": "01eeaced1ec771e86f9e",
                   "type": "Advanced",
                   "filter": {
@@ -1602,7 +1352,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "f3fe2b98146e60469bda",
+                  "name": "b798529043f482da9103",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1617,7 +1367,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "bda1977a99c2ea01464a",
+                  "name": "f1a8d02adc97b4ceb5d4",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1632,7 +1382,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "8d64d234b7008f3e0cf7",
+                  "name": "b9f16b7b584af0173c50",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1649,7 +1399,7 @@
               ]
             },
             "singleVisual": {
-              "visualType": "lineStackedColumnComboChart",
+              "visualType": "areaChart",
               "objects": {},
               "activeProjections": {
                 "Category": [
@@ -1676,6 +1426,16 @@
                       },
                       "Property": "pSIF SIFs Focus"
                     }
+                  },
+                  {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Switch_Plan_Operations"
+                    }
                   }
                 ],
                 "Category": [
@@ -1687,18 +1447,6 @@
                         }
                       },
                       "Property": "P_YearPeriod"
-                    }
-                  }
-                ],
-                "Y2": [
-                  {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Switch_Plan_Operations"
                     }
                   }
                 ]
@@ -1723,204 +1471,10 @@
               }
             }
           },
-          "66a1f7135c93a6b41000": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "1cc1b5d810f33b76aac2",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Operations_Parameter"
-                        }
-                      },
-                      "Property": "Operations_Parameter"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "advancedSlicerVisual",
-              "objects": {
-                "merge": {
-                  "general": [
-                    {
-                      "properties": {
-                        "filter": {
-                          "filter": {
-                            "Version": 2,
-                            "From": [
-                              {
-                                "Name": "o",
-                                "Entity": "Operations_Parameter",
-                                "Type": 0
-                              }
-                            ],
-                            "Where": [
-                              {
-                                "Condition": {
-                                  "In": {
-                                    "Expressions": [
-                                      {
-                                        "Column": {
-                                          "Expression": {
-                                            "SourceRef": {
-                                              "Source": "o"
-                                            }
-                                          },
-                                          "Property": "Parameter Fields"
-                                        }
-                                      }
-                                    ],
-                                    "Values": [
-                                      [
-                                        {
-                                          "Literal": {
-                                            "Value": "'''Measure''[pSIF SIFs Focus]'"
-                                          }
-                                        }
-                                      ]
-                                    ]
-                                  }
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    }
-                  ],
-                  "selection": [
-                    {
-                      "properties": {
-                        "strictSingleSelect": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "true"
-                            }
-                          }
-                        },
-                        "restrictToLeafNodes": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "false"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "cachedFilterDisplayItems": [
-                {
-                  "id": {
-                    "scopeId": {
-                      "Comparison": {
-                        "ComparisonKind": 0,
-                        "Left": {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Entity": "Operations_Parameter"
-                              }
-                            },
-                            "Property": "Parameter Fields"
-                          }
-                        },
-                        "Right": {
-                          "Literal": {
-                            "Value": "'''Measure''[pSIF SIFs Focus]'"
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "displayName": "pSIF SIF Focus Action%"
-                }
-              ],
-              "display": {
-                "mode": "hidden"
-              }
-            }
-          },
           "6b8c2c95878060eb7870": {
             "singleVisual": {
               "visualType": "image",
               "objects": {}
-            }
-          },
-          "72fc021fdb52788d5990": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "645833a3c40f050abc3f",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "69ae05f667683ef4f6b1",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "Waterfall OEE"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "SimpleWaterfall",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 1,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                ]
-              }
             }
           },
           "9c24cb118a89e56e692e": {
@@ -1933,7 +1487,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "60d5984c9ff6a1fc0812",
+                  "name": "2ed9a195963d3639985d",
                   "type": "Advanced",
                   "expression": {
                     "Column": {
@@ -2120,7 +1674,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "76888ef124593ff5c33d",
+                  "name": "0682b7e003e9f8c11232",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -2187,7 +1741,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "9e78b35597160b5e0fdb",
+                  "name": "3562a6a5b85584552f1e",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -2356,7 +1910,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "8ef875e338835ae15a30",
+                  "name": "97c44597036bc6887567",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -2396,7 +1950,61 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "f01c40282c6101ec8b7a",
+                  "name": "7de2df82aeb2f4c8ecc8",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "b",
+                        "Entity": "Bridge_Site_Area",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "b"
+                                    }
+                                  },
+                                  "Property": "Area"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'CSCA'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "2b26ca07759043a70923",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -2411,7 +2019,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "a7678341440a31150ee9",
+                  "name": "d252537fe2305987353f",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -2426,7 +2034,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "386a51826a8f2638cb31",
+                  "name": "ad5ea7f76d5fd23466ff",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -2538,9 +2146,509 @@
               "objects": {}
             }
           },
-          "d8fe0fe184436be133a1": {
+          "234462225dc441e641a0": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "5c509305b47402733a3b": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "da9039f5b5ac209e0c99": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "f0c89b5010e5e3e9260b": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "f128337ae56333a2934a": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "0e051d46c5e70ca02dab": {
             "filters": {
               "byExpr": [
+                {
+                  "name": "729701db672d940327e4",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "9251fb820ec983fd5cfb",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "CSCA_flag"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "fc0402ce071e614b8d76",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "Waterfall OEE"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "SimpleWaterfall",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "6aee3911b0e130291ab6": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "38b1b75d85dabf0f0acd",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Site Name"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "505a127dbdc8332b7b38",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "f",
+                        "Entity": "Fact_Safety",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "f"
+                                    }
+                                  },
+                                  "Property": "Area"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'CSCA'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "74c77dab18531105bbb8",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Site Group"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "f",
+                                "Entity": "Fact_Safety",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "f"
+                                            }
+                                          },
+                                          "Property": "Site Group"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "'CSCA'"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Site Group"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "244d4201680c8e53a5aa": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "e96785f05aa74a2410b7",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Site"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e8a7f10743679afa7a93",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "b",
+                        "Entity": "Bridge_Site",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "b"
+                                        }
+                                      },
+                                      "Property": "Site Group"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "null"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'CSCI'"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'HER'"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'LDM'"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'MGX'"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'PUK'"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'Sandbox'"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site"
+                        }
+                      },
+                      "Property": "Site Group"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "d461a09fd3b7cdd102d5",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Site Group"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a40cd78a911fc8e14405",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "b",
+                        "Entity": "Bridge_Site_Area",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "b"
+                                    }
+                                  },
+                                  "Property": "Area"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'CSCA'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "a256d3ba591e8bcb8882",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bridge_Site_Area"
+                        }
+                      },
+                      "Property": "Site Hierarchy"
+                    }
+                  },
+                  "howCreated": 0
+                },
                 {
                   "name": "aa23ca9c340103b6bffe",
                   "type": "Advanced",
@@ -2594,21 +2702,6 @@
                     }
                   },
                   "howCreated": 1
-                },
-                {
-                  "name": "b56c5cef49788111dd3e",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Locations"
-                        }
-                      },
-                      "Property": "Location Name"
-                    }
-                  },
-                  "howCreated": 0
                 }
               ]
             },
@@ -2637,50 +2730,211 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Dim_Locations"
+                          "Entity": "Bridge_Site_Area"
                         }
                       },
-                      "Property": "Location Name"
+                      "Property": "Site Group"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "66a1f7135c93a6b41000": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "2d3d7f3913371def75ee",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Operations_Parameter"
+                        }
+                      },
+                      "Property": "Operations_Parameter"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "advancedSlicerVisual",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "o",
+                                "Entity": "Operations_Parameter",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "o"
+                                            }
+                                          },
+                                          "Property": "Parameter Fields"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "'''Measure''[pSIF SIFs Focus]'"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        },
+                        "restrictToLeafNodes": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "false"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "cachedFilterDisplayItems": [
+                {
+                  "id": {
+                    "scopeId": {
+                      "Comparison": {
+                        "ComparisonKind": 0,
+                        "Left": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Operations_Parameter"
+                              }
+                            },
+                            "Property": "Parameter Fields"
+                          }
+                        },
+                        "Right": {
+                          "Literal": {
+                            "Value": "'''Measure''[pSIF SIFs Focus]'"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "displayName": "pSIF SIF Focus Action%"
+                }
+              ],
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "72fc021fdb52788d5990": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "5a1465cb0b56237bbad1",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "f3c53a58548e1f89b881",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "Waterfall OEE"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "SimpleWaterfall",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
                     }
                   }
                 ]
               }
-            }
-          },
-          "234462225dc441e641a0": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "5c509305b47402733a3b": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "da9039f5b5ac209e0c99": {
-            "singleVisual": {
-              "visualType": "shape",
-              "objects": {}
-            }
-          },
-          "f0c89b5010e5e3e9260b": {
-            "singleVisual": {
-              "visualType": "shape",
-              "objects": {}
-            }
-          },
-          "f128337ae56333a2934a": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "ff250f1e1690d768816b": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
             }
           },
           "b6fda06ccc83d993c767": {
@@ -2832,6 +3086,12 @@
               "display": {
                 "mode": "hidden"
               }
+            }
+          },
+          "ff250f1e1690d768816b": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
             }
           }
         }

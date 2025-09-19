@@ -5,11 +5,12 @@
   "options": {
     "applyOnlyToTargetVisuals": true,
     "targetVisualNames": [
-      "9ac1b88aecdb8753a0e6",
       "f8faf5d2d69ff37350db",
       "d62b2a75e06760555ad0",
       "c7b4282b429cbbd2e2b5",
-      "946da9870490d8591eb3"
+      "946da9870490d8591eb3",
+      "96d352e76ea1acd6f22a",
+      "e823ad2112e78c6625bd"
     ]
   },
   "explorationState": {
@@ -130,45 +131,6 @@
             {
               "name": "8b748db0378d0ca04b10",
               "type": "Categorical",
-              "filter": {
-                "Version": 2,
-                "From": [
-                  {
-                    "Name": "b",
-                    "Entity": "Bridge_Site_Area",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "In": {
-                        "Expressions": [
-                          {
-                            "Column": {
-                              "Expression": {
-                                "SourceRef": {
-                                  "Source": "b"
-                                }
-                              },
-                              "Property": "Area"
-                            }
-                          }
-                        ],
-                        "Values": [
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'CSCI'"
-                              }
-                            }
-                          ]
-                        ]
-                      }
-                    }
-                  }
-                ]
-              },
               "expression": {
                 "Column": {
                   "Expression": {
@@ -230,7 +192,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "7c8b4486a0158687c272",
+                  "name": "a1141ec3e0a9a38d885a",
                   "type": "Advanced",
                   "expression": {
                     "Column": {
@@ -361,7 +323,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "8c554418bcf4a85439d0",
+                  "name": "711a86cb200d485da80e",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -451,7 +413,7 @@
             "filters": {
               "byExpr": [
                 {
-                  "name": "0f3ff85085cc3cf3d162",
+                  "name": "b71f051c8d2f377d9490",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -466,7 +428,37 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "edf08c92a086b3a334cb",
+                  "name": "0138b435f4cbeeb9159e",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_Safety"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "baf030619236a7c0cae1",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Fact_PWS"
+                        }
+                      },
+                      "Property": "Area"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "878ac7487256e27d3858",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -685,7 +677,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "e331014af1d6aadd418c",
+                  "name": "ebe80b34e0cc70a57748",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -700,7 +692,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "1cb79f7df6a73139ed93",
+                  "name": "8b6bd67398d581ed7fe5",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -715,7 +707,7 @@
                   "howCreated": 0
                 },
                 {
-                  "name": "991046879edada2d7f68",
+                  "name": "d7fe307d8750d5afaab1",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -732,7 +724,7 @@
               ]
             },
             "singleVisual": {
-              "visualType": "lineStackedColumnComboChart",
+              "visualType": "areaChart",
               "objects": {},
               "activeProjections": {
                 "Category": [
@@ -759,6 +751,16 @@
                       },
                       "Property": "ASTM -Rate"
                     }
+                  },
+                  {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Switch_Plan_Operations"
+                    }
                   }
                 ],
                 "Category": [
@@ -770,18 +772,6 @@
                         }
                       },
                       "Property": "P_YearPeriod"
-                    }
-                  }
-                ],
-                "Y2": [
-                  {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure"
-                        }
-                      },
-                      "Property": "Switch_Plan_Operations"
                     }
                   }
                 ]
@@ -905,7 +895,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "52ea576fc40c6ce90fda",
+                  "name": "38478e697d0cf0444fe1",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -959,49 +949,6 @@
                 {
                   "name": "826dfd34479e16e9926a",
                   "type": "Categorical",
-                  "filter": {
-                    "Version": 2,
-                    "From": [
-                      {
-                        "Name": "o",
-                        "Entity": "Operations_Parameter",
-                        "Type": 0
-                      }
-                    ],
-                    "Where": [
-                      {
-                        "Condition": {
-                          "Not": {
-                            "Expression": {
-                              "In": {
-                                "Expressions": [
-                                  {
-                                    "Column": {
-                                      "Expression": {
-                                        "SourceRef": {
-                                          "Source": "o"
-                                        }
-                                      },
-                                      "Property": "Parameter Fields"
-                                    }
-                                  }
-                                ],
-                                "Values": [
-                                  [
-                                    {
-                                      "Literal": {
-                                        "Value": "'''Measure''[Schedule Attn]'"
-                                      }
-                                    }
-                                  ]
-                                ]
-                              }
-                            }
-                          }
-                        }
-                      }
-                    ]
-                  },
                   "expression": {
                     "Column": {
                       "Expression": {
@@ -1031,13 +978,113 @@
                             },
                             "Right": {
                               "Literal": {
-                                "Value": "'''Measure''[Schedule Attn]'"
+                                "Value": "'''Measure''[OEE%]'"
                               }
                             }
                           }
                         }
                       },
-                      "displayName": "Schedule Attainment%"
+                      "displayName": "OEE%"
+                    },
+                    {
+                      "id": {
+                        "scopeId": {
+                          "Comparison": {
+                            "ComparisonKind": 0,
+                            "Left": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Entity": "Operations_Parameter"
+                                  }
+                                },
+                                "Property": "Parameter Fields"
+                              }
+                            },
+                            "Right": {
+                              "Literal": {
+                                "Value": "'''Measure''[On Time Closure of Deviations%]'"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "displayName": "On Time Closure of Deviations%"
+                    },
+                    {
+                      "id": {
+                        "scopeId": {
+                          "Comparison": {
+                            "ComparisonKind": 0,
+                            "Left": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Entity": "Operations_Parameter"
+                                  }
+                                },
+                                "Property": "Parameter Fields"
+                              }
+                            },
+                            "Right": {
+                              "Literal": {
+                                "Value": "'''Measure''[CAPA Completion Rate]'"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "displayName": "CAPA Completion Rate%"
+                    },
+                    {
+                      "id": {
+                        "scopeId": {
+                          "Comparison": {
+                            "ComparisonKind": 0,
+                            "Left": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Entity": "Operations_Parameter"
+                                  }
+                                },
+                                "Property": "Parameter Fields"
+                              }
+                            },
+                            "Right": {
+                              "Literal": {
+                                "Value": "'''Measure''[Critical or Major Observations]'"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "displayName": "Critical or Major Observations"
+                    },
+                    {
+                      "id": {
+                        "scopeId": {
+                          "Comparison": {
+                            "ComparisonKind": 0,
+                            "Left": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Entity": "Operations_Parameter"
+                                  }
+                                },
+                                "Property": "Parameter Fields"
+                              }
+                            },
+                            "Right": {
+                              "Literal": {
+                                "Value": "'''Measure''[RFT%]'"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "displayName": "RFT%"
                     }
                   ]
                 }
@@ -1148,11 +1195,310 @@
               }
             }
           },
+          "c7b4282b429cbbd2e2b5": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "45e266ce6370f4e2fcc5",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "eea99952ecc3ac883204",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "Waterfall OEE"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "SimpleWaterfall",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "d62b2a75e06760555ad0": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "106dd25b136e4350b35f",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "661a6bac7bc34e53a0ad",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "Waterfall OEE"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "SimpleWaterfall",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Table Waterfall"
+                        }
+                      },
+                      "Property": "P_YearPeriod"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "f8faf5d2d69ff37350db": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "fe8e69233cfaf0bc2dd6",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure"
+                        }
+                      },
+                      "Property": "Slicer_CrossFilter"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "6227405f1831ff5f2769",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "Dim_Locations",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "d"
+                                        }
+                                      },
+                                      "Property": "Focus Lines"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "null"
+                                      }
+                                    }
+                                  ],
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "'N'"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Locations"
+                        }
+                      },
+                      "Property": "Focus Lines"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        },
+                        "isInvertedSelectionMode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "false"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Locations"
+                        }
+                      },
+                      "Property": "Focus Lines"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Locations"
+                        }
+                      },
+                      "Property": "Focus Lines"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
           "ace3c7110c01242c3c2a": {
             "filters": {
               "byExpr": [
                 {
-                  "name": "14c6007fc54df3e2ec27",
+                  "name": "2a85154bc0d492d6896f",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1278,151 +1624,10 @@
               }
             }
           },
-          "c7b4282b429cbbd2e2b5": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "29b3521dbc00f02e296a",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "1d0c641954df8c73341e",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "Waterfall OEE"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "SimpleWaterfall",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 1,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                ]
-              },
-              "display": {
-                "mode": "hidden"
-              }
-            }
-          },
           "cb1496fda704a6b32c73": {
             "singleVisual": {
               "visualType": "shape",
               "objects": {}
-            }
-          },
-          "d62b2a75e06760555ad0": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "e6aab78bc4fc7bbe36fa",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "0e9924c7e894a35a8865",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "Waterfall OEE"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "SimpleWaterfall",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 1,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Table Waterfall"
-                        }
-                      },
-                      "Property": "P_YearPeriod"
-                    }
-                  }
-                ]
-              }
             }
           },
           "df31d2db8ab091888020": {
@@ -1513,7 +1718,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "cc463bf76d552fccce05",
+                  "name": "3db7926121953450b12d",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1639,7 +1844,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "87e6aaa738ce933a24cf",
+                  "name": "dfea0fddc03e022de41a",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1718,7 +1923,10 @@
                     "identityValues": null
                   }
                 }
-              ]
+              ],
+              "display": {
+                "mode": "hidden"
+              }
             }
           },
           "54a56540cb300b9bc317": {
@@ -1785,7 +1993,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "f3ed98fac1e32dd45bc3",
+                  "name": "f9f2369307c07e04085e",
                   "type": "Advanced",
                   "expression": {
                     "Measure": {
@@ -1885,7 +2093,7 @@
                   "howCreated": 1
                 },
                 {
-                  "name": "18876bc16280a1b964b1",
+                  "name": "68acda101866393371d8",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
@@ -1936,35 +2144,74 @@
               }
             }
           },
-          "f8faf5d2d69ff37350db": {
+          "96d352e76ea1acd6f22a": {
             "filters": {
               "byExpr": [
                 {
-                  "name": "fe8e69233cfaf0bc2dd6",
-                  "type": "Advanced",
+                  "name": "505a127dbdc8332b7b38",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "f",
+                        "Entity": "Fact_Safety",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "f"
+                                    }
+                                  },
+                                  "Property": "Area"
+                                }
+                              }
+                            ],
+                            "Values": [
+                              [
+                                {
+                                  "Literal": {
+                                    "Value": "'CSCI'"
+                                  }
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
                   "expression": {
-                    "Measure": {
+                    "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Measure"
+                          "Entity": "Fact_Safety"
                         }
                       },
-                      "Property": "Slicer_CrossFilter"
+                      "Property": "Area"
                     }
                   },
                   "howCreated": 1
                 },
                 {
-                  "name": "6227405f1831ff5f2769",
+                  "name": "b7e441c85b8458db62e4",
                   "type": "Categorical",
                   "expression": {
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Dim_Locations"
+                          "Entity": "Fact_Safety"
                         }
                       },
-                      "Property": "Focus Lines"
+                      "Property": "Site Group"
                     }
                   },
                   "howCreated": 0
@@ -1975,6 +2222,53 @@
               "visualType": "slicer",
               "objects": {
                 "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "f",
+                                "Entity": "Fact_Safety",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "f"
+                                            }
+                                          },
+                                          "Property": "Site Group"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "'CSCI'"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
                   "data": [
                     {
                       "properties": {
@@ -1996,16 +2290,13 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Dim_Locations"
+                          "Entity": "Fact_Safety"
                         }
                       },
-                      "Property": "Focus Lines"
+                      "Property": "Site Group"
                     }
                   }
                 ]
-              },
-              "display": {
-                "mode": "hidden"
               }
             }
           }

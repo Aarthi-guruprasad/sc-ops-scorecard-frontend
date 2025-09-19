@@ -1,13 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "1ddcef06d8cc00e446ec",
   "position": {
     "x": 2.430100103555402,
     "y": 4.8602002071108039,
     "z": 1000,
     "height": 393.67621677597515,
-    "width": 1239.3510528132551,
-    "tabOrder": 1000
+    "width": 1239.3510528132551
   },
   "visual": {
     "visualType": "areaChart",
@@ -43,12 +42,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "OEE%"
+                  "Property": "PWS Benefits"
                 }
               },
-              "queryRef": "Measure.OEE%",
-              "nativeQueryRef": "OEE%",
-              "displayName": "OEE%"
+              "queryRef": "Measure.PWS Benefits",
+              "nativeQueryRef": "PWS Benefits",
+              "displayName": "PWS Benefits"
             },
             {
               "field": {
