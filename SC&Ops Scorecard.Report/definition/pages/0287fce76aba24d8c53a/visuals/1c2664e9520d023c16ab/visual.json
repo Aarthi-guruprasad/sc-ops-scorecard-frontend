@@ -42,12 +42,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "PWS Benefits"
+                  "Property": "ASTM -Rate"
                 }
               },
-              "queryRef": "Measure.PWS Benefits",
-              "nativeQueryRef": "PWS Benefits",
-              "displayName": "PWS Benefits"
+              "queryRef": "Measure.ASTM -Rate",
+              "nativeQueryRef": "ASTM Rate",
+              "displayName": "ASTM Rate"
             }
           ],
           "fieldParameters": [
@@ -78,7 +78,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "PWS Benefits"
+                "Property": "ASTM -Rate"
               }
             },
             "direction": "Descending"
@@ -246,20 +246,6 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "b71f051c8d2f377d9490",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Bridge_Site_Area"
-              }
-            },
-            "Property": "Site"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
         "name": "0138b435f4cbeeb9159e",
         "field": {
           "Column": {
@@ -381,20 +367,6 @@
           ]
         },
         "howCreated": "User"
-      },
-      {
-        "name": "fed0d01f442938409404",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measure"
-              }
-            },
-            "Property": "PWS Benefits"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }

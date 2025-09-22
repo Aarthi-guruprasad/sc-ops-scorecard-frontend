@@ -6,8 +6,7 @@
     "y": 0.693677182877309,
     "z": 0,
     "height": 80,
-    "width": 212,
-    "tabOrder": 8000
+    "width": 212
   },
   "visual": {
     "visualType": "slicer",
@@ -251,21 +250,8 @@
           ]
         },
         "howCreated": "User"
-      },
-      {
-        "name": "8c5b9a03fb27d9560f0c",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Bridge_Site_Area"
-              }
-            },
-            "Property": "Site"
-          }
-        },
-        "type": "Categorical"
       }
     ]
-  }
+  },
+  "isHidden": true
 }

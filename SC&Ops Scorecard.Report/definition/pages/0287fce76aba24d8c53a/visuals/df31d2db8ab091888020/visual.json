@@ -7,7 +7,7 @@
     "z": 21000,
     "height": 416,
     "width": 332,
-    "tabOrder": 14000
+    "tabOrder": 13000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "PWS Benefits"
+                  "Property": "ASTM -Rate"
                 }
               },
-              "queryRef": "Measure.PWS Benefits",
-              "nativeQueryRef": "PWS Benefits",
-              "displayName": "PWS Benefits"
+              "queryRef": "Measure.ASTM -Rate",
+              "nativeQueryRef": "ASTM Rate",
+              "displayName": "ASTM Rate"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "PWS Benefits"
+                "Property": "ASTM -Rate"
               }
             },
             "direction": "Descending"
@@ -9742,8 +9742,7 @@
             "Property": "ASTM -Rate"
           }
         },
-        "type": "Advanced",
-        "howCreated": "User"
+        "type": "Advanced"
       }
     ],
     "filterSortOrder": "Custom"

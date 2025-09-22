@@ -325,7 +325,7 @@
         "howCreated": "User"
       },
       {
-        "name": "a4a7d3ac8ef16831d83f",
+        "name": "7cb173faa57290988a05",
         "field": {
           "Column": {
             "Expression": {
@@ -336,7 +336,23 @@
             "Property": "Site Group"
           }
         },
-        "type": "Categorical"
+        "type": "Categorical",
+        "isLockedInViewMode": true,
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "filterSortOrder": "Custom"

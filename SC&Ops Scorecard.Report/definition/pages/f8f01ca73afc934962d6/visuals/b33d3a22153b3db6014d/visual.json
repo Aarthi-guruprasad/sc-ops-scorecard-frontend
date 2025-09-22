@@ -3,11 +3,11 @@
   "name": "b33d3a22153b3db6014d",
   "position": {
     "x": 0,
-    "y": 6.5,
-    "z": 116000,
-    "height": 32,
-    "width": 154,
-    "tabOrder": 1000
+    "y": 3.4339434052592424,
+    "z": 57000,
+    "height": 31.634193687540442,
+    "width": 155.29513264792581,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "textbox",
@@ -51,5 +51,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "b17135fdc7a1f8b51211"
+  "parentGroupName": "d1dece4ba4b38c1520d7"
 }
