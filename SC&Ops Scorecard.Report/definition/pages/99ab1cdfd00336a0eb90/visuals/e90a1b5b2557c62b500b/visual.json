@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "e90a1b5b2557c62b500b",
   "position": {
-    "x": 920,
-    "y": 196,
+    "x": 590,
+    "y": 248.33333333333334,
     "z": 67000,
-    "height": 48,
-    "width": 1000,
-    "tabOrder": 62000
+    "height": 43.333333333333336,
+    "width": 305,
+    "tabOrder": 60000
   },
   "visual": {
     "visualType": "shape",
@@ -81,7 +81,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'**Note: This is a standalone filter specific to this section. It will only interact with the Period filter in the left pane.'"
+                  "Value": "'**Note: Select OEE & Quality Sites. '"
                 }
               }
             },
@@ -114,7 +114,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "13D"
+                  "Value": "14D"
                 }
               }
             }

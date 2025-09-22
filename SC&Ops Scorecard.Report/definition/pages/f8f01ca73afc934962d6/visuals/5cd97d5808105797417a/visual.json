@@ -2,12 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "5cd97d5808105797417a",
   "position": {
-    "x": 144.4444444444444,
-    "y": 2.5,
-    "z": 117000,
-    "height": 35,
-    "width": 207.77777777777777,
-    "tabOrder": 2000
+    "x": 149.01814173077429,
+    "y": 0,
+    "z": 58000,
+    "height": 40,
+    "width": 215
   },
   "visual": {
     "visualType": "slicer",
@@ -42,8 +41,9 @@
                 }
               },
               "queryRef": "Bridge_Site_Area.Site Hierarchy",
-              "nativeQueryRef": "Site Hierarchy",
-              "active": false
+              "nativeQueryRef": "Site Name",
+              "active": false,
+              "displayName": "Site Name"
             }
           ]
         }
@@ -158,6 +158,13 @@
                   "Value": "false"
                 }
               }
+            },
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
             }
           }
         }
@@ -173,6 +180,13 @@
                       "Value": "'#001489'"
                     }
                   }
+                }
+              }
+            },
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
                 }
               }
             }
@@ -336,9 +350,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": -0.6
+                    "Literal": {
+                      "Value": "'#001489'"
                     }
                   }
                 }
@@ -381,7 +394,7 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "b17135fdc7a1f8b51211",
+  "parentGroupName": "d1dece4ba4b38c1520d7",
   "filterConfig": {
     "filters": [
       {
