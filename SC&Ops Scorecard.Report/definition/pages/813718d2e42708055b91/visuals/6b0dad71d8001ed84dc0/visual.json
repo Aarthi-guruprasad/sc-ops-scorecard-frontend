@@ -6,8 +6,7 @@
     "y": 0,
     "z": 0,
     "height": 48,
-    "width": 174,
-    "tabOrder": 1000
+    "width": 174
   },
   "visual": {
     "visualType": "slicer",

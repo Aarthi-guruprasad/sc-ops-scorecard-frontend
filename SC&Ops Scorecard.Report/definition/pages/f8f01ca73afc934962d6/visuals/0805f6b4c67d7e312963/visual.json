@@ -4,7 +4,7 @@
   "position": {
     "x": 8,
     "y": 602.66482568173979,
-    "z": 33000,
+    "z": 34000,
     "height": 65,
     "width": 212,
     "tabOrder": 28000
@@ -84,7 +84,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'YTD'"
+                                "Value": "'PTD'"
                               }
                             }
                           ]
@@ -487,6 +487,20 @@
         },
         "type": "Advanced",
         "howCreated": "User"
+      },
+      {
+        "name": "6b5b8bf674021c4abaf8",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "CG_PeriodSelection"
+              }
+            },
+            "Property": "Period"
+          }
+        },
+        "type": "Categorical"
       }
     ]
   }

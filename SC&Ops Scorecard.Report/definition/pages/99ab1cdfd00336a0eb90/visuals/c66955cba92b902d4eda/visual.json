@@ -6,7 +6,8 @@
     "y": 44.64255995874646,
     "z": 96000,
     "height": 29,
-    "width": 29
+    "width": 29,
+    "tabOrder": 47000
   },
   "visual": {
     "visualType": "image",

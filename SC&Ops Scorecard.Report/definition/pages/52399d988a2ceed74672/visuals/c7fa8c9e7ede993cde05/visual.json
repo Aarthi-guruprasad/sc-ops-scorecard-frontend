@@ -7,7 +7,7 @@
     "z": 32000,
     "height": 616.21108634696964,
     "width": 926.80135164282126,
-    "tabOrder": 9000
+    "tabOrder": 8000
   },
   "visual": {
     "visualType": "pivotTable",
@@ -1244,6 +1244,20 @@
         },
         "type": "Advanced",
         "howCreated": "User"
+      },
+      {
+        "name": "cc0932d775ba9b3998ed",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure"
+              }
+            },
+            "Property": "KPI Status Icon (Operating Income)"
+          }
+        },
+        "type": "Advanced"
       }
     ],
     "filterSortOrder": "Custom"
