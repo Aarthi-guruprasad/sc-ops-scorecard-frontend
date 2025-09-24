@@ -7,7 +7,7 @@
     "z": 33000,
     "height": 400.04026170105686,
     "width": 884.56107556258542,
-    "tabOrder": 8000
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "pivotTable",
@@ -1209,20 +1209,19 @@
         "howCreated": "User"
       },
       {
-        "name": "db6c3dcfe7186d108a35",
+        "name": "e67d0060e3f2a0c3a83e",
         "ordinal": 3,
         "field": {
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "KPI_Metadata"
+                "Entity": "Measure"
               }
             },
             "Property": "KPI Status Icon (Working Capital)"
           }
         },
-        "type": "Advanced",
-        "howCreated": "User"
+        "type": "Advanced"
       }
     ],
     "filterSortOrder": "Custom"

@@ -6,7 +6,8 @@
     "y": 259.99999999999994,
     "z": 18000,
     "height": 768.00000000000011,
-    "width": 1584
+    "width": 1584,
+    "tabOrder": 20000
   },
   "visual": {
     "visualType": "tableEx",
