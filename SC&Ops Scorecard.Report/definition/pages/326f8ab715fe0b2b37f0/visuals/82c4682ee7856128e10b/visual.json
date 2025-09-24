@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
-  "name": "48cc6a97c7d7d61751b0",
+  "name": "82c4682ee7856128e10b",
   "position": {
-    "x": 308.01480956186623,
-    "y": 259.5577377395033,
-    "z": 11000,
-    "height": 90,
-    "width": 400,
-    "tabOrder": 3000
+    "x": 1251.5939825382848,
+    "y": 881.3703863056304,
+    "z": 38004,
+    "height": 89.449996405205269,
+    "width": 300.65137680638435,
+    "tabOrder": 38004
   },
   "visual": {
     "visualType": "shape",
@@ -93,14 +93,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Main Forecast Accuracy'"
+                  "Value": "'Daily'"
                 }
               }
             },
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "20D"
+                  "Value": "18D"
                 }
               }
             },

@@ -6,7 +6,7 @@
     "y": 546.66666666666674,
     "z": 78000,
     "height": 35,
-    "width": 290,
+    "width": 790,
     "tabOrder": 78000
   },
   "visual": {
@@ -81,7 +81,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'**Note: Select Safety Sites. '"
+                  "Value": "'**Note: Select Safety Sites. The Values for Safety KPIs is Rolling 12 month calendar date.'"
                 }
               }
             },

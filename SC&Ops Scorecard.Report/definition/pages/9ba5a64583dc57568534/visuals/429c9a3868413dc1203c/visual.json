@@ -2382,6 +2382,20 @@
           "selector": {
             "metadata": "Measure.GOOD Catch Closure Rate"
           }
+        },
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'PWS Benefits ($)'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.PWS Benefits"
+          }
         }
       ],
       "spacing": [
