@@ -1625,7 +1625,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'PWS Benefits'"
+                  "Value": "'PWS Benefits ($)'"
                 }
               }
             },

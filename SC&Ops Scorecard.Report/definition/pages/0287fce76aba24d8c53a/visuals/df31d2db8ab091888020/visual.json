@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "ASTM -Rate"
+                  "Property": "PWS Benefits"
                 }
               },
-              "queryRef": "Measure.ASTM -Rate",
-              "nativeQueryRef": "ASTM Rate",
-              "displayName": "ASTM Rate"
+              "queryRef": "Measure.PWS Benefits",
+              "nativeQueryRef": "PWS Benefits",
+              "displayName": "PWS Benefits"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "ASTM -Rate"
+                "Property": "PWS Benefits"
               }
             },
             "direction": "Descending"
@@ -2343,6 +2343,20 @@
           },
           "selector": {
             "metadata": "Measure.Critical or Major Observations"
+          }
+        },
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'PWS Benefits ($)'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.PWS Benefits"
           }
         }
       ],
@@ -9742,7 +9756,8 @@
             "Property": "ASTM -Rate"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       }
     ],
     "filterSortOrder": "Custom"

@@ -43,12 +43,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "ASTM -Rate"
+                  "Property": "PWS Benefits"
                 }
               },
-              "queryRef": "Measure.ASTM -Rate",
-              "nativeQueryRef": "ASTM Rate",
-              "displayName": "ASTM Rate"
+              "queryRef": "Measure.PWS Benefits",
+              "nativeQueryRef": "PWS Benefits",
+              "displayName": "PWS Benefits"
             },
             {
               "field": {
