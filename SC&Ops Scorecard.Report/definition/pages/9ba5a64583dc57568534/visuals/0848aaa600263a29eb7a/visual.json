@@ -135,6 +135,20 @@
           "selector": {
             "id": "326f8ab715fe0b2b37f0"
           }
+        },
+        {
+          "properties": {
+            "showPage": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "fff2c452fe09a045ad53"
+          }
         }
       ],
       "outline": [

@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "FA% Lag2"
+                  "Property": "Service Top 11"
                 }
               },
-              "queryRef": "Measure.FA% Lag2",
-              "nativeQueryRef": "FA% Lag 2",
-              "displayName": "FA% Lag 2"
+              "queryRef": "Measure.Service Top 11",
+              "nativeQueryRef": "Service Top 11",
+              "displayName": "Service Top 11"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "FA% Lag2"
+                "Property": "Service Top 11"
               }
             },
             "direction": "Descending"
@@ -435,7 +435,7 @@
             ],
             "metadata": "Measure.FA% Lag2",
             "id": "field-d2a406d8-ea2f-ca97-f57e-0ba0d35b67bf",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -463,7 +463,7 @@
             ],
             "metadata": "Measure.FA% Lag2",
             "id": "field-3ef7c717-ab90-b7a0-88f5-4bb2ea9cc17f",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -831,7 +831,7 @@
             ],
             "metadata": "Measure.Service Rate%",
             "id": "field-aa8c734e-e0d3-0adb-d5da-4cc35b5ae8bb",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -859,7 +859,7 @@
             ],
             "metadata": "Measure.Service Rate%",
             "id": "field-e6cc7965-daeb-c600-c847-fc583387dc42",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1029,7 +1029,7 @@
             ],
             "metadata": "Measure.CFR",
             "id": "field-63f36919-da19-d00d-8381-ad88657216d3",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1057,7 +1057,7 @@
             ],
             "metadata": "Measure.CFR",
             "id": "field-8f145884-a072-ac12-46ea-ed14745fd132",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1113,7 +1113,7 @@
             ],
             "metadata": "Measure.Service Top 11",
             "id": "field-8545ac49-6dae-666e-e2b1-7d5f02efbeb0",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1141,7 +1141,119 @@
             ],
             "metadata": "Measure.Service Top 11",
             "id": "field-6b70cb09-1ca8-99c1-fb72-add1f03f5118",
-            "order": 2
+            "order": 3
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "FA% Lag2 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.FA% Lag2",
+            "id": "field-18b170f8-482c-a2fc-ecac-111b2910f8e0",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "CFR 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.CFR",
+            "id": "field-85d02321-933e-89d4-96e0-cdd52a0bf0ce",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Service Rate% 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Service Rate%",
+            "id": "field-77ed38ee-d6ec-2640-f97a-3e67e7153ad2",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Service Top 11 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Service Top 11",
+            "id": "field-38ad4aa1-5e6d-8f83-fd01-fd86e3948054",
+            "order": 1
           }
         }
       ],
@@ -3243,6 +3355,108 @@
           "selector": {
             "metadata": "Measure.Service Top 11"
           }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.FA% Lag2",
+            "id": "field-18b170f8-482c-a2fc-ecac-111b2910f8e0"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.CFR",
+            "id": "field-85d02321-933e-89d4-96e0-cdd52a0bf0ce"
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.CFR",
+            "id": "field-85d02321-933e-89d4-96e0-cdd52a0bf0ce"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Service Rate%",
+            "id": "field-77ed38ee-d6ec-2640-f97a-3e67e7153ad2"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Service Top 11",
+            "id": "field-38ad4aa1-5e6d-8f83-fd01-fd86e3948054"
+          }
         }
       ],
       "padding": [
@@ -4761,6 +4975,158 @@
           "selector": {
             "metadata": "Measure.FA% Lag4",
             "id": "field-f54969c2-796f-0110-1f0b-969a2c37dac3"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "CFR Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.CFR",
+            "id": "field-85d02321-933e-89d4-96e0-cdd52a0bf0ce"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.CFR",
+            "id": "field-85d02321-933e-89d4-96e0-cdd52a0bf0ce"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Service Rate Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Service Rate%",
+            "id": "field-77ed38ee-d6ec-2640-f97a-3e67e7153ad2"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Service Rate%",
+            "id": "field-77ed38ee-d6ec-2640-f97a-3e67e7153ad2"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Service Top 11 Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Service Top 11",
+            "id": "field-38ad4aa1-5e6d-8f83-fd01-fd86e3948054"
+          }
+        },
+        {
+          "properties": {
+            "detailFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "detailFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Service Top 11",
+            "id": "field-38ad4aa1-5e6d-8f83-fd01-fd86e3948054"
           }
         }
       ],
@@ -7001,6 +7367,249 @@
             "metadata": "Measure.Service Top 11",
             "id": "field-6b70cb09-1ca8-99c1-fb72-add1f03f5118"
           }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "CFR 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "CFR 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.CFR",
+            "id": "field-85d02321-933e-89d4-96e0-cdd52a0bf0ce"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Service Rate 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Service Rate 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Service Rate%",
+            "id": "field-77ed38ee-d6ec-2640-f97a-3e67e7153ad2"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Service Top 11 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Service Top 11 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Service Top 11",
+            "id": "field-38ad4aa1-5e6d-8f83-fd01-fd86e3948054"
+          }
         }
       ],
       "outline": [
@@ -7293,7 +7902,8 @@
             "Property": "FA% Lag2"
           }
         },
-        "type": "Advanced"
+        "type": "Advanced",
+        "howCreated": "User"
       }
     ],
     "filterSortOrder": "Custom"

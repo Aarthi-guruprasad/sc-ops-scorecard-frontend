@@ -1,9 +1,9 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
   "name": "fff2c452fe09a045ad53",
-  "displayName": "Page 1",
+  "displayName": "All KPI Comparison",
   "displayOption": "FitToPage",
-  "height": 1080,
+  "height": 1520,
   "width": 1920,
   "filterConfig": {
     "filters": [
@@ -212,7 +212,6 @@
       {
         "name": "84919aebfe1711857eb8",
         "boundFilter": "79b187edb2acbaa8d057",
-        "asAggregation": false,
         "qnaSingleSelectRequired": true,
         "fieldExpr": {
           "Column": {
@@ -227,5 +226,11 @@
       }
     ]
   },
-  "visibility": "HiddenInViewMode"
+  "visualInteractions": [
+    {
+      "source": "af788438e96b9466f97e",
+      "target": "9fb36bc18abe034c43fe",
+      "type": "NoFilter"
+    }
+  ]
 }

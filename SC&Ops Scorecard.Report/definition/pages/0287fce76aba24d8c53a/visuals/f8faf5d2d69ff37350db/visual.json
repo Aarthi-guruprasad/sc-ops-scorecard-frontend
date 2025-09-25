@@ -7,7 +7,7 @@
     "z": 5000,
     "height": 84.785966749574541,
     "width": 213.80809006414449,
-    "tabOrder": 3000
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "slicer",
@@ -302,6 +302,5 @@
         }
       }
     ]
-  },
-  "isHidden": true
+  }
 }

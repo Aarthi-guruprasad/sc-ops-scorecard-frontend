@@ -7,7 +7,7 @@
     "z": 34000,
     "height": 65,
     "width": 212,
-    "tabOrder": 28000
+    "tabOrder": 27000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -84,7 +84,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'PTD'"
+                                "Value": "'YTD'"
                               }
                             }
                           ]
@@ -487,20 +487,6 @@
         },
         "type": "Advanced",
         "howCreated": "User"
-      },
-      {
-        "name": "6b5b8bf674021c4abaf8",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "CG_PeriodSelection"
-              }
-            },
-            "Property": "Period"
-          }
-        },
-        "type": "Categorical"
       }
     ]
   }

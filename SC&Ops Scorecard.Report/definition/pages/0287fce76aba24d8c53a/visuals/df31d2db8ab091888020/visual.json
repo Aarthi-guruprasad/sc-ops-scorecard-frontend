@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "PWS Benefits"
+                  "Property": "OEE%"
                 }
               },
-              "queryRef": "Measure.PWS Benefits",
-              "nativeQueryRef": "PWS Benefits",
-              "displayName": "PWS Benefits"
+              "queryRef": "Measure.OEE%",
+              "nativeQueryRef": "OEE%",
+              "displayName": "OEE%"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "PWS Benefits"
+                "Property": "OEE%"
               }
             },
             "direction": "Descending"
@@ -1206,7 +1206,7 @@
             ],
             "metadata": "Measure.OEE%",
             "id": "field-5c2a553e-2428-1da9-24fe-01ebb4d12219",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1234,7 +1234,7 @@
             ],
             "metadata": "Measure.OEE%",
             "id": "field-9da5a27a-dbba-3f36-6f12-0d362a706fb5",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1290,7 +1290,7 @@
             ],
             "metadata": "Measure.On Time Closure of Deviations%",
             "id": "field-5ae9f5ec-f4c1-03b2-612c-117c796d7525",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1318,7 +1318,7 @@
             ],
             "metadata": "Measure.On Time Closure of Deviations%",
             "id": "field-b8b1865f-d6bf-71df-2a3e-aa0145cf202b",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1374,7 +1374,7 @@
             ],
             "metadata": "Measure.CAPA Completion Rate",
             "id": "field-f4c6133c-ff23-6eca-d9e7-df1319bdf231",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1402,7 +1402,7 @@
             ],
             "metadata": "Measure.CAPA Completion Rate",
             "id": "field-084db5ac-bdb8-3f36-3abe-913865ce6e4d",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1458,7 +1458,7 @@
             ],
             "metadata": "Measure.Critical or Major Observations",
             "id": "field-aab6f8a4-b500-3044-ca6a-bbbf0c24091f",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1514,7 +1514,7 @@
             ],
             "metadata": "Measure.RFT%",
             "id": "field-acf0572d-db0f-2fbb-19cd-4e19e61084e1",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1542,7 +1542,7 @@
             ],
             "metadata": "Measure.RFT%",
             "id": "field-c3b8298b-e18b-68f7-304f-d2b951bd24f4",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1598,7 +1598,7 @@
             ],
             "metadata": "Measure.ASTM -Rate",
             "id": "field-c67a02e9-0b1b-3849-90aa-658fe6e3f448",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1626,7 +1626,7 @@
             ],
             "metadata": "Measure.ASTM -Rate",
             "id": "field-2a5953b2-bba2-0674-0eb5-a2b5fc60dffd",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1682,7 +1682,7 @@
             ],
             "metadata": "Measure.ASTM Incidents",
             "id": "field-1d36f3dd-42ac-5861-118d-897d68532c89",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1710,7 +1710,7 @@
             ],
             "metadata": "Measure.ASTM Incidents",
             "id": "field-14275bce-b5a4-43a1-e655-6eec6d67e6a9",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1766,7 +1766,7 @@
             ],
             "metadata": "Measure.GOOD Catch Closure Rate",
             "id": "field-e1c0053b-a1a4-1904-8649-d07b6719deef",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1794,7 +1794,7 @@
             ],
             "metadata": "Measure.GOOD Catch Closure Rate",
             "id": "field-7c1a24a2-b906-14f8-3484-130e6a2ccdb1",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1850,7 +1850,7 @@
             ],
             "metadata": "Measure.pSIF SIFs Focus",
             "id": "field-6bf4d18c-99ab-f886-b4bc-8b66e2454d1d",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1878,7 +1878,7 @@
             ],
             "metadata": "Measure.pSIF SIFs Focus",
             "id": "field-c137f800-e8ef-0411-ff25-39f486087122",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1934,7 +1934,7 @@
             ],
             "metadata": "Measure.PWS Benefits",
             "id": "field-32a6784b-58ce-92c9-3c25-c13faa6e4b90",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1962,7 +1962,287 @@
             ],
             "metadata": "Measure.PWS Benefits",
             "id": "field-0ea5f63f-4e85-821a-37a6-52bf7cd7d7cd",
-            "order": 2
+            "order": 3
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "OEE% 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.OEE%",
+            "id": "field-ee84cc44-8c65-2abd-d2b7-3bf07446b0c9",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "On Time Closure of Deviations 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.On Time Closure of Deviations%",
+            "id": "field-5b759f1c-b801-ea75-b1f5-4440cc5475c3",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "CAPA Completion Rate 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.CAPA Completion Rate",
+            "id": "field-8ddbc929-1a60-dc9b-a724-434256d83269",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Critical or Major Observations 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Critical or Major Observations",
+            "id": "field-9a5cc79a-7fa7-91c9-a075-bf6af2aa8a40",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "RFT 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.RFT%",
+            "id": "field-4d2559e2-bd3d-8acc-0fb9-56c59c4d973f",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "ASTM Rate 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.ASTM -Rate",
+            "id": "field-1e64d34a-a130-4613-6d95-7b5994124772",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "ASTM Incidents 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.ASTM Incidents",
+            "id": "field-3fc525a7-0a94-67e7-4ba0-e319f8ab77ec",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Good Catch Closure 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.GOOD Catch Closure Rate",
+            "id": "field-065d69c7-f408-3058-0b8e-5461568224f5",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "pSIF SIFs Focus 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.pSIF SIFs Focus",
+            "id": "field-4bc6e26b-046e-a0a3-b345-6bcccf3e7745",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "PWS Benefits 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.PWS Benefits",
+            "id": "field-bba52f10-6514-d26f-6a42-08a86858c26d",
+            "order": 1
           }
         }
       ],
@@ -4799,6 +5079,204 @@
             "metadata": "Measure.PWS Benefits",
             "id": "field-0ea5f63f-4e85-821a-37a6-52bf7cd7d7cd"
           }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.OEE%",
+            "id": "field-ee84cc44-8c65-2abd-d2b7-3bf07446b0c9"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.On Time Closure of Deviations%",
+            "id": "field-5b759f1c-b801-ea75-b1f5-4440cc5475c3"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.CAPA Completion Rate",
+            "id": "field-8ddbc929-1a60-dc9b-a724-434256d83269"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Critical or Major Observations",
+            "id": "field-9a5cc79a-7fa7-91c9-a075-bf6af2aa8a40"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.ASTM -Rate",
+            "id": "field-1e64d34a-a130-4613-6d95-7b5994124772"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.ASTM Incidents",
+            "id": "field-3fc525a7-0a94-67e7-4ba0-e319f8ab77ec"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.GOOD Catch Closure Rate",
+            "id": "field-065d69c7-f408-3058-0b8e-5461568224f5"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.pSIF SIFs Focus",
+            "id": "field-4bc6e26b-046e-a0a3-b345-6bcccf3e7745"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.PWS Benefits",
+            "id": "field-bba52f10-6514-d26f-6a42-08a86858c26d"
+          }
         }
       ],
       "padding": [
@@ -6539,6 +7017,423 @@
           "selector": {
             "metadata": "Measure.PWS Benefits",
             "id": "field-0ea5f63f-4e85-821a-37a6-52bf7cd7d7cd"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "OEE% Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.OEE%",
+            "id": "field-ee84cc44-8c65-2abd-d2b7-3bf07446b0c9"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.OEE%",
+            "id": "field-ee84cc44-8c65-2abd-d2b7-3bf07446b0c9"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "On Time Closure Dev Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.On Time Closure of Deviations%",
+            "id": "field-5b759f1c-b801-ea75-b1f5-4440cc5475c3"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.On Time Closure of Deviations%",
+            "id": "field-5b759f1c-b801-ea75-b1f5-4440cc5475c3"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "CAPA Completion Rate Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.CAPA Completion Rate",
+            "id": "field-8ddbc929-1a60-dc9b-a724-434256d83269"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.CAPA Completion Rate",
+            "id": "field-8ddbc929-1a60-dc9b-a724-434256d83269"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Critical or Major Obs Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Critical or Major Observations",
+            "id": "field-9a5cc79a-7fa7-91c9-a075-bf6af2aa8a40"
+          }
+        },
+        {
+          "properties": {
+            "detailPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Critical or Major Observations",
+            "id": "field-9a5cc79a-7fa7-91c9-a075-bf6af2aa8a40"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "RFT Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.RFT%",
+            "id": "field-4d2559e2-bd3d-8acc-0fb9-56c59c4d973f"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.RFT%",
+            "id": "field-4d2559e2-bd3d-8acc-0fb9-56c59c4d973f"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "ASTM Incidents Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.ASTM -Rate",
+            "id": "field-1e64d34a-a130-4613-6d95-7b5994124772"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "ASTM Incidents Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.ASTM Incidents",
+            "id": "field-3fc525a7-0a94-67e7-4ba0-e319f8ab77ec"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Good Catch Closure Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.GOOD Catch Closure Rate",
+            "id": "field-065d69c7-f408-3058-0b8e-5461568224f5"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.GOOD Catch Closure Rate",
+            "id": "field-065d69c7-f408-3058-0b8e-5461568224f5"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "pSIF SIFs Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.pSIF SIFs Focus",
+            "id": "field-4bc6e26b-046e-a0a3-b345-6bcccf3e7745"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.pSIF SIFs Focus",
+            "id": "field-4bc6e26b-046e-a0a3-b345-6bcccf3e7745"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "PWS Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.PWS Benefits",
+            "id": "field-bba52f10-6514-d26f-6a42-08a86858c26d"
           }
         }
       ],
@@ -9433,6 +10328,816 @@
             "metadata": "Measure.PWS Benefits",
             "id": "field-4b03a340-cff5-af20-7d87-e82519b5cf99"
           }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "OEE% 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "OEE% 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.OEE%",
+            "id": "field-ee84cc44-8c65-2abd-d2b7-3bf07446b0c9"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "On Time Closure of Deviations 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "On Time Closure of Deviations 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.On Time Closure of Deviations%",
+            "id": "field-5b759f1c-b801-ea75-b1f5-4440cc5475c3"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "CAPA Completion 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "CAPA Completion 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.CAPA Completion Rate",
+            "id": "field-8ddbc929-1a60-dc9b-a724-434256d83269"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Critical Major Obs 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Critical Major Obs 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Critical or Major Observations",
+            "id": "field-9a5cc79a-7fa7-91c9-a075-bf6af2aa8a40"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "RFT 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "RFT 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.RFT%",
+            "id": "field-4d2559e2-bd3d-8acc-0fb9-56c59c4d973f"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "ASTM Rate 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "ASTM Rate 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.ASTM -Rate",
+            "id": "field-1e64d34a-a130-4613-6d95-7b5994124772"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "ASTM Incidents 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "ASTM Incidents 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.ASTM Incidents",
+            "id": "field-3fc525a7-0a94-67e7-4ba0-e319f8ab77ec"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Good Catch Closure 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Good Catch Closure 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.GOOD Catch Closure Rate",
+            "id": "field-065d69c7-f408-3058-0b8e-5461568224f5"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "pSIF SIFs 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "pSIF SIFs 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.pSIF SIFs Focus",
+            "id": "field-4bc6e26b-046e-a0a3-b345-6bcccf3e7745"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "PWS 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "PWS 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.PWS Benefits",
+            "id": "field-bba52f10-6514-d26f-6a42-08a86858c26d"
+          }
         }
       ],
       "outline": [
@@ -9653,8 +11358,7 @@
             "Property": "OEE%"
           }
         },
-        "type": "Advanced",
-        "howCreated": "User"
+        "type": "Advanced"
       },
       {
         "name": "7d05fb1f4d500102b103",

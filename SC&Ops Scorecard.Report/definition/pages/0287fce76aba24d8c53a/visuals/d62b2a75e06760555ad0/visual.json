@@ -6,8 +6,7 @@
     "y": 250,
     "z": 4000,
     "height": 456,
-    "width": 984,
-    "tabOrder": 1000
+    "width": 984
   },
   "visual": {
     "visualType": "SimpleWaterfall",
@@ -656,5 +655,6 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "9ac1b88aecdb8753a0e6"
+  "parentGroupName": "9ac1b88aecdb8753a0e6",
+  "isHidden": true
 }

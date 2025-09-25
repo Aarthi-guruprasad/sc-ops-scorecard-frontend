@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "5620eb9a026212160075",
   "position": {
     "x": 243.01001035554023,
@@ -134,6 +134,20 @@
           },
           "selector": {
             "id": "326f8ab715fe0b2b37f0"
+          }
+        },
+        {
+          "properties": {
+            "showPage": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "fff2c452fe09a045ad53"
           }
         }
       ],

@@ -6,7 +6,8 @@
     "y": 3.9052287581699829,
     "z": 1000,
     "height": 390,
-    "width": 1232.5
+    "width": 1232.5,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "areaChart",
@@ -42,12 +43,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "FA% Lag2"
+                  "Property": "Service Top 11"
                 }
               },
-              "queryRef": "Measure.FA% Lag2",
-              "nativeQueryRef": "FA% Lag 2",
-              "displayName": "FA% Lag 2"
+              "queryRef": "Measure.Service Top 11",
+              "nativeQueryRef": "Service Top 11",
+              "displayName": "Service Top 11"
             },
             {
               "field": {
