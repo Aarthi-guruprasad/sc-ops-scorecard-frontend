@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "01700629bb90ec91b4c8",
   "position": {
-    "x": 240.57991025198481,
-    "y": 191.97790818087677,
+    "x": 240,
+    "y": 191.66666666666669,
     "z": 5000,
-    "height": 400.96651708664137,
+    "height": 400,
     "width": 330,
     "tabOrder": 29000
   },
@@ -1075,7 +1075,7 @@
             ],
             "metadata": "CSCI Measures.Service Level %",
             "id": "field-cd7e99d5-ad2d-bf16-774b-a9e63ee829c1",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1103,7 +1103,7 @@
             ],
             "metadata": "CSCI Measures.Bias L4 CSCI",
             "id": "field-c26ed448-5fe7-1254-8f69-ea277ff8970a",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1131,7 +1131,7 @@
             ],
             "metadata": "CSCI Measures.Bias L1 CSCI",
             "id": "field-ec3fb57b-3461-fa0c-0b36-ec5b82a5de6f",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1159,7 +1159,7 @@
             ],
             "metadata": "CSCI Measures.FA% L4",
             "id": "field-56d87fde-ec75-65df-706a-2de17aa6575a",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1187,7 +1187,7 @@
             ],
             "metadata": "CSCI Measures.FA% L1",
             "id": "field-6ccc7e33-6fac-a18a-b252-f913224d5d55",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1245,7 +1245,7 @@
             ],
             "metadata": "CSCI Measures.FA% L1",
             "id": "field-329d6759-bec2-6d82-160e-52aca5cba85a",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1288,7 +1288,7 @@
             ],
             "metadata": "CSCI Measures.FA% L4",
             "id": "field-8999f2a4-67e4-09a3-e0d9-4c2a1b3cbeb1",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1331,7 +1331,7 @@
             ],
             "metadata": "CSCI Measures.Bias L1 CSCI",
             "id": "field-435f0ee4-ae5c-a191-2e5e-a54f731de350",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1359,7 +1359,7 @@
             ],
             "metadata": "CSCI Measures.Service Level %",
             "id": "field-f3ade475-9c78-3951-f659-30a0b68822c9",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1387,7 +1387,7 @@
             ],
             "metadata": "CSCI Measures.Bias L4 CSCI",
             "id": "field-29071aac-2496-3ed5-ea4d-0e30b887f2ec",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1445,7 +1445,7 @@
             ],
             "metadata": "CSCI Measures.Active Products",
             "id": "field-68eec127-48f1-56c6-1c39-52c656258f89",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -1474,6 +1474,204 @@
             "metadata": "CSCI Measures.Active Products",
             "id": "field-bcc566c8-5c12-bda2-753e-56e7ad71c71d",
             "order": 0
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.FA% L1",
+            "id": "field-48b20c93-3bba-8c58-9544-456295ec052d",
+            "order": 4
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "FA% L1 CSCI 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.FA% L1",
+            "id": "field-8fd17e3c-a994-7414-6abd-d77945f46b53",
+            "order": 1
+          }
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.FA% L4",
+            "id": "field-1c2da508-13a1-2d41-d832-ae7951acb9b7",
+            "order": 4
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "FA% L4 CSCI 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.FA% L4",
+            "id": "field-30cb1c03-711c-fad9-e9fa-297c57e3de50",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Bias L1 CSCI 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Bias L1 CSCI",
+            "id": "field-3ece7602-603b-719d-51db-9e18216f50a2",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Bias L4 CSCI 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Bias L4 CSCI",
+            "id": "field-4bca28ad-019a-5455-347a-20c8d05ec80f",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Service Level 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Service Level %",
+            "id": "field-d7d2524b-18bf-358d-eea3-deace4b53b03",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Active Products 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-0de845c3-af03-588a-3c0f-8e93919677f9",
+            "order": 1
           }
         }
       ],
@@ -4138,6 +4336,138 @@
             "metadata": "CSCI Measures.Active Products",
             "id": "field-68eec127-48f1-56c6-1c39-52c656258f89"
           }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.FA% L1",
+            "id": "field-8fd17e3c-a994-7414-6abd-d77945f46b53"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.FA% L4",
+            "id": "field-30cb1c03-711c-fad9-e9fa-297c57e3de50"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Bias L1 CSCI",
+            "id": "field-3ece7602-603b-719d-51db-9e18216f50a2"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Bias L4 CSCI",
+            "id": "field-4bca28ad-019a-5455-347a-20c8d05ec80f"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Service Level %",
+            "id": "field-d7d2524b-18bf-358d-eea3-deace4b53b03"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-0de845c3-af03-588a-3c0f-8e93919677f9"
+          }
         }
       ],
       "padding": [
@@ -6387,6 +6717,307 @@
           "selector": {
             "metadata": "CSCI Measures.Active Products",
             "id": "field-bcc566c8-5c12-bda2-753e-56e7ad71c71d"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "FA% L1 CSCI Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.FA% L1",
+            "id": "field-8fd17e3c-a994-7414-6abd-d77945f46b53"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.FA% L1",
+            "id": "field-8fd17e3c-a994-7414-6abd-d77945f46b53"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "FA% L4 CSCI Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.FA% L4",
+            "id": "field-30cb1c03-711c-fad9-e9fa-297c57e3de50"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.FA% L4",
+            "id": "field-30cb1c03-711c-fad9-e9fa-297c57e3de50"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Bias L1 CSCI Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Bias L1 CSCI",
+            "id": "field-3ece7602-603b-719d-51db-9e18216f50a2"
+          }
+        },
+        {
+          "properties": {
+            "detailFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            },
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Bias L1 CSCI",
+            "id": "field-3ece7602-603b-719d-51db-9e18216f50a2"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Bias L4 CSCI Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Bias L4 CSCI",
+            "id": "field-4bca28ad-019a-5455-347a-20c8d05ec80f"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Bias L4 CSCI",
+            "id": "field-4bca28ad-019a-5455-347a-20c8d05ec80f"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Service Level Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Service Level %",
+            "id": "field-d7d2524b-18bf-358d-eea3-deace4b53b03"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            },
+            "detailTransparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Service Level %",
+            "id": "field-d7d2524b-18bf-358d-eea3-deace4b53b03"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "CSCI Measures"
+                    }
+                  },
+                  "Property": "Active Products Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-0de845c3-af03-588a-3c0f-8e93919677f9"
+          }
+        },
+        {
+          "properties": {
+            "detailFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-0de845c3-af03-588a-3c0f-8e93919677f9"
           }
         }
       ],
@@ -9734,6 +10365,492 @@
             ],
             "metadata": "CSCI Measures.Active Products",
             "id": "field-68eec127-48f1-56c6-1c39-52c656258f89"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "FA L1 CSCI 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "FA L1 CSCI 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.FA% L1",
+            "id": "field-8fd17e3c-a994-7414-6abd-d77945f46b53"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "FA L4 CSCI 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "FA L4 CSCI 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.FA% L4",
+            "id": "field-30cb1c03-711c-fad9-e9fa-297c57e3de50"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Bias L1 CSCI 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Bias L1 CSCI 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Bias L1 CSCI",
+            "id": "field-3ece7602-603b-719d-51db-9e18216f50a2"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Bias L4 CSCI 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Bias L4 CSCI 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Bias L4 CSCI",
+            "id": "field-4bca28ad-019a-5455-347a-20c8d05ec80f"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Service CSCI 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Service CSCI 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Service Level %",
+            "id": "field-d7d2524b-18bf-358d-eea3-deace4b53b03"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Active Products 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "CSCI Measures"
+                                    }
+                                  },
+                                  "Property": "Active Products 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "CSCI Measures.Active Products",
+            "id": "field-0de845c3-af03-588a-3c0f-8e93919677f9"
           }
         }
       ],

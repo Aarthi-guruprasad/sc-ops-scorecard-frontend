@@ -2,12 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "9131be66e10837c9cbd1",
   "position": {
-    "x": 313.07498741821843,
-    "y": 96.90416277230571,
-    "z": 24,
-    "height": 964.07218347832338,
-    "width": 1552.9513264792581,
-    "tabOrder": 2
+    "x": 311.23445251276155,
+    "y": 83.928391688834566,
+    "z": 25500,
+    "height": 1437.273707671292,
+    "width": 1300
   },
   "visual": {
     "visualType": "pivotTable",
@@ -163,6 +162,13 @@
                   "Value": "4D"
                 }
               }
+            },
+            "outlineWeight": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
             }
           }
         }
@@ -232,6 +238,13 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
+                }
+              }
+            },
+            "outlineWeight": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
                 }
               }
             }
@@ -544,7 +557,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "542.1749790916289D"
+                  "Value": "527.2712292008075D"
                 }
               }
             }
@@ -1218,6 +1231,19 @@
             }
           }
         }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
       ]
     },
     "drillFilterOtherVisuals": true
@@ -1340,6 +1366,29 @@
           }
         },
         "type": "Advanced"
+      },
+      {
+        "name": "026df439fe45c1d24d5f",
+        "ordinal": 4,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "CG_PeriodSelection"
+              }
+            },
+            "Property": "Period"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {}
+            }
+          ]
+        }
       }
     ],
     "filterSortOrder": "Custom"

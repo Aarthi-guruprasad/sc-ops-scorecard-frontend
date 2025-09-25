@@ -561,20 +561,6 @@
           ]
         },
         "howCreated": "User"
-      },
-      {
-        "name": "4bb1c00ad6f04c8907eb",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "MetricSelector"
-              }
-            },
-            "Property": "Metric"
-          }
-        },
-        "type": "Categorical"
       }
     ]
   }

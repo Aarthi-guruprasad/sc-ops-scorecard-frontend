@@ -6,7 +6,8 @@
     "y": 206.23193615644547,
     "z": 20000,
     "height": 616.21108634696964,
-    "width": 926.80135164282126
+    "width": 926.80135164282126,
+    "tabOrder": 25000
   },
   "visual": {
     "visualType": "pivotTable",
@@ -1229,20 +1230,19 @@
         }
       },
       {
-        "name": "e1f8166203cb07ed6337",
+        "name": "de03112bc8d8e12ab20b",
         "ordinal": 3,
         "field": {
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "KPI_Metadata"
+                "Entity": "Measure"
               }
             },
             "Property": "KPI Status Icon (Operating Income)"
           }
         },
-        "type": "Advanced",
-        "howCreated": "User"
+        "type": "Advanced"
       }
     ],
     "filterSortOrder": "Custom"

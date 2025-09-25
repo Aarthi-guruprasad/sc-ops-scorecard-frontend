@@ -4,10 +4,10 @@
   "position": {
     "x": 23.244845198310109,
     "y": 741.897975912731,
-    "z": 11,
+    "z": 11000,
     "height": 71.671606028122838,
     "width": 230.51138154990858,
-    "tabOrder": 21
+    "tabOrder": 17000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -84,7 +84,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'YTD'"
+                                "Value": "'PTD'"
                               }
                             }
                           ]

@@ -7,7 +7,7 @@
     "z": 2000,
     "height": 148.95238095238093,
     "width": 1314.2857142857142,
-    "tabOrder": 2000
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "advancedSlicerVisual",
@@ -218,7 +218,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'''Measure''[PWS Benefits]'"
+                                "Value": "'''Measure''[OEE%]'"
                               }
                             }
                           ]
@@ -464,13 +464,6 @@
                           "Value": "'''Measure''[RFT%]'"
                         }
                       }
-                    ],
-                    [
-                      {
-                        "Literal": {
-                          "Value": "'''Measure''[PWS Benefits]'"
-                        }
-                      }
                     ]
                   ]
                 }
@@ -545,17 +538,6 @@
                             }
                           ]
                         }
-                      ],
-                      [
-                        {
-                          "0": [
-                            {
-                              "Literal": {
-                                "Value": "'''Measure''[PWS Benefits]'"
-                              }
-                            }
-                          ]
-                        }
                       ]
                     ],
                     "columns": [
@@ -588,9 +570,6 @@
                     },
                     {
                       "0": "RFT%"
-                    },
-                    {
-                      "0": "PWS Benefits"
                     }
                   ]
                 }

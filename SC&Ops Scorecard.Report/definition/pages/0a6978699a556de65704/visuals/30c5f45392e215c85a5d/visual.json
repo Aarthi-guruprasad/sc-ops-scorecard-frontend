@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "30c5f45392e215c85a5d",
   "position": {
     "x": 839.29824561403518,
@@ -396,6 +396,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "743497e44d47667675d9",
-  "isHidden": true
+  "parentGroupName": "743497e44d47667675d9"
 }
