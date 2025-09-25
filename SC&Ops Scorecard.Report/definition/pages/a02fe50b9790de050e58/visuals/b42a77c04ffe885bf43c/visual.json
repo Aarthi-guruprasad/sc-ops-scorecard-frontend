@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
-  "name": "be5ff92e6bdb4fccc566",
+  "name": "b42a77c04ffe885bf43c",
   "position": {
     "x": 11.84807579441603,
-    "y": 550.93552444034538,
-    "z": 7000,
+    "y": 712.85922696403111,
+    "z": 20002,
     "height": 80.961851261842867,
     "width": 199.44260920600317,
-    "tabOrder": 10000
+    "tabOrder": 20002
   },
   "visual": {
     "visualType": "slicer",
@@ -23,13 +23,13 @@
                       "Entity": "Dim_Value_Stream"
                     }
                   },
-                  "Property": "Value Stream_Jamie"
+                  "Property": "Global Product Number"
                 }
               },
-              "queryRef": "Dim_Value_Stream.Value Stream_Jamie",
-              "nativeQueryRef": "Site Group",
+              "queryRef": "Dim_Value_Stream.Global Product Number",
+              "nativeQueryRef": "Product Number",
               "active": true,
-              "displayName": "Site Group"
+              "displayName": "Product Number"
             }
           ]
         }
@@ -276,6 +276,7 @@
           }
         },
         "type": "Categorical",
+        "howCreated": "User",
         "objects": {
           "general": [
             {

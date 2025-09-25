@@ -37,11 +37,11 @@
                       "Entity": "Dim_Value_Stream"
                     }
                   },
-                  "Property": "Material Type"
+                  "Property": "Global Product Description"
                 }
               },
-              "queryRef": "Dim_Value_Stream.Material Type",
-              "nativeQueryRef": "Material Type"
+              "queryRef": "Dim_Value_Stream.Global Product Description",
+              "nativeQueryRef": "Global Product Description"
             },
             {
               "field": {
@@ -202,6 +202,22 @@
                 }
               }
             }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "238.8102528358516D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Dim_Value_Stream.Global Product Description"
           }
         }
       ]

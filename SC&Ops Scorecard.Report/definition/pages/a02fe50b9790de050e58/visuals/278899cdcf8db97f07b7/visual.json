@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "278899cdcf8db97f07b7",
   "position": {
-    "x": 10,
-    "y": 600,
+    "x": 11.84807579441603,
+    "y": 392.96118051479834,
     "z": 6000,
-    "height": 80,
-    "width": 200,
+    "height": 78.98717196277353,
+    "width": 199.44260920600317,
     "tabOrder": 11000
   },
   "visual": {
@@ -101,7 +101,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'CSCA'"
+                                "Value": "'CSCI'"
                               }
                             }
                           ]
