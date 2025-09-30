@@ -7,7 +7,7 @@
     "z": 44000,
     "height": 89.449996405205269,
     "width": 59.63333093680351,
-    "tabOrder": 43000
+    "tabOrder": 42000
   },
   "visual": {
     "visualType": "shape",
@@ -93,7 +93,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'UTC'"
+                  "Value": "'EST'"
                 }
               }
             },

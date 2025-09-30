@@ -6,7 +6,8 @@
     "y": 250,
     "z": 4000,
     "height": 456,
-    "width": 984
+    "width": 984,
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "SimpleWaterfall",
