@@ -6,8 +6,7 @@
     "y": 341.11111111111109,
     "z": 17000,
     "height": 50,
-    "width": 50,
-    "tabOrder": 1000
+    "width": 50
   },
   "visual": {
     "visualType": "card",
@@ -200,20 +199,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "6e3ed5179bb9022743e0",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Measure"
-              }
-            },
-            "Property": "Total Green Count"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }

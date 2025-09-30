@@ -487,20 +487,6 @@
         },
         "type": "Advanced",
         "howCreated": "User"
-      },
-      {
-        "name": "a9dc760251879c4cda51",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "CG_PeriodSelection"
-              }
-            },
-            "Property": "Period"
-          }
-        },
-        "type": "Categorical"
       }
     ]
   }

@@ -2,11 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "9131be66e10837c9cbd1",
   "position": {
-    "x": 311.23445251276155,
-    "y": 83.928391688834566,
-    "z": 25500,
-    "height": 1437.273707671292,
-    "width": 1300
+    "x": 0,
+    "y": 0,
+    "z": 25000,
+    "height": 1436.6666666666667,
+    "width": 1300,
+    "tabOrder": 27000
   },
   "visual": {
     "visualType": "pivotTable",
@@ -1108,7 +1109,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'KPI Comparison Matrix'"
+                  "Value": "'KPI Comparison Matrix vs Plan'"
                 }
               }
             },
@@ -1248,6 +1249,7 @@
     },
     "drillFilterOtherVisuals": true
   },
+  "parentGroupName": "684d8bffb83d9c135c3e",
   "filterConfig": {
     "filters": [
       {

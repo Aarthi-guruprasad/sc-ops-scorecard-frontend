@@ -6,8 +6,7 @@
     "y": 5,
     "z": 1000,
     "height": 392,
-    "width": 1230,
-    "tabOrder": 1000
+    "width": 1230
   },
   "visual": {
     "visualType": "areaChart",
@@ -43,12 +42,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "ABP Variance"
+                  "Property": "SSSO: Salvage & Obsolescence"
                 }
               },
-              "queryRef": "Measure.ABP Variance",
-              "nativeQueryRef": "ABP Variance",
-              "displayName": "ABP Variance"
+              "queryRef": "Measure.SSSO: Salvage & Obsolescence",
+              "nativeQueryRef": "SSSO: Salvage & Obs",
+              "displayName": "SSSO: Salvage & Obs"
             },
             {
               "field": {

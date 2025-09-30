@@ -534,7 +534,7 @@
             ],
             "metadata": "Measure.FA% Lag4",
             "id": "field-d3e33597-7460-99a4-0623-b96b47c44ab9",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -562,7 +562,7 @@
             ],
             "metadata": "Measure.FA% Lag4",
             "id": "field-f54969c2-796f-0110-1f0b-969a2c37dac3",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -633,7 +633,7 @@
             ],
             "metadata": "Measure.Bias% Lag 2",
             "id": "field-e4af9315-cee7-e9cc-0919-77033e665519",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -661,7 +661,7 @@
             ],
             "metadata": "Measure.Bias% Lag 2",
             "id": "field-aabd956e-473b-befb-9ea4-1aef629d7122",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -732,7 +732,7 @@
             ],
             "metadata": "Measure.Bias% Lag 4",
             "id": "field-cba8c0c8-9bf8-f39f-134c-204e82d9e31f",
-            "order": 1
+            "order": 2
           }
         },
         {
@@ -760,7 +760,7 @@
             ],
             "metadata": "Measure.Bias% Lag 4",
             "id": "field-cd670048-11c2-876f-4d09-8cb8cb0d8c8d",
-            "order": 2
+            "order": 3
           }
         },
         {
@@ -1253,6 +1253,90 @@
             ],
             "metadata": "Measure.Service Top 11",
             "id": "field-38ad4aa1-5e6d-8f83-fd01-fd86e3948054",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "FA% Lag4 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.FA% Lag4",
+            "id": "field-776c4fb6-a1fc-874b-ba44-4df070ec2b31",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Bias Lag2 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Bias% Lag 2",
+            "id": "field-135dd4ef-021c-df82-0569-e8ee3fec8e1d",
+            "order": 1
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Bias Lag4 3M_Final"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Bias% Lag 4",
+            "id": "field-c8ebc99a-5533-6386-4918-b3dd40cc186e",
             "order": 1
           }
         }
@@ -3457,6 +3541,72 @@
             "metadata": "Measure.Service Top 11",
             "id": "field-38ad4aa1-5e6d-8f83-fd01-fd86e3948054"
           }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.FA% Lag4",
+            "id": "field-776c4fb6-a1fc-874b-ba44-4df070ec2b31"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Bias% Lag 2",
+            "id": "field-135dd4ef-021c-df82-0569-e8ee3fec8e1d"
+          }
+        },
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'L3M'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Bias% Lag 4",
+            "id": "field-c8ebc99a-5533-6386-4918-b3dd40cc186e"
+          }
         }
       ],
       "padding": [
@@ -5127,6 +5277,202 @@
           "selector": {
             "metadata": "Measure.Service Top 11",
             "id": "field-38ad4aa1-5e6d-8f83-fd01-fd86e3948054"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "FA Lag2 Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.FA% Lag2",
+            "id": "field-18b170f8-482c-a2fc-ecac-111b2910f8e0"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.FA% Lag2",
+            "id": "field-18b170f8-482c-a2fc-ecac-111b2910f8e0"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "FA Lag4 Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.FA% Lag4",
+            "id": "field-776c4fb6-a1fc-874b-ba44-4df070ec2b31"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.FA% Lag4",
+            "id": "field-776c4fb6-a1fc-874b-ba44-4df070ec2b31"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Bias Lag2 Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Bias% Lag 2",
+            "id": "field-135dd4ef-021c-df82-0569-e8ee3fec8e1d"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Bias% Lag 2",
+            "id": "field-135dd4ef-021c-df82-0569-e8ee3fec8e1d"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Bias Lag4 Last 3M Avg"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Bias% Lag 4",
+            "id": "field-c8ebc99a-5533-6386-4918-b3dd40cc186e"
+          }
+        },
+        {
+          "properties": {
+            "detailDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "-1D"
+                }
+              }
+            },
+            "customFormatString": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0.0%'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Bias% Lag 4",
+            "id": "field-c8ebc99a-5533-6386-4918-b3dd40cc186e"
           }
         }
       ],
@@ -7609,6 +7955,330 @@
             ],
             "metadata": "Measure.Service Top 11",
             "id": "field-38ad4aa1-5e6d-8f83-fd01-fd86e3948054"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "FA Lag2 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "FA Lag2 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.FA% Lag2",
+            "id": "field-18b170f8-482c-a2fc-ecac-111b2910f8e0"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "FA Lag4 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "FA Lag4 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.FA% Lag4",
+            "id": "field-776c4fb6-a1fc-874b-ba44-4df070ec2b31"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Bias Lag2 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Bias Lag2 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Bias% Lag 2",
+            "id": "field-135dd4ef-021c-df82-0569-e8ee3fec8e1d"
+          }
+        },
+        {
+          "properties": {
+            "valueFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Bias Lag4 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#1A9641'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 3,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Measure"
+                                    }
+                                  },
+                                  "Property": "Bias Lag4 3M_diff%"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#D7191C'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure.Bias% Lag 4",
+            "id": "field-c8ebc99a-5533-6386-4918-b3dd40cc186e"
           }
         }
       ],

@@ -23,12 +23,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "ABP Variance"
+                  "Property": "SSSO: Salvage & Obsolescence"
                 }
               },
-              "queryRef": "Measure.ABP Variance",
-              "nativeQueryRef": "ABP Variance",
-              "displayName": "ABP Variance"
+              "queryRef": "Measure.SSSO: Salvage & Obsolescence",
+              "nativeQueryRef": "SSSO: Salvage & Obs",
+              "displayName": "SSSO: Salvage & Obs"
             }
           ],
           "fieldParameters": [
@@ -59,7 +59,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "ABP Variance"
+                "Property": "SSSO: Salvage & Obsolescence"
               }
             },
             "direction": "Descending"

@@ -9231,11 +9231,48 @@
                   "Value": "14D"
                 }
               }
+            },
+            "detailPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
             }
           },
           "selector": {
             "metadata": "Measure.DIO",
             "id": "field-3a499966-dac5-45da-6d61-227ab6a4ae37"
+          }
+        },
+        {
+          "properties": {
+            "detailPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.DSO",
+            "id": "field-66fd3081-273a-9133-f40d-f2c585353d4b"
+          }
+        },
+        {
+          "properties": {
+            "detailPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.DPO",
+            "id": "field-0a2a4978-e62f-ef8d-0ff0-6b0e8302c246"
           }
         }
       ],

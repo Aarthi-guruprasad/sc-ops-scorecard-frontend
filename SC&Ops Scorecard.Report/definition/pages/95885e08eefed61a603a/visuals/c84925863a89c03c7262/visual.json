@@ -1,0 +1,67 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "c84925863a89c03c7262",
+  "position": {
+    "x": 0,
+    "y": 609.90725429577969,
+    "z": 11000,
+    "height": 392.26400172550149,
+    "width": 220.17398806528146,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Link to PowerApps:",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "16pt",
+                      "color": "#001489"
+                    }
+                  },
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "16pt"
+                    }
+                  },
+                  {
+                    "value": "https://apps.powerapps.com/play/e/default-c6fe4cad-e89a-4383-b0a5-7f49da9c5d72/a/9d588fdc-0db6-409b-8bd7-44f6f6c354d4?tenantId=c6fe4cad-e89a-4383-b0a5-7f49da9c5d72&hint=597f6727-e972-4ef8-8f18-128c40edf27e&source=sharebutton&sourcetime=1759129263471",
+                    "textStyle": {
+                      "fontSize": "14pt"
+                    },
+                    "url": "https://apps.powerapps.com/play/e/default-c6fe4cad-e89a-4383-b0a5-7f49da9c5d72/a/9d588fdc-0db6-409b-8bd7-44f6f6c354d4?tenantId=c6fe4cad-e89a-4383-b0a5-7f49da9c5d72&hint=597f6727-e972-4ef8-8f18-128c40edf27e&source=sharebutton&sourcetime=1759129263471"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

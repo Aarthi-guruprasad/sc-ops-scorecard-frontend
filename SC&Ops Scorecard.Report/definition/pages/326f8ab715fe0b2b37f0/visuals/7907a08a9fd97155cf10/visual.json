@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "7907a08a9fd97155cf10",
   "position": {
-    "x": 1841.25,
-    "y": 468.75,
+    "x": 1841,
+    "y": 468,
     "z": 46000,
     "height": 90,
     "width": 60,
-    "tabOrder": 45000
+    "tabOrder": 44000
   },
   "visual": {
     "visualType": "shape",
@@ -93,7 +93,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'UTC'"
+                  "Value": "'EST'"
                 }
               }
             },
